@@ -16,6 +16,7 @@ const headers = {
 export default defineConfig(() => {
     return {
         build: {
+            assetsDir: "./",
             outDir: "build",
             minify: true,
         },
