@@ -10,7 +10,7 @@ const headers = {
     "Cross-Origin-Embedder-Policy": "require-corp",
     // Allow the service worker to intercept all paths, even when
     // initiated from a year subpath.
-    "Service-Worker-Allowed": "/",
+    "Service-Worker-Allowed": "./",
 };
 
 export default defineConfig(() => {

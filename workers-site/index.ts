@@ -84,7 +84,7 @@ async function handleRequest(
         response.headers.set("Cross-Origin-Embedder-Policy", "require-corp");
         // Allow the service worker to intercept all paths, even when
         // initiated from a year subpath.
-        response.headers.set("Service-Worker-Allowed", "/");
+        response.headers.set("Service-Worker-Allowed", "./");
 
         // Static content uses a content hash in the URL, so it can be cached
         // for a while (30 days).
