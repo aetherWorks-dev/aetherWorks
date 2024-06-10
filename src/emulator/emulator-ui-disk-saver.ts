@@ -119,7 +119,7 @@ export async function saveDiskSaverImage(
 
     const chunkedSpec = {
         ...spec,
-        baseUrl: "/Disk",
+        baseUrl: ".",
     };
 
     for (let chunkIndex = 0; chunkIndex < spec.chunks.length; chunkIndex++) {

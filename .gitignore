@@ -5,8 +5,8 @@
 /coverage
 
 # production
-# /build
-# /dist
+/build
+/dist
 /XADMaster-build
 
 # misc

@@ -63,7 +63,7 @@ self.addEventListener("fetch", (event: FetchEvent) => {
         handleIdleWait(event);
     } else if (
         diskCacheSpecs.some(spec =>
-            decodeURIComponent(requestUrl.pathname).startsWith(spec.baseUrl)
+            decodeURIComponent(requestUrl.pathname)
         )
     ) {
         event.respondWith(handleDiskCacheRequest(event.request));
