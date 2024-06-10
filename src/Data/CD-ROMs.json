@@ -1,0 +1,1479 @@
+{
+    "Games/Lode Runner": {
+        "name": "Lode Runner",
+        "srcUrl": "https://archive.org/download/Lode_Runner_The_Legend_Returns_Mac/LodeRunnerCD.iso",
+        "fileSize": 44539904,
+        "coverImageHash": "9a04d6c7cda3f2b75bef1ef3f0676462e2e858f5b32e48028b0a7c512dbe7e51",
+        "coverImageSize": [
+            407,
+            512
+        ],
+        "coverImageType": "square"
+    },
+    "Games/DOOM II": {
+        "name": "DOOM II",
+        "srcUrl": "https://archive.org/download/DOOMIIForMac/DOOM.bin",
+        "fileSize": 783458256,
+        "coverImageHash": "77d043af823e8e9a55285be3372da9a024f5362c5f85507e7fcb967b8db97355",
+        "coverImageSize": [
+            512,
+            507
+        ],
+        "coverImageType": "square",
+        "mode": "MODE1/2352"
+    },
+    "Games/The 7th Guest": {
+        "name": "The 7th Guest",
+        "srcUrl": "https://archive.org/download/the-7th-guest-1996-macintosh-cd-rom/The%207th%20Guest.iso",
+        "fileSize": 666796032,
+        "coverImageHash": "192bc1fb5676b6974501ae633f0cd8d812f03e5ad791995533a227550213bda6",
+        "coverImageSize": [
+            453,
+            512
+        ],
+        "coverImageType": "square"
+    },
+    "Games/Riven (Disc 5)": {
+        "name": "Riven (Disc 5)",
+        "srcUrl": "https://archive.org/download/riven-the-sequel-to-myst_202302/Riven5.iso",
+        "fileSize": 664952832,
+        "coverImageHash": "de389e7a473f8819eedde044d8a92ec9ddf2718e710d7c3d29de434dc1793a02",
+        "coverImageSize": [
+            512,
+            499
+        ]
+    },
+    "Games/Dark Forces": {
+        "name": "Dark Forces",
+        "srcUrl": "https://archive.org/download/dark-forces/Dark%20Forces.iso",
+        "fileSize": 264630272,
+        "coverImageHash": "9502adbd8c8a61fe331aad08a565740dfcd67a102dfcfd7d50acda969130e0ac",
+        "coverImageSize": [
+            512,
+            480
+        ]
+    },
+    "Games/The Manhole": {
+        "name": "The Manhole",
+        "srcUrl": "https://archive.org/download/TheManholeMacintosh/TheManhole.img",
+        "fileSize": 5242880,
+        "coverImageHash": "af6483a77a57263a9b0a6adb19d2037269e6ab0ea6fb1184a72737d76a3335f2",
+        "coverImageSize": [
+            512,
+            510
+        ]
+    },
+    "Games/Star Wars: TIE Fighter": {
+        "name": "Star Wars: TIE Fighter",
+        "srcUrl": "https://archive.org/download/tiefighter-mac/TIEFighterMac.iso",
+        "fileSize": 660901888,
+        "coverImageHash": "23a694b8eab4199a7060218dd4c5d7e5fa5bc02a91bc24f6ebf26bab4ef1f116",
+        "coverImageSize": [
+            400,
+            512
+        ],
+        "coverImageType": "square"
+    },
+    "Games/The Daedalus Encounter (Disc 1)": {
+        "name": "The Daedalus Encounter (Disc 1)",
+        "srcUrl": "https://archive.org/download/TheDaedalusEncounterMacCD/the%20daedalus%20encounter%20disc1.iso",
+        "fileSize": 656457728,
+        "coverImageHash": "c4c992fdd8dc64d2d16043097c55ca4b4edfd5571bf9085a883515696039d0fb",
+        "coverImageSize": [
+            511,
+            512
+        ]
+    },
+    "Games/Myth: The Fallen Lords": {
+        "name": "Myth: The Fallen Lords",
+        "srcUrl": "https://archive.org/download/Myth_The_Fallen_Lords_Bungie_1997/Myth%20-%20The%20Fallen%20Lords%20%28Bungie%29%281997%29.ISO",
+        "fileSize": 538191872,
+        "coverImageHash": "27a35e193fa10c6f9c90a0cb9d351da4afc077d59033c1fdece5b2bda2819aea",
+        "coverImageSize": [
+            511,
+            512
+        ]
+    },
+    "Games/Riven (Making Of)": {
+        "name": "Riven (Making Of)",
+        "srcUrl": "https://macintoshgarden.org/sites/macintoshgarden.org/files/games/MO_RIVEN.iso",
+        "fileSize": 262760448,
+        "coverImageHash": "de389e7a473f8819eedde044d8a92ec9ddf2718e710d7c3d29de434dc1793a02",
+        "coverImageSize": [
+            512,
+            499
+        ]
+    },
+    "Games/You Don't Know Jack": {
+        "name": "You Don't Know Jack",
+        "srcUrl": "https://archive.org/download/ydkj-101-d/YDKJ101D.ISO",
+        "fileSize": 682291200,
+        "coverImageHash": "cf9785b7da70eb88afe16414917734e02c75886a3b7fa259415862cf0db780f4",
+        "coverImageSize": [
+            512,
+            511
+        ]
+    },
+    "Games/Riven (Disc 4)": {
+        "name": "Riven (Disc 4)",
+        "srcUrl": "https://archive.org/download/riven-the-sequel-to-myst_202302/Riven4.iso",
+        "fileSize": 549541888,
+        "coverImageHash": "de389e7a473f8819eedde044d8a92ec9ddf2718e710d7c3d29de434dc1793a02",
+        "coverImageSize": [
+            512,
+            499
+        ]
+    },
+    "Games/Riven (Disc 2)": {
+        "name": "Riven (Disc 2)",
+        "srcUrl": "https://archive.org/download/riven-the-sequel-to-myst_202302/Riven2.iso",
+        "fileSize": 661841920,
+        "coverImageHash": "de389e7a473f8819eedde044d8a92ec9ddf2718e710d7c3d29de434dc1793a02",
+        "coverImageSize": [
+            512,
+            499
+        ]
+    },
+    "Games/The Daedalus Encounter (Disc 2)": {
+        "name": "The Daedalus Encounter (Disc 2)",
+        "srcUrl": "https://archive.org/download/TheDaedalusEncounterMacCD/the%20daedalus%20encounter%20disc2.iso",
+        "fileSize": 659701760,
+        "coverImageHash": "013199910ccb7c47440384ad1506f27f651a3f7dbc8a4745a549e08c7510a6b1",
+        "coverImageSize": [
+            512,
+            512
+        ]
+    },
+    "Games/You Don't Know Jack XL": {
+        "name": "You Don't Know Jack XL",
+        "srcUrl": "https://archive.org/download/you-don-t-know-jack-xl-x-tra-large-v-1.0-win-mac-sierra-on-line-inc.-1996/YOU%20DON%27T%20KNOW%20JACK%20-%20XL%20%28X-tra%20Large%29%20v1.0%20WIN-MAC%20%28Sierra%20On-Line%2C%20Inc.%29%281996%29.iso",
+        "fileSize": 502597632,
+        "coverImageHash": "300418135008dd9967e06d947f2bc6316484799825e66dcd869615a88c34ade3",
+        "coverImageSize": [
+            512,
+            512
+        ]
+    },
+    "Games/Warcraft III: Reign of Chaos": {
+        "name": "Warcraft III: Reign of Chaos",
+        "srcUrl": "https://archive.org/download/Warcraft_3_Reign_of_Chaos_-_Win98-Mac_BlizzardENG/WarcraftIIIReignOfChaos-WinMac.bin",
+        "fileSize": 808568208,
+        "coverImageHash": "920b3a56251c8edec45bfd60250b7062bd7c9730ec2ea9311a9c4c897bd5fcb2",
+        "coverImageSize": [
+            507,
+            512
+        ],
+        "mode": "MODE1/2352"
+    },
+    "Games/The Daedalus Encounter (Disc 3)": {
+        "name": "The Daedalus Encounter (Disc 3)",
+        "srcUrl": "https://archive.org/download/TheDaedalusEncounterMacCD/the%20daedalus%20encounter%20disc3.iso",
+        "fileSize": 677199872,
+        "coverImageHash": "a6d2c5d3e642515db6b43834598a99c0c009c0d4b94f88963fc7cb28ba234f32",
+        "coverImageSize": [
+            511,
+            512
+        ]
+    },
+    "Games/Riven (Disc 3)": {
+        "name": "Riven (Disc 3)",
+        "srcUrl": "https://archive.org/download/riven-the-sequel-to-myst_202302/Riven3.iso",
+        "fileSize": 667238400,
+        "coverImageHash": "de389e7a473f8819eedde044d8a92ec9ddf2718e710d7c3d29de434dc1793a02",
+        "coverImageSize": [
+            512,
+            499
+        ]
+    },
+    "Games/Star Wars: X-Wing": {
+        "name": "Star Wars: X-Wing",
+        "srcUrl": "https://archive.org/download/XWing_201904/X-Wing.iso",
+        "fileSize": 665579008,
+        "coverImageHash": "481ef734d8e39d6d4ac83b0293cdac62ea64736209678821ebc90a780f4f3f86",
+        "coverImageSize": [
+            372,
+            480
+        ],
+        "coverImageType": "square"
+    },
+    "Games/Riven (Disc 1)": {
+        "name": "Riven (Disc 1)",
+        "srcUrl": "https://archive.org/download/riven-the-sequel-to-myst_202302/RIVEN1.ISO",
+        "fileSize": 597465088,
+        "coverImageHash": "de389e7a473f8819eedde044d8a92ec9ddf2718e710d7c3d29de434dc1793a02",
+        "coverImageSize": [
+            512,
+            499
+        ]
+    },
+    "Games/The Journeyman Project": {
+        "name": "The Journeyman Project",
+        "srcUrl": "https://archive.org/download/journeyman_1.0/Journeyman.bin",
+        "fileSize": 607293456,
+        "coverImageHash": "b2eb2e01a0fb3cdf1b15bd98fef97d6efc9cc6da8ac4e29216fac1ca93b9fbee",
+        "coverImageSize": [
+            512,
+            512
+        ],
+        "mode": "MODE1/2352"
+    },
+    "Games/Iron Helix": {
+        "name": "Iron Helix",
+        "srcUrl": "https://archive.org/download/IronHelix/Iron%20Helix.iso",
+        "fileSize": 563197952,
+        "coverImageHash": "32255a9c4bce6ad25b6ba958853e361ba45312358236babf8074e1051373b2fb",
+        "coverImageSize": [
+            492,
+            512
+        ]
+    },
+    "Games/Quake": {
+        "name": "Quake",
+        "srcUrl": "https://archive.org/download/QuakeMacintosh/Quake%20%28Track%2001%29.bin",
+        "fileSize": 36902880,
+        "coverImageHash": "b9ba40394babe99432fd1d4b9f4cbd7c5191d7ddd81436f348953bf273f32c3f",
+        "coverImageSize": [
+            379,
+            444
+        ],
+        "coverImageType": "square",
+        "mode": "MODE1/2352"
+    },
+    "Games/Myst": {
+        "name": "Myst",
+        "srcUrl": "https://archive.org/download/myst_20210621/Myst.toast",
+        "fileSize": 549173248,
+        "coverImageHash": "25e8de8531b86be75344df0f9baf1992b1bd324942fc5de15e15ff33e2446fbb",
+        "coverImageSize": [
+            451,
+            512
+        ],
+        "coverImageType": "square"
+    },
+    "Games/SimTower": {
+        "name": "SimTower",
+        "srcUrl": "https://archive.org/download/SimTowerMacOS/SIMTOWER.bin",
+        "fileSize": 503694912,
+        "coverImageHash": "2e8550cc30643b29efd9f83c17a97f305405ddeba1a608f437b658117ca03c37",
+        "coverImageSize": [
+            512,
+            509
+        ],
+        "coverImageType": "square",
+        "mode": "MODE1/2352"
+    },
+    "Compilations/Peanuts-1": {
+        "name": "Peanuts-1",
+        "srcUrl": "https://archive.org/download/PeanutsNeXTISO/Peanuts-1.iso",
+        "fileSize": 676612096,
+        "coverImageHash": "8686ea735a9440b95ced15c963e34405f0d8edfb022c71ea15ee8349ec66e71e",
+        "coverImageSize": [
+            507,
+            512
+        ],
+        "platform": "NeXT"
+    },
+    "Compilations/NeXT Education Sampler": {
+        "name": "NeXT Education Sampler",
+        "srcUrl": "https://archive.org/download/NeXTArchive/NeXT/NeXTSTEP%20Applications/NeXT%20Education%20Sampler%201992%20NeXTSTEP/NeXT-education-sampler-92.iso",
+        "fileSize": 676143104,
+        "platform": "NeXT"
+    },
+    "Compilations/Macworld Gaming Megapac": {
+        "name": "Macworld Gaming Megapac",
+        "srcUrl": "https://archive.org/download/Gaming_Megapac_Macworld_B01A/Gaming%20Megapac%20%28Macworld%29%28B01A%29.iso",
+        "fileSize": 218853376,
+        "coverImageHash": "ce8137f8865de12a214028a226d0fe18e1895f9d51999eb45726b65959c50acf",
+        "coverImageSize": [
+            509,
+            512
+        ]
+    },
+    "Compilations/The Whacked Mac Archives": {
+        "name": "The Whacked Mac Archives",
+        "srcUrl": "https://archive.org/download/WhackedMacCD/WhackedMacCD.iso",
+        "fileSize": 89896960,
+        "coverImageHash": "4fc59a2ced72726eabef1b8eea03e77ac6676ca6297cd4b3a8f867e42efaa1ae",
+        "coverImageSize": [
+            512,
+            504
+        ]
+    },
+    "Compilations/The Macintosh Demo Games CD (1992)": {
+        "name": "The Macintosh Demo Games CD (1992)",
+        "srcUrl": "https://archive.org/download/mac-demo-games/MacDemoGames.img",
+        "fileSize": 167772160,
+        "coverImageHash": "2f527974d9c8b62f1f974a4b59934ea0bb0b0e8cc3c50916f9d2b3dfbe44a28b",
+        "coverImageSize": [
+            504,
+            512
+        ]
+    },
+    "Compilations/MacMania 3 (1996)": {
+        "name": "MacMania 3 (1996)",
+        "srcUrl": "https://archive.org/download/mac-mania-2/MacMania%203.toast",
+        "fileSize": 665337856,
+        "coverImageHash": "48718f1fce9e40751cd25dd770dd04598bad3c588791a08e7d3262e3fad49528",
+        "coverImageSize": [
+            512,
+            493
+        ]
+    },
+    "Compilations/Power Computing: The Disc II": {
+        "name": "Power Computing: The Disc II",
+        "srcUrl": "https://archive.org/download/Power_Computing_The_Disc_2_This_Disc_Bytes/Power%20Computing%20-%20The%20Disc%202%20-%20This%20Disc%20Bytes.ISO",
+        "fileSize": 558958592,
+        "coverImageHash": "676e28b64ee5b021417993e02437922b2a44a2fcd4a771dee3edbd0e0ce0988c",
+        "coverImageSize": [
+            509,
+            512
+        ]
+    },
+    "Compilations/Apple Color Graphics Sampler": {
+        "name": "Apple Color Graphics Sampler",
+        "srcUrl": "https://archive.org/download/AppleColorGraphicsSampler/Apple%20Color%20Graphics%20Sampler.iso",
+        "fileSize": 524595200,
+        "coverImageHash": "a23fec36d25402422f08d0e0bb1e7149f6f40efe71b32ec8426340e0dd9de715",
+        "coverImageSize": [
+            512,
+            434
+        ],
+        "coverImageType": "square"
+    },
+    "Compilations/Power Computing: The Disc": {
+        "name": "Power Computing: The Disc",
+        "srcUrl": "https://archive.org/download/PowerComputing_The_Disc_MacWorld_1995/PowerComputing%20%28The%20Disc%29%28MacWorld%201995%29.ISO",
+        "fileSize": 525447168,
+        "coverImageHash": "ce408b626adaae77789fa806d34b7003bacd621770294fe177e14bc0fc91817b",
+        "coverImageSize": [
+            508,
+            512
+        ]
+    },
+    "Compilations/MacMania 2 (1995)": {
+        "name": "MacMania 2 (1995)",
+        "srcUrl": "https://archive.org/download/mac-mania-2/MacMania%202.toast",
+        "fileSize": 681865216,
+        "coverImageHash": "7fc12ff34ec32f17a7d7c9c9c660e6bc6724d3eaffac82cb508be4e384169f81",
+        "coverImageSize": [
+            512,
+            495
+        ]
+    },
+    "Compilations/BMUG PD-ROM (1992)": {
+        "name": "BMUG PD-ROM (1992)",
+        "srcUrl": "https://archive.org/download/PD-ROM_A/PD-ROM%20A.iso",
+        "fileSize": 449992704,
+        "coverImageHash": "964e6f31e9001109195fa17975b7d14308a5c12d98740579c9a19159d504cfff",
+        "coverImageSize": [
+            502,
+            512
+        ]
+    },
+    "Compilations/Peanuts-4": {
+        "name": "Peanuts-4",
+        "srcUrl": "https://archive.org/download/PeanutsNeXTISO/Peanuts-4.iso",
+        "fileSize": 679792640,
+        "coverImageHash": "e27c7f83e31595e6f51b1c9f555b0a6740275498e9963e525a93c08649367f12",
+        "coverImageSize": [
+            502,
+            512
+        ],
+        "platform": "NeXT"
+    },
+    "Compilations/BMUG PD-ROM (1993)": {
+        "name": "BMUG PD-ROM (1993)",
+        "srcUrl": "https://archive.org/download/BMUG_PD-ROM_Version_BV3_CDRM1097900/BMUG%20PD-ROM%20Version%20BV3%20%28CDRM1097900%29.iso",
+        "fileSize": 665761792,
+        "coverImageHash": "f39d46d9e06e476c228f63d66191b12183d3fa58b3e1be2598d04dba72831918",
+        "coverImageSize": [
+            510,
+            512
+        ]
+    },
+    "Compilations/Nebula One": {
+        "name": "Nebula One",
+        "srcUrl": "https://archive.org/download/nebulaapps/Nebula%20One.iso",
+        "fileSize": 675627164,
+        "platform": "NeXT"
+    },
+    "Compilations/MacMania 4 (1996)": {
+        "name": "MacMania 4 (1996)",
+        "srcUrl": "https://archive.org/download/mac-mania-2/MacMania%204.toast",
+        "fileSize": 667353088,
+        "coverImageHash": "b0f43a782a33e6b496a9a2ab942cfd3cdfa54981dc068b6728b95b621fb641cc",
+        "coverImageSize": [
+            512,
+            487
+        ]
+    },
+    "Compilations/BMUG PD-ROM (1995)": {
+        "name": "BMUG PD-ROM (1995)",
+        "srcUrl": "https://archive.org/download/cdrom-bmug-pdrom-f95/PD-ROM%20F95.toast",
+        "fileSize": 696627200,
+        "coverImageHash": "c4e300b39c65c007ea22a7b52be7fd99626209cedbb619f9a3741324c79513b8",
+        "coverImageSize": [
+            372,
+            278
+        ],
+        "coverImageType": "square"
+    },
+    "Compilations/Nebula Two": {
+        "name": "Nebula Two",
+        "srcUrl": "https://archive.org/download/nebulaapps/Nebula%20Two.iso",
+        "fileSize": 634208412,
+        "platform": "NeXT"
+    },
+    "Compilations/Peanuts-3": {
+        "name": "Peanuts-3",
+        "srcUrl": "https://archive.org/download/PeanutsNeXTISO/Peanuts-3.iso",
+        "fileSize": 679757824,
+        "coverImageHash": "d17dd25ea5cbbe713be8dac6f742aa5f11268f542c49c69c85a5e3ed6627f1fd",
+        "coverImageSize": [
+            512,
+            509
+        ],
+        "platform": "NeXT"
+    },
+    "Compilations/The Macintosh Demo Applications CD (1992)": {
+        "name": "The Macintosh Demo Applications CD (1992)",
+        "srcUrl": "https://archive.org/download/apple-macintosh-demo-applications-cd-1.0-1992/Apple-MacintoshDemoApplicationsCD-1.0-1992.iso",
+        "fileSize": 666132480,
+        "coverImageHash": "ea0130d477326e793fcce1ed31943a2c5b993f40482757a6ddcf7772c8cda2d6",
+        "coverImageSize": [
+            512,
+            511
+        ]
+    },
+    "Compilations/MacMania 1 (1995)": {
+        "name": "MacMania 1 (1995)",
+        "srcUrl": "https://archive.org/download/mac-mania-2/MacMania%201.toast",
+        "fileSize": 680083456,
+        "coverImageHash": "855a88bc420071b9580a464df83d26fd766ba631e6d09bf2eeb0aedcfcafd7f7",
+        "coverImageSize": [
+            512,
+            487
+        ]
+    },
+    "Compilations/BMUG PD-ROM (1996)": {
+        "name": "BMUG PD-ROM (1996)",
+        "srcUrl": "https://archive.org/download/BMUGFall96PDROM/BMUG%20Fall%2796%20PD-ROM.iso",
+        "fileSize": 663343104,
+        "coverImageHash": "e29471a9b2a055e2a4779f30987fb3dd85aeed48f42825e18acc3890ab165b2c",
+        "coverImageSize": [
+            511,
+            512
+        ]
+    },
+    "Compilations/NeXT Third-Party Products": {
+        "name": "NeXT Third-Party Products",
+        "srcUrl": "https://archive.org/download/NeXTArchive/NeXT/NeXTSTEP%20Applications/NeXT%203rd%20Party%20Products%201993%20NeXTSTEP/NEXT_3rd_party_products_93.iso",
+        "fileSize": 302764032,
+        "platform": "NeXT"
+    },
+    "Compilations/Peanuts-Update": {
+        "name": "Peanuts-Update",
+        "srcUrl": "https://archive.org/download/PeanutsNeXTISO/Peanuts-Update.iso",
+        "fileSize": 680777728,
+        "coverImageHash": "c5f1eea3549c0de656facc187b256a577c1c779384662eeee95c617ddbc46c0a",
+        "coverImageSize": [
+            508,
+            512
+        ],
+        "platform": "NeXT"
+    },
+    "Compilations/Peanuts-2": {
+        "name": "Peanuts-2",
+        "srcUrl": "https://archive.org/download/PeanutsNeXTISO/Peanuts-2.iso",
+        "fileSize": 680097792,
+        "coverImageHash": "1d0eb4be96fd22f169c7fe23ad350540c8b35aa731d6d0c540b38117b7ea9eb8",
+        "coverImageSize": [
+            509,
+            512
+        ],
+        "platform": "NeXT"
+    },
+    "Compilations/Jobstep": {
+        "name": "Jobstep",
+        "srcUrl": "https://archive.org/download/NeXTArchive/NeXT/NeXTSTEP%20Applications/Jobstep%20NeXTSTEP/Jobstep.iso",
+        "fileSize": 325345280,
+        "platform": "NeXT"
+    },
+    "Compilations/MacMania 5 (1997)": {
+        "name": "MacMania 5 (1997)",
+        "srcUrl": "https://archive.org/download/mac-mania-2/MacMania%205.toast",
+        "fileSize": 488904704,
+        "coverImageHash": "7d6638feb40763c99a43db7b6880c914970432ea073818d3af40d6b717c27716",
+        "coverImageSize": [
+            512,
+            491
+        ]
+    },
+    "Compilations/PANICDISC": {
+        "name": "PANICDISC",
+        "srcUrl": "https://archive.org/download/PanicDiscPANIC.COM/PanicDisc%20%28PANIC.COM%29.bin",
+        "fileSize": 133174944,
+        "coverImageHash": "cb7c6533d4f236af163878ec47863c7e4b20b72a88ecd05110c8b0b5de695a78",
+        "coverImageSize": [
+            512,
+            508
+        ],
+        "mode": "MODE1/2352"
+    },
+    "Compilations/MacMania 6 (1997)": {
+        "name": "MacMania 6 (1997)",
+        "srcUrl": "https://archive.org/download/mac-mania-2/MacMania%206.toast",
+        "fileSize": 629211136,
+        "coverImageHash": "7d5e2900ee91cbed2efdbb8ce1ba8574da97e30b89e1d8da676ff7584c609b25",
+        "coverImageSize": [
+            512,
+            487
+        ]
+    },
+    "Compilations/BMUG PD-ROM (1990 - Volume 2)": {
+        "name": "BMUG PD-ROM (1990 - Volume 2)",
+        "srcUrl": "https://archive.org/download/cdrom-bmug-pdrom-v2/BMUG_PDROM_V2_1990.cdr",
+        "fileSize": 619993088,
+        "coverImageHash": "30524dd791be540edf5cbd4bf714b58e5616fd3f08d9148b3e927fcef9d83ace",
+        "coverImageSize": [
+            512,
+            361
+        ],
+        "coverImageType": "square"
+    },
+    "Compilations/The Macintosh Demo Applications CD (1993)": {
+        "name": "The Macintosh Demo Applications CD (1993)",
+        "srcUrl": "https://archive.org/download/The_Macintosh_Demo_Applications_CD_Business_Productivity_Apple_Computer_1993/The%20Macintosh%20Demo%20Applications%20CD%20-%20Business%20Productivity%20%28Apple%20Computer%29%281993%29.iso",
+        "fileSize": 665774080,
+        "coverImageHash": "9fb2029d7fa4879a6821d8636791495bb11c989b2a6df0e3d98863ad8ef32edf",
+        "coverImageSize": [
+            510,
+            512
+        ]
+    },
+    "Compilations/Big Green CD": {
+        "name": "Big Green CD",
+        "srcUrl": "https://archive.org/download/NeXTArchive/NeXT/NeXTSTEP%20Applications/Big%20Green%20CD%20NeXTSTEP/BigGreenCd.iso",
+        "fileSize": 567361536,
+        "platform": "NeXT"
+    },
+    "Compilations/BMUG PD-ROM (1988 - Volume 1)": {
+        "name": "BMUG PD-ROM (1988 - Volume 1)",
+        "srcUrl": "https://archive.org/download/pd-rom-volume-i-macintosh-software-from-bmug-1988/PD%20ROM%20Volume%20I%20-%20Macintosh%20Software%20from%20BMUG%20%281988%29.iso",
+        "fileSize": 323551232,
+        "coverImageHash": "576a6f99ae3ac459ad07e88f61edc7eaac4822b138ad7ca153079ffb151f2375",
+        "coverImageSize": [
+            512,
+            459
+        ],
+        "coverImageType": "square"
+    },
+    "Magazines/Inside Mac Games - Volume 5, Issue 1 (1997)": {
+        "name": "Inside Mac Games - Volume 5, Issue 1 (1997)",
+        "srcUrl": "https://archive.org/download/IMG44Vol51/IMG%2044%20Vol%205-1.iso",
+        "fileSize": 669163520,
+        "coverImageHash": "ce8be0b9c97b78baeace88c7b396cfc47ae4e0f4cea0b4fabaff9af834afada4",
+        "coverImageSize": [
+            419,
+            510
+        ],
+        "coverImageType": "square"
+    },
+    "Magazines/MacAddict 006 (1997)": {
+        "name": "MacAddict 006 (1997)",
+        "srcUrl": "https://archive.org/download/Mac_Addict_-_The_Disc_February_1997/Mac%20Addict%20-%20The%20Disc%20%28February%201997%29.iso",
+        "fileSize": 659036160,
+        "coverImageHash": "09731d23bca16cc006f6c20da4ff924682a64d1f07f57dc22798089d258a6e91",
+        "coverImageSize": [
+            499,
+            512
+        ]
+    },
+    "Magazines/MacAddict 001 (1996)": {
+        "name": "MacAddict 001 (1996)",
+        "srcUrl": "https://archive.org/download/macaddict_thedisc001/MacAddict%20the%20Disc%2001%20Premiere%20%28Imagine%20Publishing%2C%20Inc.%29%28August%201996%29.iso",
+        "fileSize": 635648000,
+        "coverImageHash": "9ec21722784b4c638fffa401eb88b4e635fb97c3cdd17422e47c39f2298bbd7e",
+        "coverImageSize": [
+            512,
+            512
+        ]
+    },
+    "Magazines/MacAddict 016 (1997)": {
+        "name": "MacAddict 016 (1997)",
+        "srcUrl": "https://archive.org/download/macaddict-cd-016/MacAddict_016_1997_12.iso",
+        "fileSize": 647444480,
+        "coverImageHash": "b8f8465afec76a04ab8ee1c8904841a2bf9d371e0a1bf12cdae7271873cacdbf",
+        "coverImageSize": [
+            505,
+            512
+        ]
+    },
+    "Magazines/Inside Mac Games - Volume 6, Issue 3 (1998)": {
+        "name": "Inside Mac Games - Volume 6, Issue 3 (1998)",
+        "srcUrl": "https://archive.org/download/IMG54Vol63/IMG%2054%20Vol%206-3.iso",
+        "fileSize": 673867776,
+        "coverImageHash": "74538f4c2e15a819881dac38035e2d29a55bd898fd69c4cccd44e1b601be3ca9",
+        "coverImageSize": [
+            430,
+            511
+        ],
+        "coverImageType": "square"
+    },
+    "Magazines/Inside Mac Games - Volume 3, Issue 3 (1995)": {
+        "name": "Inside Mac Games - Volume 3, Issue 3 (1995)",
+        "srcUrl": "https://archive.org/download/IMG25March1995/Img25March1995.iso",
+        "fileSize": 603244544,
+        "coverImageHash": "1dd9e672b766d6b631d681ecd3849699294bdc99be0246921ab45dfe3d9c5599",
+        "coverImageSize": [
+            420,
+            511
+        ],
+        "coverImageType": "square"
+    },
+    "Magazines/Inside Mac Games - Volume 7, Issue 7 (1999)": {
+        "name": "Inside Mac Games - Volume 7, Issue 7 (1999)",
+        "srcUrl": "https://archive.org/download/IMGVol77/IMG%20Vol%207-7.iso",
+        "fileSize": 686477312,
+        "coverImageHash": "cd0ce12fe3344658e44462f2a49909b9b7245aa6954ce12fc3e935402474fd51",
+        "coverImageSize": [
+            417,
+            512
+        ],
+        "coverImageType": "square"
+    },
+    "Magazines/Inside Mac Games - Volume 4, Issue 8 (1996)": {
+        "name": "Inside Mac Games - Volume 4, Issue 8 (1996)",
+        "srcUrl": "https://archive.org/download/IMG39Aug1996/IMG%2039%20Aug%201996.iso",
+        "fileSize": 680781824,
+        "coverImageHash": "17a4b2c95e5ef5a70dbd371fcb8ab1703651a4a124323ed4d218aeb5905fd3d6",
+        "coverImageSize": [
+            420,
+            510
+        ],
+        "coverImageType": "square"
+    },
+    "Publishing/Adobe InDesign 2": {
+        "name": "Adobe InDesign 2",
+        "srcUrl": "https://macintoshgarden.org/sites/macintoshgarden.org/files/apps/Adobe_InDesign_2.cdr",
+        "fileSize": 548405248,
+        "coverImageHash": "1e75e93a1dab9ec93a2f57d96ad919d9ee04594a1648776cb8a6953c64157f57",
+        "coverImageSize": [
+            180,
+            207
+        ],
+        "coverImageType": "square"
+    },
+    "Publishing/FrameMaker 3.2": {
+        "name": "FrameMaker 3.2",
+        "srcUrl": "https://archive.org/download/NeXTArchive/NeXT/NeXTSTEP%20Applications/Frame%203.2%20NeXTSTEP/Frame.iso",
+        "fileSize": 27398144,
+        "platform": "NeXT"
+    },
+    "Publishing/Adobe PageMaker 6.5": {
+        "name": "Adobe PageMaker 6.5",
+        "srcUrl": "https://archive.org/download/Adobe_Pagemaker_6.5_CD-ROM_Macintosh_9009281_July_1997/Adobe%20Pagemaker%206.5%20CD-ROM%20%28Macintosh%29%289009281%29%28July%201997%29.bin",
+        "fileSize": 563212272,
+        "coverImageHash": "b7df064cf1d49143b90c216543a96cdaec77c6fc582bdef1a967552564045813",
+        "coverImageSize": [
+            376,
+            382
+        ],
+        "mode": "MODE1/2352"
+    },
+    "Publishing/OneVision": {
+        "name": "OneVision",
+        "srcUrl": "https://archive.org/download/NeXTArchive/NeXT/NeXTSTEP%20Applications/OneVision%203.03%20NeXTSTEP/OneVision3.03.iso",
+        "fileSize": 639514624,
+        "platform": "NeXT"
+    },
+    "Developer/MacTech CD-ROM Volumes 1-17": {
+        "name": "MacTech CD-ROM Volumes 1-17",
+        "srcUrl": "https://archive.org/download/mac-tech-cd-v-1-17/MacTech_CD_v1-17.toast",
+        "fileSize": 634019840,
+        "coverImageHash": "b5455fa9621b25a4b4cb2b62920bc9d963fb9cccbcbead3836d7d6f6e788886d",
+        "coverImageSize": [
+            204,
+            200
+        ],
+        "coverImageType": "square"
+    },
+    "Developer/CodeWarrior Professional 1 - Tools": {
+        "name": "CodeWarrior Professional 1 - Tools",
+        "srcUrl": "https://archive.org/download/code-warrior-pr-1-mac-os-reference/CodeWarrior%20Professional%20Release%201/CodeWarrior-PR1_MacOS_Tools.iso",
+        "fileSize": 322273280,
+        "coverImageHash": "d00d1217a01a3e9dab8a6b80e03f4e44bbb6014e2db88a199aa496a1f93eef44",
+        "coverImageSize": [
+            511,
+            512
+        ]
+    },
+    "Developer/MacHack 2000": {
+        "name": "MacHack 2000",
+        "srcUrl": "https://archive.org/download/MacHack2000/MacHack%202000.toast",
+        "fileSize": 343316480,
+        "coverImageHash": "0215a7021eece4b9fe85a661bc5d0377712f6f9e230dce5eead5c7a6b80c359b",
+        "coverImageSize": [
+            512,
+            500
+        ]
+    },
+    "Developer/Executor": {
+        "name": "Executor",
+        "srcUrl": "https://archive.org/download/NeXTArchive/NeXT/NeXTSTEP%20Applications/Executor%20v2.0%20NeXTSTEP/executorv2.0.iso",
+        "fileSize": 314062848,
+        "platform": "NeXT"
+    },
+    "Developer/Cub'X-Window": {
+        "name": "Cub'X-Window",
+        "srcUrl": "https://archive.org/download/NeXTArchive/NeXT/NeXTSTEP%20Applications/Cub%27X-Window%20NeXTSTEP/CUBXWINDOW.iso",
+        "fileSize": 456396800,
+        "platform": "NeXT"
+    },
+    "Developer/CodeWarrior Professional 4 - Tools": {
+        "name": "CodeWarrior Professional 4 - Tools",
+        "srcUrl": "https://archive.org/download/cwpro4/CW4MACTOOLS.ISO",
+        "fileSize": 670488576,
+        "coverImageHash": "2553294723edc33ff8b754b1221655edcaefb84958f2c680db6635978cf9e300",
+        "coverImageSize": [
+            490,
+            512
+        ]
+    },
+    "Developer/MacHack 1994": {
+        "name": "MacHack 1994",
+        "srcUrl": "https://archive.org/download/MacHack1994/MacHack%201994.toast",
+        "fileSize": 666431488
+    },
+    "Developer/CodeWarrior Professional 4 - Reference": {
+        "name": "CodeWarrior Professional 4 - Reference",
+        "srcUrl": "https://archive.org/download/cwpro4/CW_PRO4_REF.ISO",
+        "fileSize": 677894144,
+        "coverImageHash": "085e59f63d8b8fccab5fe15dfb28cab22c6f04b478da78489e24373440fd35eb",
+        "coverImageSize": [
+            512,
+            507
+        ]
+    },
+    "Developer/MacHack 1995": {
+        "name": "MacHack 1995",
+        "srcUrl": "https://archive.org/download/MacHack1995/MacHack%201995.toast",
+        "fileSize": 645736448
+    },
+    "Developer/MacHack 2003": {
+        "name": "MacHack 2003",
+        "srcUrl": "https://archive.org/download/MacHack2003/MacHack%202003v2.toast",
+        "fileSize": 643774464
+    },
+    "Developer/MacHack 1998": {
+        "name": "MacHack 1998",
+        "srcUrl": "https://archive.org/download/MacHack1998/MacHack%201998.toast",
+        "fileSize": 111087616
+    },
+    "Developer/MacHack 2001": {
+        "name": "MacHack 2001",
+        "srcUrl": "https://archive.org/download/MacHack2001/MacHack%202001.toast",
+        "fileSize": 675432448
+    },
+    "Developer/MacHack 1993": {
+        "name": "MacHack 1993",
+        "srcUrl": "https://archive.org/download/MacHack1993/MacHack%201993.toast",
+        "fileSize": 359319552
+    },
+    "Developer/MacHack Historical Archives (1818-1999)": {
+        "name": "MacHack Historical Archives (1818-1999)",
+        "srcUrl": "https://archive.org/download/machack-historical-archives-1818-1999/MacHack_Historical_Archives_-_1818-1999.iso",
+        "fileSize": 570155008,
+        "coverImageHash": "e3a236e8dd2f1fa3c6e24c15fab958cb22ce8bb681302d259e3503e040711d36",
+        "coverImageSize": [
+            512,
+            503
+        ]
+    },
+    "Developer/MacHack 1996": {
+        "name": "MacHack 1996",
+        "srcUrl": "https://archive.org/download/MacHack1996/MacHack%201996.toast",
+        "fileSize": 663420928
+    },
+    "Developer/MacHack 1999": {
+        "name": "MacHack 1999",
+        "srcUrl": "https://archive.org/download/MacHack1999/MacHack%201999.toast",
+        "fileSize": 154759168
+    },
+    "Developer/MacHack 1997": {
+        "name": "MacHack 1997",
+        "srcUrl": "https://archive.org/download/MacHack1997/MacHack%201997.toast",
+        "fileSize": 640518144
+    },
+    "Developer/CodeWarrior Professional 1 - Reference": {
+        "name": "CodeWarrior Professional 1 - Reference",
+        "srcUrl": "https://archive.org/download/code-warrior-pr-1-mac-os-reference/CodeWarrior%20Professional%20Release%201/CodeWarrior-PR1_MacOS_Reference.iso",
+        "fileSize": 577802240,
+        "coverImageHash": "0afd87a1709aaa3fcf111a65f01b23c488f2522ac7d4fb69a92d833ffdf4b36e",
+        "coverImageSize": [
+            512,
+            512
+        ]
+    },
+    "Developer/Apple Developer CDs/1990-07 - Discy Business": {
+        "name": "1990-07 - Discy Business",
+        "srcUrl": "https://archive.org/download/AppleDeveloperCDSeriesVolumeIVDiscyBusiness/Apple_Developer_CD_Series_Volume_IV_Discy_Business.cdr",
+        "fileSize": 668506112,
+        "coverImageHash": "f3938b4f9cb2c80cbabbc0849c7cd1d805045010084f10768d5483949726cd54",
+        "coverImageSize": [
+            353,
+            343
+        ],
+        "coverImageType": "square"
+    },
+    "Developer/Apple Developer CDs/1993-04 - System Software Edition": {
+        "name": "1993-04 - System Software Edition",
+        "srcUrl": "https://archive.org/download/appledevelopercdseries_199304_systemsoftwareedition/Apple%20Developer%20CD%20Series%2C%201993-04%20-%20System%20Software%20Edition%20%28DEV4-93%29%28Apple%20Computer%2C%20Inc.%29%28April%201993%29.iso",
+        "fileSize": 669122560,
+        "coverImageHash": "69708283cf5939b4c30258fde195cb845839e0ecddbcc6bce94dafb1730f6055",
+        "coverImageSize": [
+            512,
+            456
+        ],
+        "coverImageType": "square"
+    },
+    "Developer/Apple Developer CDs/Inside Macintosh": {
+        "name": "Inside Macintosh",
+        "srcUrl": "https://archive.org/download/Inside_Macintosh_CD-ROM_1995/Inside%20Macintosh%20CD-ROM_1995%20%28CD%29.toast",
+        "fileSize": 674471936,
+        "coverImageHash": "0f9a4e8daa076eecbee7085c9b61436729f6fef9bbe4d2eabe458b18130f50af",
+        "coverImageSize": [
+            512,
+            512
+        ],
+        "coverImageType": "square"
+    },
+    "Developer/Apple Developer CDs/1993-01 - The Postman Always Clicks Twice": {
+        "name": "1993-01 - The Postman Always Clicks Twice",
+        "srcUrl": "https://archive.org/download/appledevelopercdseries_199301_thepostmanalwaysclickstwice/Apple%20Developer%20CD%20Series%2C%201993-01%20-%20The%20Postman%20Always%20Clicks%20Twice%20%28POSTMAN%29%28Apple%20Computer%2C%20Inc.%29%28January%201993%29.iso",
+        "fileSize": 668815360,
+        "coverImageHash": "da30e591653a5cb1754f797c7b907c26a0717c17c918fee1fbf7273a6e8f9b42",
+        "coverImageSize": [
+            512,
+            456
+        ],
+        "coverImageType": "square"
+    },
+    "Developer/Apple Developer CDs/1993-03 - Other People's Memory": {
+        "name": "1993-03 - Other People's Memory",
+        "srcUrl": "https://archive.org/download/appledevelopercdseries_199303_otherpeoplesmemory/Apple%20Developer%20CD%20Series%2C%201993-03%20-%20Other%20People%27s%20Memory%20%28MEMORY%2001%29%28Apple%20Computer%2C%20Inc.%29%28March%201993%29.iso",
+        "fileSize": 669081600,
+        "coverImageHash": "32d0ceb790f56daf0a419c268082cd08acf64870bc67c58fc150c53abe16ea88",
+        "coverImageSize": [
+            512,
+            456
+        ],
+        "coverImageType": "square"
+    },
+    "Developer/Apple Developer CDs/1996-12 - develop Bookmark CD": {
+        "name": "1996-12 - develop Bookmark CD",
+        "srcUrl": "https://archive.org/download/AppleDevelopBookmarkCDIssue28/BookmarkCD28.iso",
+        "fileSize": 662063104,
+        "coverImageHash": "6a9be2de811a9bbc4acdb685d4b8082c9e7881254bb1e8523617cdea3e4b4afe",
+        "coverImageSize": [
+            509,
+            512
+        ]
+    },
+    "Developer/Apple Developer CDs/1991-05 - WWDC Presentations": {
+        "name": "1991-05 - WWDC Presentations",
+        "srcUrl": "https://archive.org/download/wwdc_1991/WWDC.iso",
+        "fileSize": 60614656,
+        "coverImageHash": "902961b081ac617b65821d2ad56d1be47253ed97b153bc618b4310c54862c402",
+        "coverImageSize": [
+            512,
+            336
+        ],
+        "coverImageType": "square"
+    },
+    "Developer/Apple Developer CDs/1999-05 - WWDC Presentations": {
+        "name": "1999-05 - WWDC Presentations",
+        "srcUrl": "https://archive.org/download/apple-wwdc-99-presentations-cd/WWDC99-CD.ISO",
+        "fileSize": 292982784,
+        "coverImageHash": "ce7df47cae5c4a821c8c5e1b197133e85d2286217abd4b08df45d9e515760c35",
+        "coverImageSize": [
+            508,
+            512
+        ]
+    },
+    "Developer/Apple Developer CDs/1993-02 - New Hack City": {
+        "name": "1993-02 - New Hack City",
+        "srcUrl": "https://archive.org/download/appledevelopercdseries_199302_newhackcity/Apple%20Developer%20CD%20Series%2C%201993-02%20-%20New%20Hack%20City%20%28NEWHACK%29%28Apple%20Computer%2C%20Inc.%29%28February%201993%29.iso",
+        "fileSize": 668815360,
+        "coverImageHash": "d003bcbbe1ac98077ab08fc8beea8b3e405df21c94b47c05fe739efb8d064e38",
+        "coverImageSize": [
+            512,
+            456
+        ],
+        "coverImageType": "square"
+    },
+    "Developer/Apple Developer CDs/1996-02 - Tool Chest": {
+        "name": "1996-02 - Tool Chest",
+        "srcUrl": "https://archive.org/download/Apple_Developer_CD_Series_Tool_Chest_February_1996_Apple_Computer_1996/Apple%20Developer%20CD%20Series%20Tool%20Chest%20February%201996%20%28Apple%20Computer%29%281996%29.iso",
+        "fileSize": 630599680,
+        "coverImageHash": "41d91efa008cdef961f8fe9d7e7baffe16ee96f8f345f9df3eaf1d331023b90a",
+        "coverImageSize": [
+            507,
+            512
+        ]
+    },
+    "System Software/Mac OS X 10.0": {
+        "name": "Mac OS X 10.0",
+        "srcUrl": "https://archive.org/download/osx_100_4k78_install/osx_100_4k78_install.iso",
+        "fileSize": 592859136,
+        "coverImageHash": "6d80185179045147f87618808f575be53243b77614f302ee7ec5e682803f62a6",
+        "coverImageSize": [
+            511,
+            512
+        ]
+    },
+    "System Software/Mac OS 8.5": {
+        "name": "Mac OS 8.5",
+        "srcUrl": "https://archive.org/download/691-2157-AZUMac_OS_8.5_CD/691-2157-A%2CZU%2CMac%20OS%208.5%20%28CD%29.iso ",
+        "fileSize": 678912000,
+        "coverImageHash": "5216ab723d4cee56cb4f5bcc48aae4eef47aa5ab1940f72e23b6628004151f68",
+        "coverImageSize": [
+            512,
+            512
+        ]
+    },
+    "System Software/NeXTSTEP 3.2 (Developer)": {
+        "name": "NeXTSTEP 3.2 (Developer)",
+        "srcUrl": "https://archive.org/download/NeXTSTEPDeveloper32/NeXTSTEP%20Developer%203.2.iso",
+        "fileSize": 201801728,
+        "coverImageHash": "f81fa161933d357cd64c225d9f4f6d5fd74a195a57433ae79be2e063b846b83f",
+        "coverImageSize": [
+            512,
+            458
+        ],
+        "coverImageType": "square",
+        "platform": "NeXT"
+    },
+    "System Software/Mac OS 9.0": {
+        "name": "Mac OS 9.0",
+        "srcUrl": "https://archive.org/download/mac-os-904/MacOS_904.toast",
+        "fileSize": 655980544,
+        "coverImageHash": "7395fe8f126a72e44249bbcafaf6f2b5f0bf5672200e535202e1cd92c8fa25c2",
+        "coverImageSize": [
+            512,
+            510
+        ]
+    },
+    "System Software/Mac OS X 10.3 (Disk 3)": {
+        "name": "Mac OS X 10.3 (Disk 3)",
+        "srcUrl": "https://archive.org/download/mac-os-x-panther-10.3/Apple%20Mac%20OS%20X%2010.3.0%20-%20Disk%203.iso",
+        "fileSize": 679043072,
+        "coverImageHash": "afa1e2d78a761227671a20e49cb4a39c66dda363ccc150db5337b80d39c9d9cd",
+        "coverImageSize": [
+            512,
+            508
+        ]
+    },
+    "System Software/Mac OS X 10.2 (Disk 1)": {
+        "name": "Mac OS X 10.2 (Disk 1)",
+        "srcUrl": "https://archive.org/download/apple-mac-os-x-10.2.0-build-6c115/disk1.iso",
+        "fileSize": 655364096,
+        "coverImageHash": "90885c6c613c1e25de7fde90539d1ea049bd80ecd8fb560f571dcb0acd8566a1",
+        "coverImageSize": [
+            507,
+            512
+        ]
+    },
+    "System Software/Mac OS X 10.1": {
+        "name": "Mac OS X 10.1",
+        "srcUrl": "https://archive.org/download/mac-ox-x-10.1-internal-edition/Mac%20OS%20X%2010.1%20Puma%20Internal%20Edition.iso",
+        "fileSize": 671703040,
+        "coverImageHash": "345db5d118b39163e463171c68e316b3cb7fc499a81f68133ab2d826849ea684",
+        "coverImageSize": [
+            512,
+            507
+        ]
+    },
+    "System Software/Mac OS 9.2.2": {
+        "name": "Mac OS 9.2.2",
+        "srcUrl": "https://archive.org/download/apple-mac-os-9.2.2/Apple%20MacOS%209.2.2.iso",
+        "fileSize": 724755456,
+        "coverImageHash": "d7cfe50dc2c781c38513aa9fe8206a8d965b6b64aa0a9a94879fb8b423564ffa",
+        "coverImageSize": [
+            511,
+            512
+        ]
+    },
+    "System Software/Mac OS X Server 1.2": {
+        "name": "Mac OS X Server 1.2",
+        "srcUrl": "https://archive.org/download/mac-os-x-server-1.2/Mac%20OS%20X%20Server%201.2.iso",
+        "fileSize": 681920512,
+        "coverImageHash": "e6e8fc5a013ca05c467d233c36c75fa8eca28a7f366be521c11f989fc30f2cd0",
+        "coverImageSize": [
+            512,
+            491
+        ]
+    },
+    "System Software/NeXTSTEP 3.1 (Developer)": {
+        "name": "NeXTSTEP 3.1 (Developer)",
+        "srcUrl": "https://archive.org/download/NeXTSTEPDeveloper31/NeXTSTEP%20Developer%203.1.iso",
+        "fileSize": 181133312,
+        "coverImageHash": "f81fa161933d357cd64c225d9f4f6d5fd74a195a57433ae79be2e063b846b83f",
+        "coverImageSize": [
+            512,
+            458
+        ],
+        "coverImageType": "square",
+        "platform": "NeXT"
+    },
+    "System Software/Mac OS 9.1": {
+        "name": "Mac OS 9.1",
+        "srcUrl": "https://archive.org/download/mac-os-9.1/Mac%20OS%209.1.toast",
+        "fileSize": 671698944,
+        "coverImageHash": "47e557a51f9a1c6b023aab4265c26bf2c657546e32945f0a96b442ebcf0ea719",
+        "coverImageSize": [
+            512,
+            509
+        ]
+    },
+    "System Software/System 7.5.3": {
+        "name": "System 7.5.3",
+        "srcUrl": "https://archive.org/download/96073-016AUMacintosh_System_7.5_Version_7.5.3_1996_CD/96073-016A%2CU%2CMacintosh%20System%207.5%20Version%207.5.3_1996%20%28CD%29.toast",
+        "fileSize": 267694080,
+        "coverImageHash": "d9c9f1a5f39d557ea784bb2d96c2f3e88574d8ae951c1ffd7bd9148b3da421ab",
+        "coverImageSize": [
+            512,
+            442
+        ],
+        "coverImageType": "square"
+    },
+    "System Software/Mac OS X 10.2 (Disk 2)": {
+        "name": "Mac OS X 10.2 (Disk 2)",
+        "srcUrl": "https://archive.org/download/apple-mac-os-x-10.2.0-build-6c115/disk2.iso",
+        "fileSize": 365465600,
+        "coverImageHash": "33237a604f6fd3ed52e3dd80d11d483fa513ccc6f4ab4732691378b0c1eaef27",
+        "coverImageSize": [
+            504,
+            512
+        ]
+    },
+    "System Software/Rhapsody DR2": {
+        "name": "Rhapsody DR2",
+        "srcUrl": "https://archive.org/download/rhapsody_dr2_ppc/rhapsody_dr2_ppc.iso",
+        "fileSize": 678135808,
+        "coverImageHash": "7a53e15220822652e31f34153fcbc3eb92ea520b1fcb0675a6166c08ac54f563",
+        "coverImageSize": [
+            512,
+            498
+        ]
+    },
+    "System Software/Mac OS X 10.4": {
+        "name": "Mac OS X 10.4",
+        "srcUrl": "https://archive.org/download/mac-os-x-10.4-tiger-retail-dvd/Mac%20OS%20X%2010.4%20Tiger%20Retail%20DVD.iso",
+        "fileSize": 2832531456,
+        "coverImageHash": "50b17793db23efd5d0ec34df1d71d43695a5a4eae8a30de61eb3253d59779e41",
+        "coverImageSize": [
+            511,
+            512
+        ]
+    },
+    "System Software/NeXTSTEP 3.3 (Developer)": {
+        "name": "NeXTSTEP 3.3 (Developer)",
+        "srcUrl": "https://archive.org/download/NeXTSTEP33CISC/NeXTSTEP_3.3_Developer.iso",
+        "fileSize": 403111936,
+        "coverImageHash": "d7fc92a535d6553efb25c885cd3b07e309e4d1cbd8ca85688d84a48d9f1753a9",
+        "coverImageSize": [
+            512,
+            457
+        ],
+        "coverImageType": "square",
+        "platform": "NeXT"
+    },
+    "System Software/Mac OS 7.6": {
+        "name": "Mac OS 7.6",
+        "srcUrl": "https://archive.org/download/96073-086AUMac_OS_7.6_1997_CD/96073-086A%2CU%2CMac%20OS%207.6_1997%20%28CD%29.toast",
+        "fileSize": 262447104,
+        "coverImageHash": "684b569510bc2cfa1d3667bd74c092f6ec9434b7a145cefb912d923405761418",
+        "coverImageSize": [
+            512,
+            509
+        ]
+    },
+    "System Software/Mac OS X Server 1.0 (Developer)": {
+        "name": "Mac OS X Server 1.0 (Developer)",
+        "srcUrl": "https://archive.org/download/mac-os-x-server-1.0/Mac%20OS%20X%20Server%201.0%20Developer.iso",
+        "fileSize": 411133952,
+        "coverImageHash": "33bf221bcbab530dfd1e42ce1efec6616e7895c473d7ed55417c590a50ce86b6",
+        "coverImageSize": [
+            248,
+            247
+        ]
+    },
+    "System Software/Mac OS X Server 1.0": {
+        "name": "Mac OS X Server 1.0",
+        "srcUrl": "https://archive.org/download/mac-os-x-server-1.0/Mac%20OS%20X%20Server%201.0.iso",
+        "fileSize": 678135808,
+        "coverImageHash": "33bf221bcbab530dfd1e42ce1efec6616e7895c473d7ed55417c590a50ce86b6",
+        "coverImageSize": [
+            248,
+            247
+        ]
+    },
+    "System Software/NeXTSTEP 3.3": {
+        "name": "NeXTSTEP 3.3",
+        "srcUrl": "https://archive.org/download/NeXTSTEP33CISC/NeXTSTEP_3.3_User_%28i386_m68k%29.iso",
+        "fileSize": 373768192,
+        "coverImageHash": "d7fc92a535d6553efb25c885cd3b07e309e4d1cbd8ca85688d84a48d9f1753a9",
+        "coverImageSize": [
+            512,
+            457
+        ],
+        "coverImageType": "square",
+        "platform": "NeXT"
+    },
+    "System Software/Rhapsody DR1": {
+        "name": "Rhapsody DR1",
+        "srcUrl": "https://archive.org/download/rhapsody_dr1_ppc/rhapsody_dr1_ppc.iso",
+        "fileSize": 680462336,
+        "coverImageHash": "b9e2a74f10ed4806a2bb91d4a0027d3522a1c05dab7cfe67cc00d2508e19652b",
+        "coverImageSize": [
+            511,
+            512
+        ]
+    },
+    "System Software/System 7.1.2": {
+        "name": "System 7.1.2",
+        "srcUrl": "https://archive.org/download/PowerMac_System_Disc_MacOS_7.1.2/PowerMac_System_Disc_MacOS_7.1.2.iso",
+        "fileSize": 541503488,
+        "coverImageHash": "2db60519df4c63b0e75b2adc08e4df2702c93c19598ae30e6b9d7281555f38bc",
+        "coverImageSize": [
+            510,
+            512
+        ]
+    },
+    "System Software/Mac OS X 10.3 (Disk 2)": {
+        "name": "Mac OS X 10.3 (Disk 2)",
+        "srcUrl": "https://archive.org/download/mac-os-x-panther-10.3/Apple%20Mac%20OS%20X%2010.3.0%20-%20Disk%202.iso",
+        "fileSize": 676868096,
+        "coverImageHash": "128f0d15c209432393636ac1a052bbd813b3b2aad13920476d7f68ad5709722b",
+        "coverImageSize": [
+            512,
+            508
+        ]
+    },
+    "System Software/Mac OS 8.1": {
+        "name": "Mac OS 8.1",
+        "srcUrl": "https://archive.org/download/MacOS_8_Version_8.1_691-1912-A_Apple_Computer_Inc._1998/MacOS%208%20%28Version%208.1%29%28691-1912-A%29%28Apple%20Computer%2C%20Inc.%29%281998%29.iso",
+        "fileSize": 420235264,
+        "coverImageHash": "69e05a664a23cdfbfe2acc4ec6704011c7e402b732bf4185d09be363f89e14c8",
+        "coverImageSize": [
+            512,
+            510
+        ]
+    },
+    "System Software/NeXTSTEP 3.0": {
+        "name": "NeXTSTEP 3.0",
+        "srcUrl": "https://archive.org/download/NEXTSTEP30/nextstep-3.0.iso",
+        "fileSize": 691292160,
+        "coverImageHash": "5be9dcd3f4ae9a005c68565b3696b8855183f7e434bb9211fda8c3b1c54198b0",
+        "coverImageSize": [
+            478,
+            480
+        ],
+        "platform": "NeXT"
+    },
+    "System Software/OpenDarwin 6.6.2": {
+        "name": "OpenDarwin 6.6.2",
+        "srcUrl": "https://archive.org/download/opendarwin-6.6.2/opendarwin-6.6.2_ppc.cdr",
+        "fileSize": 681574400,
+        "coverImageHash": "e4bfc2da06a57c074a27f8b632c8264674efa56b24e8c3c1ad83d9c639d9c368",
+        "coverImageSize": [
+            512,
+            512
+        ],
+        "coverImageType": "square"
+    },
+    "System Software/Mac OS 8.0": {
+        "name": "Mac OS 8.0",
+        "srcUrl": "https://archive.org/download/macos8/macos8.iso",
+        "fileSize": 346646528,
+        "coverImageHash": "f50caccd9b148dd4e42dca06d42e630591a09a7fb0561421bf0e0b2add3b036c",
+        "coverImageSize": [
+            512,
+            509
+        ]
+    },
+    "System Software/Mac OS X 10.3 (Disk 1)": {
+        "name": "Mac OS X 10.3 (Disk 1)",
+        "srcUrl": "https://archive.org/download/mac-os-x-panther-10.3/Apple%20Mac%20OS%20X%2010.3.0%20-%20Disk%201.iso",
+        "fileSize": 679043072,
+        "coverImageHash": "a94fb458ec8cb7b5cbe71bb7ca75966ada81de1c7394d07a42fe8bd0c077cc3d",
+        "coverImageSize": [
+            512,
+            508
+        ]
+    },
+    "System Software/Compilations/Mac OS Anthology (Disc 1)": {
+        "name": "Mac OS Anthology (Disc 1)",
+        "srcUrl": "https://macintoshgarden.org/sites/macintoshgarden.org/files/apps/Mac_OS_Anthology_00_Disk_01_0.iso",
+        "fileSize": 4262428672,
+        "coverImageHash": "b13b2ffd261a10fd8b2d42c59606e8f9bbf198d3ddcc657c07283add3ca54d67",
+        "coverImageSize": [
+            512,
+            511
+        ]
+    },
+    "System Software/Compilations/Mac OS Anthology (Disc 10)": {
+        "name": "Mac OS Anthology (Disc 10)",
+        "srcUrl": "https://archive.org/download/MacOSAnthology2000Disk4/Mac_OS_Anthology_2000_Disk_10.iso",
+        "fileSize": 593477632,
+        "coverImageHash": "03a1ef3465928f05c69177dccd72df8a9ac7a70b12273605d613e533aaf80a76",
+        "coverImageSize": [
+            510,
+            512
+        ]
+    },
+    "System Software/Compilations/Apple Legacy Recovery CD": {
+        "name": "Apple Legacy Recovery CD",
+        "srcUrl": "https://archive.org/download/AppleLegacyRecoveryOct1999/Apple%20Legacy%20Recovery%20Oct%201999.iso",
+        "fileSize": 679405568,
+        "coverImageHash": "806b67ae08e46647f22b65c1430e3826bf1856ef21704752775140623323e967",
+        "coverImageSize": [
+            512,
+            442
+        ],
+        "coverImageType": "square"
+    },
+    "System Software/Compilations/Apple System Recovery CD": {
+        "name": "Apple System Recovery CD",
+        "srcUrl": "https://archive.org/download/AppleSystemRecoverySept2000/Apple%20System%20Recovery%20Sept%202000.toast",
+        "fileSize": 621389824,
+        "coverImageHash": "806b67ae08e46647f22b65c1430e3826bf1856ef21704752775140623323e967",
+        "coverImageSize": [
+            512,
+            442
+        ],
+        "coverImageType": "square"
+    },
+    "System Software/Compilations/Mac OS Anthology (Disc 4)": {
+        "name": "Mac OS Anthology (Disc 4)",
+        "srcUrl": "https://macintoshgarden.org/sites/macintoshgarden.org/files/apps/Mac_OS_Anthology_00_Disk_04.iso",
+        "fileSize": 4582932480,
+        "coverImageHash": "1b19d3ad32c0640b41648466286b126bf3b3cd0a18b698ed678eca3ec32c0a7d",
+        "coverImageSize": [
+            508,
+            512
+        ]
+    },
+    "System Software/Compilations/Mac OS Anthology (Disc 9)": {
+        "name": "Mac OS Anthology (Disc 9)",
+        "srcUrl": "https://archive.org/download/MacOSAnthology2000Disk4/Mac_OS_Anthology_2000_Disk_9.iso",
+        "fileSize": 247398400,
+        "coverImageHash": "b4a2de328c37aa0b64afb4c9cc6b6768451cf835e90f6c59ac75b4a897a5d7a1",
+        "coverImageSize": [
+            508,
+            512
+        ]
+    },
+    "System Software/Compilations/Mac OS Anthology (Disc 3)": {
+        "name": "Mac OS Anthology (Disc 3)",
+        "srcUrl": "https://macintoshgarden.org/sites/macintoshgarden.org/files/apps/Mac_OS_Anthology_00_Disk_03.iso",
+        "fileSize": 4330029056,
+        "coverImageHash": "6771abfe166a7b61afab4cc5b18adce8906c3b61d0ab3664dfdb6772151b7226",
+        "coverImageSize": [
+            512,
+            512
+        ]
+    },
+    "System Software/Compilations/Mac OS Anthology (Disc 7)": {
+        "name": "Mac OS Anthology (Disc 7)",
+        "srcUrl": "https://macintoshgarden.org/sites/macintoshgarden.org/files/apps/Mac_OS_Anthology_01_Disk_07.iso",
+        "fileSize": 3734077440,
+        "coverImageHash": "63b4707bc6b30e89c9bda32b2233b0582aca930a6a0c269b7c7c9a53496c9344",
+        "coverImageSize": [
+            512,
+            511
+        ]
+    },
+    "System Software/Compilations/Mac OS Anthology (Disc 8)": {
+        "name": "Mac OS Anthology (Disc 8)",
+        "srcUrl": "https://macintoshgarden.org/sites/macintoshgarden.org/files/apps/Mac_OS_Anthology_01_Disk_08_0.iso",
+        "fileSize": 3237216256,
+        "coverImageHash": "6d937ad1dfd705125d202a4c309c84c35ddbcc221d57f44ed312e504ea84a515",
+        "coverImageSize": [
+            508,
+            512
+        ]
+    },
+    "System Software/Compilations/Mac OS Anthology (Disc 6)": {
+        "name": "Mac OS Anthology (Disc 6)",
+        "srcUrl": "https://macintoshgarden.org/sites/macintoshgarden.org/files/apps/Mac_OS_Anthology_00_Disk_06.iso",
+        "fileSize": 2695790592,
+        "coverImageHash": "cfe596ffcbc60ad85e03f8da4263cfe6e0668679ee42d697a791a43ce99837a3",
+        "coverImageSize": [
+            510,
+            512
+        ]
+    },
+    "System Software/Compilations/Mac OS Anthology (Disc 2)": {
+        "name": "Mac OS Anthology (Disc 2)",
+        "srcUrl": "https://macintoshgarden.org/sites/macintoshgarden.org/files/apps/Mac_OS_Anthology_00_Disk_02.iso",
+        "fileSize": 4411883520,
+        "coverImageHash": "93e627d08e9324ea8faa08e9ba1c3eb7477ec8b08dedb02442bfef7988b78a0e",
+        "coverImageSize": [
+            506,
+            512
+        ]
+    },
+    "System Software/Compilations/Mac OS Anthology (Disc 5)": {
+        "name": "Mac OS Anthology (Disc 5)",
+        "srcUrl": "https://macintoshgarden.org/sites/macintoshgarden.org/files/apps/Mac_OS_Anthology_00_Disk_05.iso",
+        "fileSize": 4168712192,
+        "coverImageHash": "f49ea4f9fea7f72165d99e28e08d053ad80af156e8ee004ef7510f2962cb24cc",
+        "coverImageSize": [
+            508,
+            512
+        ]
+    },
+    "Reference/Microsoft Bookshelf 98": {
+        "name": "Microsoft Bookshelf 98",
+        "srcUrl": "https://archive.org/download/ms-office98-mac-set02/Office98_Disc04.iso",
+        "fileSize": 677191680,
+        "coverImageHash": "ad30bb04c370ea4ef78010dd926f360e7714e127b3093cd853f69b782effcdc3",
+        "coverImageSize": [
+            507,
+            512
+        ]
+    },
+    "Reference/Grolier Multimedia Encyclopedia (1995)": {
+        "name": "Grolier Multimedia Encyclopedia (1995)",
+        "srcUrl": "https://archive.org/download/The_1995_Grolier_Multimedia_Encyclopedia_Version_7.02_Grolier_Mac_1995/The%201995%20Grolier%20Multimedia%20Encyclopedia%20Version%207.02%20%28Grolier%29%28Mac%29%281995%29.iso",
+        "fileSize": 678506496,
+        "coverImageHash": "be408c1c624cb9db3e4777ee51fc77d667791d0c01f9b0fff29591bc56f55a35",
+        "coverImageSize": [
+            510,
+            512
+        ]
+    },
+    "Reference/Microsoft Encarta 98 (Disk 1)": {
+        "name": "Microsoft Encarta 98 (Disk 1)",
+        "srcUrl": "https://archive.org/download/ms-office98-mac-set02/Office98_Disc01.iso",
+        "fileSize": 681248768,
+        "coverImageHash": "74ead3ec0f585a08096291cb7ec4787b247d44ce076d6e6c8944351ac98f0a4f",
+        "coverImageSize": [
+            512,
+            506
+        ]
+    },
+    "Reference/Apple Media Toolkit": {
+        "name": "Apple Media Toolkit",
+        "srcUrl": "https://archive.org/download/apple-media-kit-cd-rom-archive/Apple%20Media%20Kit%20-May%201994.iso",
+        "fileSize": 711995392,
+        "coverImageHash": "c0108a1d63614b1f05baeea6854e703dd47192cedc91bd04778b94fa1ef4b1b2",
+        "coverImageSize": [
+            512,
+            451
+        ],
+        "coverImageType": "square"
+    },
+    "Reference/Microsoft Encarta 98 (Disk 2)": {
+        "name": "Microsoft Encarta 98 (Disk 2)",
+        "srcUrl": "https://archive.org/download/ms-office98-mac-set02/Office98_Disc02.iso",
+        "fileSize": 679356416,
+        "coverImageHash": "4610ff5945438aa6115a593d124c9e93d301e32a61d4861b86be822af51b0e9d",
+        "coverImageSize": [
+            504,
+            512
+        ]
+    },
+    "Multimedia/Voyager Presents": {
+        "name": "Voyager Presents",
+        "srcUrl": "https://archive.org/download/voyager-presents/Voyager%20Presents%20%281995%29%28Voyager%20Company%29%5BPC-Mac%5D.iso",
+        "fileSize": 615909376,
+        "coverImageHash": "a3408d13dfa994e88a90f561475db98c85590e10fcd157d5f050a22cb8bb072b",
+        "coverImageSize": [
+            170,
+            154
+        ],
+        "coverImageType": "square"
+    },
+    "Multimedia/Understanding McLuhan": {
+        "name": "Understanding McLuhan",
+        "srcUrl": "https://archive.org/download/understanding-mcluhan/Understanding%20McLuhan%20%281996%29%28Voyager%29%5BMac-PC%5D.iso",
+        "fileSize": 679495680,
+        "coverImageHash": "d98171cc1cb4814fc274b7ab70e589b7fb2300477dc4e84520b943225c2396a7",
+        "coverImageSize": [
+            339,
+            500
+        ],
+        "coverImageType": "square"
+    },
+    "Multimedia/Laurie Anderson's Puppet Motel": {
+        "name": "Laurie Anderson's Puppet Motel",
+        "srcUrl": "https://archive.org/download/Puppet_Motel_Laurie_Anderson_Voyager_CDRM1296500_1995/Puppet%20Motel%20-%20Laurie%20Anderson%20%28Voyager%29%28CDRM1296500%29%281995%29.iso",
+        "fileSize": 667203584,
+        "coverImageHash": "c71864ca145ab7d335dd1d3fc6cd7f444acf8e7b553b34446378ef78abd133de",
+        "coverImageSize": [
+            509,
+            512
+        ]
+    },
+    "Multimedia/Just Grandma and Me": {
+        "name": "Just Grandma and Me",
+        "srcUrl": "https://archive.org/download/GRANDMALB97/GRANDMA.ISO",
+        "fileSize": 84670464,
+        "coverImageHash": "132cfc319068adabdeb061b462aafdbcd9ee58ae70b01e6be57808a00c7d1e04",
+        "coverImageSize": [
+            500,
+            499
+        ],
+        "coverImageType": "square"
+    },
+    "Multimedia/Xplora1: Peter Gabriel's Secret World": {
+        "name": "Xplora1: Peter Gabriel's Secret World",
+        "srcUrl": "https://archive.org/download/Xplora1_Peter_Gabriels_Secret_World_Peter_Gabriel_Ltd_1995/Xplora1%20-%20Peter%20Gabriel%27s%20Secret%20World%20%28Peter%20Gabriel%20Ltd%29%281995%29.iso",
+        "fileSize": 666374144,
+        "coverImageHash": "cd821b2c41ac90019193975ae5fab0df6a48b62c93331971e6dde68d467543e8",
+        "coverImageSize": [
+            512,
+            511
+        ]
+    },
+    "Multimedia/Peter Gabriel: EVE": {
+        "name": "Peter Gabriel: EVE",
+        "srcUrl": "https://archive.org/download/Peter_Gabriel_EVE_The_Music_and_Art_Adventure_Peter_Gabriel_1996/Peter%20Gabriel%20-%20EVE%20-%20The%20Music%20and%20Art%20Adventure%20%28Peter%20Gabriel%29%20%281996%29.ISO",
+        "fileSize": 483915776,
+        "coverImageHash": "9352c56110fbd2293115f80a568e21236d27d0991045d0189ca3092b9b23d8ed",
+        "coverImageSize": [
+            506,
+            512
+        ]
+    },
+    "Multimedia/NEXTIME": {
+        "name": "NEXTIME",
+        "srcUrl": "https://archive.org/download/NeXTArchive/NeXT/NeXTSTEP%20Applications/NeXTIME%20NeXTSTEP/NEXTIME.iso",
+        "fileSize": 201797632,
+        "platform": "NeXT"
+    },
+    "Multimedia/The Residents: Freak Show": {
+        "name": "The Residents: Freak Show",
+        "srcUrl": "https://archive.org/download/the-residents-freak-show/The%20Residents%20Freak%20Show.iso",
+        "fileSize": 670072832,
+        "coverImageHash": "aaf989153a5303d4327cfbe5997e742681dda4bb79d0ddae99eb1082d6112402",
+        "coverImageSize": [
+            509,
+            512
+        ]
+    },
+    "Multimedia/For All Mankind": {
+        "name": "For All Mankind",
+        "srcUrl": "https://archive.org/download/fam-cd_202401/FAM_CD.ISO",
+        "fileSize": 680257536,
+        "coverImageHash": "a629ad61dc1dd6b01dc95ceeaa5a77d4ab5f0c0ee4bd0b80fd839c1f4fe9def5",
+        "coverImageSize": [
+            358,
+            512
+        ],
+        "coverImageType": "square"
+    }
+}
