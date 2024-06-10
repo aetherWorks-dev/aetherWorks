@@ -1,0 +1,11 @@
+{
+    "name": "System 3.3",
+    "totalSize": 819200,
+    "chunks": [
+        "772eb5d1793994e1fa242e489c09acde",
+        "5190e0ca07ba69d16995ad4cebd3505e",
+        "40277c60cf4414b1af4da7c497c127da",
+        "4bb8ea40d6067eade43142d6a925abe2"
+    ],
+    "chunkSize": 262144
+}

@@ -1,0 +1,11 @@
+{
+    "name": "System 2.1",
+    "totalSize": 819200,
+    "chunks": [
+        "18fdda0da378961aecdc291c8699a035",
+        "cc3e63a7cbea371f58e3a3250a431055",
+        "d3c305c24d31712b94b855abb064ccff",
+        "48361809aafe8b48455750f248a0d358"
+    ],
+    "chunkSize": 262144
+}

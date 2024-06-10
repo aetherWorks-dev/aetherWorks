@@ -1,0 +1,13 @@
+{
+    "name": "System 7.5 Disk Tools FD",
+    "totalSize": 1474560,
+    "chunks": [
+        "deb92e278564f927c884f61a587bb7fb",
+        "691fb2f0022f7dae23b9d7f06eb90dc8",
+        "8b590086b0bf66e6006475a1be77d884",
+        "df1859769e24b13d7aaff709bc2ee898",
+        "03dc152f5aeae9d9708e2855e5fa771a",
+        "64476d9357e79996b12a39df7e722f20"
+    ],
+    "chunkSize": 262144
+}
