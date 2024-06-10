@@ -101,7 +101,7 @@ export function generateChunkUrl(
     // next chunk URL. By having it in the hash we should still allow chunks
     // that have the same content hash (but are at different numbers) to still
     // be an HTTP cache hit.
-    return `${spec.baseUrl}/${spec.chunks[chunk]}.chunk#${chunk}`;
+    return `/${spec.chunks[chunk]}.chunk#${chunk}`;
 }
 
 export function generateNextChunkUrl(
