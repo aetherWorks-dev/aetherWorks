@@ -10,15 +10,19 @@ const headers = {
     "Cross-Origin-Embedder-Policy": "require-corp",
     // Allow the service worker to intercept all paths, even when
     // initiated from a year subpath.
-    "Service-Worker-Allowed": "./",
+    "Service-Worker-Allowed": ".",
+    "X-XSS-Protection": "1; mode=block",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "Referrer-Policy": "unsafe-url",
+    "Feature-Policy": "none",
 };
 
 export default defineConfig(() => {
     return {
         build: {
-            assetsDir: "",
-            outDir: "build",
-            minify: false,
+            assetsDir: ".",
+            minify: true,
         },
         worker: {
             format: "es",
