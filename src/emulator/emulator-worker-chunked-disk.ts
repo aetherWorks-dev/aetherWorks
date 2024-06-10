@@ -195,5 +195,40 @@ export class EmulatorWorkerChunkedDisk implements EmulatorWorkerDisk {
     }
 
     validate(): void {
+        const spec = this.#spec;
+        const prefetchedChunks = new Set(spec.prefetchChunks);
+        const needsPrefetch = [];
+        const extraPrefetch = [];
+        for (const chunk of this.#loadedChunks.keys()) {
+            if (!prefetchedChunks.has(chunk)) {
+                needsPrefetch.push(chunk);
+            }
+        }
+        for (const chunk of prefetchedChunks) {
+            if (!this.#loadedChunks.has(chunk)) {
+                extraPrefetch.push(chunk);
+            }
+        }
+        const numberCompare = (a: number, b: number): number => a - b;
+        if (extraPrefetch.length || needsPrefetch.length) {
+            const prefix = `Chunked file "${spec.name}" (mounted at "${spec.baseUrl}")`;
+            if (extraPrefetch.length) {
+                console.warn(
+                    `${prefix} had unnecessary chunks prefetched:`,
+                    extraPrefetch.sort(numberCompare)
+                );
+            }
+            if (needsPrefetch.length) {
+                console.warn(
+                    `${prefix} needs more chunks prefetched:`,
+                    needsPrefetch.sort(numberCompare)
+                );
+            }
+            console.warn(
+                `${prefix} complete set of ideal prefetch chunks: ${JSON.stringify(
+                    Array.from(this.#loadedChunks.keys()).sort(numberCompare)
+                )}`
+            );
+        }
     }
 }
