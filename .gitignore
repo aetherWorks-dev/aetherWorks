@@ -22,7 +22,7 @@ npm-debug.log*
 public/*.wasm.map
 
 # generated disk image chunks and manifest
-# src/Data/*.dsk.json
+src/Data/*.dsk.json
 # public/Disk
 
 # generated CD-ROM catalog
