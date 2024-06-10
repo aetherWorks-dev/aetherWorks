@@ -1,0 +1,1172 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    background: #282c34;
+}
+
+body,
+html,
+#root {
+    height: 100%;
+    width: 100%;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+.App {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: center;
+    min-height: 100%;
+    min-width: 100%;
+    width: auto;
+}
+.ScreenFrame {
+    --screen-bezel-color: hsl(39deg 36% 80%);
+    --screen-bezel-color-dark1: hsl(39deg 36% 75%);
+    --screen-bezel-color-dark2: hsl(39deg 36% 70%);
+    --screen-bezel-color-light1: hsl(39deg 36% 85%);
+    --screen-bezel-color-light2: hsl(39deg 36% 90%);
+    --screen-bezel-size: 60px;
+    --screen-outer-chamfer-size: 4px;
+    --screen-inner-chamfer-size: 8px;
+    --screen-outer-corner-radius: 8px;
+    --screen-inner-corner-radius: 8px;
+    --screen-underscan: 20px;
+    --screen-controls-display: flex;
+    --screen-controls-bottom: -46px;
+    --screen-led-display: block;
+    --screen-led-bottom: -40px;
+    --screen-ethernet-status-bottom: -46px;
+    --screen-ethernet-status-display: block;
+
+    border: solid var(--screen-bezel-size) var(--screen-bezel-color);
+    position: relative;
+    background: black;
+
+    margin: calc(var(--screen-underscan) * -1);
+}
+
+.ScreenFrame-Bezel-Medium {
+    --screen-bezel-size: 40px;
+    --screen-outer-chamfer-size: 2px;
+    --screen-inner-chamfer-size: 4px;
+    --screen-underscan: 10px;
+    --screen-controls-bottom: -34px;
+    --screen-led-bottom: -28px;
+    --screen-ethernet-status-bottom: -34px;
+}
+
+.ScreenFrame-Bezel-Small-ish {
+    --screen-bezel-size: 30px;
+    --screen-outer-chamfer-size: 2px;
+    --screen-inner-chamfer-size: 4px;
+    --screen-underscan: 6px;
+    --screen-controls-bottom: -34px;
+    --screen-led-bottom: -28px;
+    --screen-ethernet-status-bottom: -34px;
+}
+
+.ScreenFrame-Bezel-Small {
+    --screen-bezel-size: 10px;
+    --screen-outer-chamfer-size: 1px;
+    --screen-inner-chamfer-size: 1px;
+    --screen-outer-corner-radius: 4px;
+    --screen-inner-corner-radius: 4px;
+    --screen-underscan: 1px;
+    --screen-controls-bottom: -32px;
+    --screen-led-display: none;
+    --screen-ethernet-status-display: none;
+}
+
+.ScreenFrame.ScreenFrame-Fullscreen {
+    --screen-bezel-size: 0;
+    --screen-outer-chamfer-size: 0;
+    --screen-inner-chamfer-size: 0;
+    --screen-underscan: 0;
+    --screen-controls-display: none;
+    --screen-led-display: none;
+    --screen-ethernet-status-display: none;
+}
+
+.ScreenFrame::before {
+    content: "";
+    position: absolute;
+    top: calc(
+        (var(--screen-bezel-size) + var(--screen-outer-chamfer-size)) * -1
+    );
+    left: calc(
+        (var(--screen-bezel-size) + var(--screen-outer-chamfer-size)) * -1
+    );
+    right: calc(
+        (var(--screen-bezel-size) + var(--screen-outer-chamfer-size)) * -1
+    );
+    bottom: calc(
+        (var(--screen-bezel-size) + var(--screen-outer-chamfer-size)) * -1
+    );
+    border: solid var(--screen-outer-chamfer-size);
+    border-color: var(--screen-bezel-color-light2)
+        var(--screen-bezel-color-dark2) var(--screen-bezel-color-dark1)
+        var(--screen-bezel-color-light1);
+    border-radius: var(--screen-outer-corner-radius);
+    pointer-events: none;
+}
+
+.ScreenFrame::after {
+    content: "";
+    position: absolute;
+    top: calc(var(--screen-inner-chamfer-size) * -1);
+    left: calc(var(--screen-inner-chamfer-size) * -1);
+    right: calc(var(--screen-inner-chamfer-size) * -1);
+    bottom: calc(var(--screen-inner-chamfer-size) * -1);
+    border: solid var(--screen-inner-chamfer-size);
+    border-color: var(--screen-bezel-color-dark2)
+        var(--screen-bezel-color-light2) var(--screen-bezel-color-light1)
+        var(--screen-bezel-color-dark1);
+    border-radius: var(--screen-inner-corner-radius);
+    pointer-events: none;
+}
+
+.ScreenFrame-Controls-Container {
+    position: absolute;
+    bottom: var(--screen-controls-bottom);
+    display: var(--screen-controls-display);
+    left: 0;
+    align-items: center;
+}
+
+.ScreenFrame-Controls-Container .ScreenFrame-Control {
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+.ScreenFrame-Controls-Container
+    .ScreenFrame-Control.ScreenFrame-Control-Selected {
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+    outline: solid 2px rgba(0, 0, 0, 0.4);
+}
+
+@media (hover: hover) {
+    .ScreenFrame-Controls-Container .ScreenFrame-Control {
+        visibility: hidden;
+    }
+
+    .ScreenFrame-Controls-Container:hover .ScreenFrame-Control {
+        visibility: visible;
+    }
+}
+
+.ScreenFrame-Logo {
+    position: relative;
+    height: 30px;
+    width: 18px;
+}
+
+.ScreenFrame-Bezel-NeXT .ScreenFrame-Logo {
+    width: 24px;
+}
+
+.ScreenFrame-Bezel-Medium .ScreenFrame-Logo {
+    height: 28px;
+    width: 14px;
+}
+
+.ScreenFrame-Bezel-NeXT.ScreenFrame-Bezel-Medium .ScreenFrame-Logo {
+    width: 18px;
+}
+
+.ScreenFrame-Bezel-Small-ish .ScreenFrame-Logo {
+    height: 36px;
+    width: 12px;
+}
+
+.ScreenFrame-Bezel-NeXT.ScreenFrame-Bezel-Small-ish .ScreenFrame-Logo {
+    width: 15px;
+}
+
+/* Hide the Apple logo if it's not top of the bezel */
+.ScreenFrame-Bezel-Small .ScreenFrame-Logo {
+    display: none;
+}
+
+/* And if the Apple logo is not there, the controls don't need space on the left */
+.ScreenFrame-Bezel-Small .ScreenFrame-Control {
+    margin-left: 0;
+    margin-right: 16px;
+    font-size: 0.8em;
+}
+
+.ScreenFrame-Logo svg {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.ScreenFrame-Logo .Foreground {
+    filter: brightness(1.1);
+}
+
+.ScreenFrame-Logo .Background {
+    top: -0.5px;
+    left: -0.5px;
+    filter: brightness(0.5);
+}
+
+.ScreenFrame-Led {
+    pointer-events: none;
+    position: absolute;
+    display: var(--screen-led-display);
+    bottom: var(--screen-led-bottom);
+    right: 0;
+    width: 28px;
+    height: 8px;
+    background: #00ff00;
+}
+
+.ScreenFrame-Led-Loading {
+    animation: Mac-Led-Blink 0.1s infinite;
+}
+
+@keyframes Mac-Led-Blink {
+    from {
+        background: #00ff00;
+    }
+    to {
+        background: #000000;
+    }
+}
+
+.ScreenFrame-Bezel-Text {
+    color: var(--screen-bezel-color-dark1);
+    text-shadow: 0.5px 0.5px rgba(255, 255, 255, 0.6),
+        -0.5px -0.5px rgba(0, 0, 0, 0.6);
+}
+
+.ScreenFrame-Bezel-NeXT .ScreenFrame-Bezel-Text {
+    color: var(--screen-bezel-color-light2);
+    text-shadow: 0.5px 0.5px rgba(255, 255, 255, 0.3),
+        -0.5px -0.5px rgba(0, 0, 0, 0.9);
+}
+
+/* Platinum is a simple set of color overrides. */
+.ScreenFrame-Bezel-Platinum {
+    --screen-bezel-color: hsl(0deg 0% 85%);
+    --screen-bezel-color-dark1: hsl(0deg 0% 80%);
+    --screen-bezel-color-dark2: hsl(0deg 0% 75%);
+    --screen-bezel-color-light1: hsl(0deg 0% 90%);
+    --screen-bezel-color-light2: hsl(0deg 0% 95%);
+}
+
+/* NeXT is a simple set of color overrides. */
+.ScreenFrame-Bezel-NeXT {
+    --screen-bezel-color: hsl(220deg 3% 15%);
+    --screen-bezel-color-dark1: hsl(220deg 3% 5%);
+    --screen-bezel-color-dark2: hsl(220deg 3% 10%);
+    --screen-bezel-color-light1: hsl(220deg 3% 20%);
+    --screen-bezel-color-light2: hsl(220deg 3% 25%);
+}
+
+/* Pinstripes tries to replicate the style of the 1999 Apple Cinema Display. */
+.ScreenFrame-Bezel-Pinstripes {
+    --screen-bezel-color: hsl(0deg 0% 95%);
+    --screen-bezel-color-dark1: hsl(0deg 0% 80%);
+    --screen-bezel-color-dark2: hsl(0deg 0% 75%);
+    --screen-bezel-color-light1: hsl(0deg 0% 90%);
+    --screen-bezel-color-light2: hsl(0deg 0% 95%);
+
+    /* Pinstripe pattern */
+    border-image-source: repeating-linear-gradient(
+        0deg,
+        hsl(0deg 0% 95%) 0px,
+        hsl(0deg 0% 95%) 2px,
+        hsl(0deg 0% 90%) 2px 4px
+    );
+    /* Needs to match the value of --screen-bezel-size but without units. */
+    border-image-slice: 60;
+    border-image-repeat: round;
+
+    /* The other chamfer becomes the extra white outline around the monitor (
+        done with the :before pseudo below). */
+    --screen-outer-chamfer-size: 12px;
+    --screen-outer-corner-radius: 32px;
+    --screen-underscan: 8px;
+}
+
+.ScreenFrame-Bezel-Pinstripes.ScreenFrame-Bezel-Medium {
+    --screen-outer-chamfer-size: 8px;
+    border-image-slice: 40;
+    --screen-outer-corner-radius: 28px;
+}
+
+.ScreenFrame-Bezel-Pinstripes.ScreenFrame-Bezel-Small-ish {
+    --screen-outer-chamfer-size: 8px;
+    border-image-slice: 30;
+    --screen-outer-corner-radius: 24px;
+}
+
+.ScreenFrame-Bezel-Pinstripes.ScreenFrame::before {
+    border-color: var(--screen-bezel-color);
+    /* Add inner dark border */
+    box-shadow: inset 0 0 0 2px #282c34;
+}
+
+/* Center Apple logo by making the entire container full-width */
+.ScreenFrame-CenterLogo .ScreenFrame-Controls-Container {
+    width: 100%;
+}
+
+.ScreenFrame-CenterLogo
+    .ScreenFrame-Controls-Container
+    .ScreenFrame-Logo
+    + .ScreenFrame-Control {
+    margin-left: 0;
+}
+
+.ScreenFrame-CenterLogo .ScreenFrame-Logo {
+    left: calc(50% - 10px);
+}
+
+.ScreenFrame-Bezel-Pinstripes .ScreenFrame-Logo .Background {
+    filter: none;
+}
+
+.ScreenFrame-Bezel-Pinstripes .ScreenFrame-Logo .Background path {
+    /* Turn shadow into gloss */
+    fill: #ffffffaa !important;
+}
+
+.ScreenFrame-Bezel-Pinstripes .ScreenFrame-Led {
+    /* The LED is fictional, but we can at least round the corners to make it
+    blend in better. */
+    border-radius: 4px;
+}
+
+.ScreenFrame-ScreenContainer {
+    position: relative;
+    top: var(--screen-underscan);
+    left: var(--screen-underscan);
+    background-color: black;
+}
+.Button {
+    border-image-slice: 4 fill;
+    border-image-width: 4px;
+    border-width: 4px;
+    image-rendering: pixelated;
+    background: transparent;
+    padding: 1px 8px;
+    font-size: 13px;
+    color: #000;
+    font-weight: bold;
+    user-select: none;
+    white-space: nowrap;
+}
+
+.Button:active {
+    color: #fff;
+}
+
+.Button:focus {
+    outline: none;
+}
+
+.Button:focus-visible {
+    outline: 2px solid #000000;
+    outline-offset: -1px;
+    border-radius: 2px;
+}
+
+.Button:disabled {
+    opacity: 0.5;
+}
+
+.Button.Button-Classic {
+    border-image-source: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAUCAIAAAAGHlpnAAAABnRSTlMARwBwAEyv7uYjAAAAN0lEQVR4AWNwL/CBIAYSAUIjXPN/EgFEF8KI/2QBqBFw/WSbQnMjRo0YNWLUCEozO5WKHMoLPgBIISRlME0/UgAAAABJRU5ErkJggg==);
+    line-height: 13px;
+}
+
+.Button.Button-Classic:active {
+    border-image-source: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAUCAIAAAAGHlpnAAAABnRSTlMARwBwAEyv7uYjAAAAJklEQVR4AWNwL/CBIAYSAUIjCFMAqGTEEACjYBSMgkFSXlBe8AEA/OwUPdUsmEgAAAAASUVORK5CYII=);
+}
+
+.Button.Button-Platinum {
+    border-image-source: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAUBAMAAAB7UtADAAAAGFBMVEVHcEwiIiIAAAC7u7vd3d3///+qqqp3d3fs/VrHAAAAAXRSTlMAQObYZgAAADxJREFUeAFjYBBSggBFBgYmExcIcFZgEA6FghBDBpVQqLhbEYNKyCBlpxUxCLulQUB6IQOTeTkUKCD7EQCKMjrNS2EX7wAAAABJRU5ErkJggg==);
+    line-height: 13px;
+}
+
+.Button.Button-Platinum:active {
+    border-image-source: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAUBAMAAAB7UtADAAAAGFBMVEVHcEwiIiIAAABERERVVVVmZmZ3d3eIiIiLH8iUAAAAAXRSTlMAQObYZgAAADxJREFUeAFjYBBSggBFBgYmYxhQYBA2cYEA10QGZZdQCAgrYlB2HaTstCIG4bA0CEgvZGBKL4cCBWQ/AgC59EB+A/JSngAAAABJRU5ErkJggg==);
+}
+
+.Button.Button-Platinum:focus-visible {
+    outline-color: #6666c5;
+}
+
+.Button.Button-NeXT {
+    border-image-source: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAUAgAAAADmp4pNAAAAG0lEQVR4AWP4DwIHGF6tAgIHulNXQ4HAgQECAO0RSRep+rjfAAAAAElFTkSuQmCC);
+}
+
+.Button.Button-NeXT:active {
+    color: #000;
+    border-image-source: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAUAQAAAAChB/CdAAAAFUlEQVR4AWNgYGBhqP//hyr4//8/APYrL5MzXWb6AAAAAElFTkSuQmCC);
+}
+/* ChicagoFLF is a TrueType version of Chicago, downloaded from
+https://tinkerdifferent.com/resources/collection-of-classic-apple-fonts-for-your-modern-computer.130/ */
+@font-face {
+    font-family: "ChicagoFLF";
+    src: url(/ChicagoFLF-BN7JxloH.woff2);
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Charcoal downloaded from https://os9.ca/ */
+@font-face {
+    font-family: "Charcoal";
+    src: url(/Charcoal-CvmyBuDW.woff2);
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.AppearanceSystemFont-Classic {
+    font-family: "ChicagoFLF", "Helvetica", "Arial", sans-serif;
+    font-weight: normal !important;
+}
+
+.AppearanceSystemFont-Platinum {
+    font-family: "Charcoal", "Helvetica", "Arial", sans-serif;
+    font-weight: normal !important;
+}
+
+.AppearanceSystemFont-NeXT {
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+.Dialog-Backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    /* Simulate a 2x2 black and white checkerboard */
+    background-position: 0px 0px, 1px 1px;
+    background-size: 2px 2px;
+    background-image: linear-gradient(
+            45deg,
+            #000 25%,
+            transparent 25%,
+            transparent 75%,
+            #000 75%,
+            #000 100%
+        ),
+        linear-gradient(
+            45deg,
+            #000 25%,
+            transparent 25%,
+            transparent 75%,
+            #000 75%,
+            #000 100%
+        );
+}
+
+.Dialog {
+    font-size: 14px;
+    padding: 18px;
+    border-image-slice: 5 fill;
+    border-image-width: 5px;
+    border-width: 5px;
+    image-rendering: pixelated;
+    max-width: 600px;
+    min-width: 320px;
+    z-index: 3;
+}
+
+.Dialog.Dialog-Classic {
+    border-image-source: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAIAAADZF8uwAAAAOUlEQVR4AWMgFty69R8Xam/fjFB0FgdAUQThoyHsitDcgFPRfzAgQREF1iF7HiJIYhAAWXgQsVECAFWHygVzavGEAAAAAElFTkSuQmCC);
+}
+
+.Dialog.Dialog-Platinum {
+    border-image-source: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAIAAADZF8uwAAAABnRSTlMARwBwAEyv7uYjAAAAOklEQVR4AWMgCNwLfEDUbtwARdF/DAAUDA0NhRiGUHQXFcycOXPwKwKDmWgAU1EoDoBQRFSoAxF+NQAkvbH4vtmjRgAAAABJRU5ErkJggg==);
+}
+
+.Dialog.Dialog-NeXT {
+    border-image-source: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAQAAAD8fJRsAAAAJklEQVR42mP4jxUwMDBgE171nwEIQQw0GDoUJUAMVAiRAHkeGwQAKzHkxs/wqj8AAAAASUVORK5CYII=);
+}
+
+.Dialog-Content {
+    max-height: calc(90vh - 30px * 2); /* Footer and header */
+    overflow: auto;
+}
+
+.Dialog h1 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 0 8px 0;
+}
+
+.Dialog h2 {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 0 4px 0;
+}
+
+.Dialog h2 + h3 {
+    margin-top: 8px;
+}
+
+.Dialog h3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 0 4px 0;
+}
+
+.Dialog h3 + p {
+    margin-top: 6px;
+}
+
+.Dialog-Description {
+    font-size: 12px;
+    color: #666;
+    margin: 2px 0 0 22px;
+}
+
+.Dialog.Dialog-NeXT .Dialog-Description {
+    color: #444;
+}
+
+.Dialog label {
+    display: block;
+    margin: 0 0 8px 0;
+}
+
+.Dialog footer {
+    margin: 8px 0 0 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Dialog footer {
+    gap: 8px;
+}
+
+.Dialog a,
+.Dialog .link {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #00c;
+}
+
+.Dialog-Normal-Button {
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Apple Garamond";
+    src: url(/AppleGaramond-BSK2l30k.woff2);
+    font-display: swap;
+}
+
+.Browser {
+    --browser-padding: 40px;
+    --browser-logo-scale: 2;
+    padding: var(--browser-padding);
+}
+
+@media (max-width: 440px) {
+    .Browser header {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 640px) {
+    .Browser {
+        --browser-padding: 15px;
+        --browser-logo-scale: 1;
+    }
+}
+
+.Browser header {
+    display: flex;
+    gap: var(--browser-padding);
+    background: #d9e5fe;
+    margin: calc(var(--browser-padding) * -1);
+    padding: var(--browser-padding);
+    margin-bottom: 0;
+    align-items: center;
+}
+
+.Browser .Logo {
+    flex-shrink: 0;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHIAAABKBAMAAACV2h2OAAAAG1BMVEUAAAD///8CuwP/zDP+MzPcAQCZAmUAAN0AAAA4Zn27AAAAAXRSTlMAQObYZgAAAOJJREFUeAHtlAlxAzEQBEWhKZhCKISCKIhCKCzsSFt3W5r83+Sfu5Omy9v+7fbr8x8ySl4TuMwASgZTvXNayGZetiDkMuFq5ZHNZOZIJpuSxcwJ2KqSxbyeYe8IucyalWGwmb13KNiIRTaz16xQt5n1dFdVcpmNMUNmFaGByWSsPLI1i9kYW1BqLhNujoCSwyy3xHvkMhtH7tFHm/8xhLfmJea/GSdEVA+q1kQYTLlFzdXjY82IIJeoXnua5FF38SEmeVbXU2s2pzkjn8riBKNJpsyoxWTmFmLWR/Vm8y/9J9wCVSNlmPT2swkAAAAASUVORK5CYII=);
+    background-size: cover;
+    image-rendering: pixelated;
+    width: calc(114px * var(--browser-logo-scale));
+    height: calc(74px * var(--browser-logo-scale));
+}
+
+.Browser .Description p:first-child {
+    margin-top: 0;
+}
+
+.Browser .Description p:last-child {
+    margin-bottom: 0;
+}
+
+.Browser .Description span {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.Browser .Logo h1 {
+    display: none;
+}
+
+.Browser .Year {
+    margin: 2em 0 3em 0;
+}
+
+.Browser .Year h2 {
+    color: #fff;
+    z-index: 1;
+    position: relative;
+}
+
+.Browser .Year .Disks {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Disk {
+    margin: 20px;
+}
+
+@media (max-width: 400px) {
+    .Disk {
+        margin: 10px;
+    }
+}
+
+.DiskContents {
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    padding: 16px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.DiskContents-NeXT {
+    background: #aaa;
+    border-radius: 0;
+}
+
+.DiskContents.DiskContents-Placeholder {
+    opacity: 0.5;
+}
+
+.DiskContents h3 {
+    font-family: "Apple Garamond";
+    font-weight: normal;
+    font-size: 28px;
+    margin: 0 0 8px 0;
+}
+
+.DiskContents h3 .Subtitle {
+    color: #999;
+}
+
+.DiskContents-NeXT h3 .Subtitle {
+    color: #555;
+}
+
+.DiskContents h3 .ReleaseDate {
+    color: #999;
+    font-size: 14px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.DiskContents-NeXT h3 .ReleaseDate {
+    color: #555;
+}
+
+.DiskContents .Unstable-Warning {
+    background: #faa;
+    color: #fff;
+    display: inline;
+    padding: 1px 6px;
+    border-radius: 4px;
+    margin-left: 8px;
+}
+
+.DiskContents .Row {
+    margin-bottom: 18px;
+}
+
+@media (max-width: 440px) {
+    .DiskContents .Row {
+        margin-bottom: 12px;
+    }
+}
+
+.DiskContents .Customize,
+.DiskContents .Row.DiskDescription {
+    flex-grow: 1;
+    overflow: auto;
+}
+
+.DiskContents .Row.Buttons {
+    text-align: right;
+}
+
+.DiskContents .Row:last-child {
+    margin-bottom: 0;
+}
+
+.DiskContents .Row .Button {
+    margin: 0 4px;
+}
+
+.Disk .CustomizeButton {
+    font-weight: normal;
+}
+
+@media (hover: hover) {
+    .Disk .CustomizeButton {
+        visibility: hidden;
+    }
+
+    .Disk:hover .CustomizeButton {
+        visibility: visible;
+    }
+}
+
+.Disk-Filters-Container {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.Disk-Filters {
+    font-family: "Helvetica", "Arial", sans-serif;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 13px;
+    background: #282c3499;
+    padding: 5px 5px 5px 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.Disk-Filters-Label,
+.Disk-Filters .count {
+    color: #ccc;
+}
+
+.Disk-Filters-Button {
+    margin-left: 0.5em;
+    appearance: none;
+    border: 0;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+.Disk-Filters-Button .name-container {
+    display: inline-flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+/* Allow the name to be bold when selected without offsetting the rest of the
+content by leaving enough room for the bold version at all times. */
+.Disk-Filters-Button .name-sizer {
+    font-weight: bold;
+    height: 0;
+    visibility: hidden;
+    overflow: hidden;
+    user-select: none;
+    pointer-events: none;
+}
+
+.Disk-Filters-Button.selected {
+    cursor: default;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.Disk-Filters-Button.selected .name {
+    font-weight: bold;
+}
+.Custom-Dialog-Row {
+    margin-bottom: 16px !important;
+}
+
+.Custom-Dialog-Row .Button {
+    height: 20px;
+    font-weight: normal;
+    font-size: 12px;
+    padding-top: 0;
+    padding-bottom: 0;
+    box-sizing: border-box;
+}
+
+.Custom-Dialog-Row label {
+    display: inline;
+}
+
+.Custom-Dialog-Row.Custom-Dialog-InputCompensate {
+    margin-top: -5px;
+}
+
+.Custom-Dialog-Row.Custom-Dialog-InputCompensate .Custom-Dialog-Description {
+    margin-top: -3px;
+}
+
+.Custom-Dialog-Row label.disabled {
+    color: #999;
+    pointer-events: none;
+}
+
+.Custom-Dialog-Row label:last-of-type {
+    margin-bottom: 4px;
+}
+
+.Custom-Dialog-Label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    margin-right: 4px;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.Custom-Dialog-Description {
+    margin-left: 104px;
+}
+
+.Custom-Dialog-Description a {
+    color: inherit;
+}
+
+.Custom-Dialog-Repeated {
+    display: flex !important;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.Custom-Dialog-Repeated input {
+    height: 22px;
+    box-sizing: border-box;
+    max-width: calc(100% - 100px - 80px); /* Label + buttons */
+}
+
+.Custom-Dialog-Repeated .Button.AddRemove {
+    margin-left: 4px;
+    width: 20px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Custom-Dialog-Repeated-Disk {
+    width: 256px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.Custom-Dialog-CDROMs {
+    width: 20px;
+    margin-left: 4px;
+}
+
+.Custom-Dialog-ScreenSize {
+    display: inline-flex;
+    gap: 4px;
+}
+
+.Custom-Dialog-ScreenSize input[type="number"] {
+    width: 32px;
+    height: 10px;
+    font-size: 12px;
+}
+.Input {
+    border-image-slice: 4 fill;
+    border-image-width: 4px;
+    border-width: 4px;
+    image-rendering: pixelated;
+    background: transparent;
+    padding: 1px 1px;
+    font-size: 13px;
+    color: #000;
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+
+.Input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.Input::-webkit-outer-spin-button,
+.Input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.Input:focus {
+    outline: none;
+}
+
+.Input:focus-visible {
+    outline: 2px solid #000000;
+    outline-offset: -1px;
+    border-radius: 1px;
+}
+
+.Input:invalid {
+    outline: 2px solid red;
+    outline-offset: -1px;
+    border-radius: 1px;
+}
+
+.Input.Input-Classic {
+    border-image-source: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAUAQAAAAChB/CdAAAAEUlEQVR4AWMAgfr/P6iCgQAA5AgsTVjvw4wAAAAASUVORK5CYII=);
+}
+
+.Input.Input-Platinum {
+    border-image-source: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAUCAAAAACsF5LsAAAAIUlEQVR42mNYihUwLGXAAv4zLGX4jwFGhWkpjD0a/mMDAOLDYDYz38tiAAAAAElFTkSuQmCC);
+}
+
+.Input.Input-Platinum:focus-visible {
+    outline-color: #6666c5;
+}
+
+.Input.Input-Platinum:invalid {
+    outline-color: red;
+}
+
+.Input.Input-NeXT {
+    border-image-source: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAUAgAAAADmp4pNAAAAH0lEQVR4AWMIBYECCLWBIf4/ENCRyloFBBsY/oPABwCOQV7QsFuuAAAAAABJRU5ErkJggg==);
+}
+.Select {
+    border-image-slice: 3 22 3 3 fill;
+    border-image-width: 3px 22px 3px 3px;
+    border-image-repeat: stretch stretch;
+    border-width: 3px 22px 3px 3px;
+    box-sizing: border-box;
+    height: 20px;
+    image-rendering: pixelated;
+    background: transparent;
+    padding: 0;
+    font-size: 12px;
+    line-height: 12px;
+    color: #000;
+    user-select: none;
+    -moz-appearance: none;
+}
+
+.Select:active {
+    color: #fff;
+}
+
+.Select:focus {
+    outline: none;
+}
+
+.Select:focus-visible {
+    outline: 2px solid #000000;
+    outline-offset: -1px;
+    border-radius: 2px;
+}
+
+.Select:disabled {
+    opacity: 0.5;
+}
+
+.Select.Select-Classic {
+    border-image-source: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAAUCAIAAACBL7NhAAAABnRSTlMARwBwAEyv7uYjAAAAR0lEQVR4AWNwL/ChP2KgP4Da+p+OYETZCgajtpJgCiGAz1YaWUzAr7SwmB7ximklbW3FNJHeaRi7aaP5lTZg1NaBBAPSqgAAVTV7jmjCVIkAAAAASUVORK5CYII=);
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+}
+
+.Select.Select-Classic:active {
+    border-image-source: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAAUCAIAAACBL7NhAAAABnRSTlMARwBwAEyv7uYjAAAAMklEQVR4AWNwL/ChP2KgPxi1dVCBUfCfEBgAiwfAxwMQ1AMQxwOQuEZEJhoFo2BAWhUASsyZHFR3FukAAAAASUVORK5CYII=);
+}
+
+.Select.Select-Platinum {
+    border-image-source: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAAUCAMAAAA5k9QEAAAAGFBMVEVHcEwiIiIAAAD////d3d27u7uqqqp3d3cXtgh4AAAAAXRSTlMAQObYZgAAAFhJREFUeNqt0jEOACEIBdHPiHL/Gy/tQqEFL3ZOYiBKMm5MifXn3UayenF8VX5MrN55cYKJjrcOeOkg3TtSmpwjDb4LaWYvfc/z81rr8hQRJnGKHQ16/fcfRJkLjRdRS40AAAAASUVORK5CYII=);
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+}
+
+.Select.Select-Platinum:active {
+    border-image-source: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAAUCAMAAAA5k9QEAAAAG1BMVEVHcEwiIiIAAABVVVVERERmZmZ3d3eIiIj////9Mk4+AAAAAXRSTlMAQObYZgAAAFtJREFUeNqt0kEKwCAMRNHJGJPc/8RtcdUoGNC3/iATBCDcEbzY/nSBgLT+Z9qy7gIuup6Y80YXtS4iKl189l0Md3Yk5XfPd4zw+M7ne2Xu1BJ3AWiJ+oSo/vsHEwoN/Vhf/D0AAAAASUVORK5CYII=);
+}
+
+.Select.Select-Platinum:focus-visible {
+    outline-color: #6666c5;
+}
+
+.Select.Select-NeXT {
+    border-image-source: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAAUAgAAAABhlmNLAAAAOElEQVR4AWP4DwMfGF6tgoIJxDL//9eCMV+tRGKKYWFeDYUzGRjgzKWhYWhMKCCNeTUUCgIYEAAA14V8XHho3YAAAAAASUVORK5CYII=);
+}
+
+.Select.Select-NeXT:active {
+    color: #000;
+    border-image-source: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAAUAgAAAABhlmNLAAAANUlEQVR4AWP4DwMfEMwLxDJXrbKHMff/RWKKY2FODYUzGRjgzK+h4ahMGCCNeTUUCgIYEAAAE46nkmCHdvQAAAAASUVORK5CYII=);
+}
+.Checkbox {
+    padding: 0;
+    width: 14px;
+    height: 12px;
+    vertical-align: middle;
+    appearance: none;
+    background-color: transparent;
+    position: relative;
+    margin: 0 2px 3px 0;
+}
+
+.Checkbox::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 14px;
+    height: 12px;
+    background-size: 14px 12px;
+    background-repeat: no-repeat;
+    background-position: center;
+    image-rendering: pixelated;
+}
+
+.Checkbox:disabled {
+    cursor: default;
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.Checkbox-Classic::before {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAMCAIAAADd4huNAAAABnRSTlMARwBwAEyv7uYjAAAAG0lEQVR4AWMgBrgX+AARiPUfLxg8SkeVkhCxAIJZQyzZ+TfKAAAAAElFTkSuQmCC);
+}
+
+.Checkbox-Classic:active::before {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAMCAIAAADd4huNAAAABnRSTlMARwBwAEyv7uYjAAAAHElEQVR4AWMgBrgX+AAR6Ur/4wBkKh1VSpvYAgDOA9eJhssVTAAAAABJRU5ErkJggg==);
+}
+
+.Checkbox-Classic:checked::before {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAMCAIAAADd4huNAAAABnRSTlMARwBwAEyv7uYjAAAAPUlEQVR4AWMgBrgX+AARlPMfB0BXChHCqg5CIpTCJTDVYSiFAUxtmEoRAO508pUSdgCZ3iIcWOREAQkRCwCP8gdo1pA7eQAAAABJRU5ErkJggg==);
+}
+
+.Checkbox-Classic:checked:active::before {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAMCAIAAADd4huNAAAABnRSTlMARwBwAEyv7uYjAAAANElEQVR4AWMgBrgX+AARWUr/YwDsSiESaOrAJKZSMEBj4FAKA3Au9ZRiMkjwFpmBRZvYAgAMI6e5ztDUTgAAAABJRU5ErkJggg==);
+}
+
+.Checkbox-Platinum::before {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAMCAIAAADd4huNAAAABnRSTlMARwBwAEyv7uYjAAAALElEQVR4AWMgBrgX+AARiPUfN7h79y660rs4QEdHB7lKR5WChHAChFISIhYAqvARK50/HmEAAAAASUVORK5CYII=);
+}
+
+.Checkbox-Platinum:active::before {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAMCAIAAADd4huNAAAABnRSTlMARwBwAEyv7uYjAAAALElEQVR4AWMgBrgX+AARiBWKG5SXl6MrLccBZs6cSa7SUaUgIZwAoZSEiAUALw2jvVjeHTsAAAAASUVORK5CYII=);
+}
+
+.Checkbox-Platinum:checked::before {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAMCAMAAABlXnzoAAAAGFBMVEVHcEwAAAD////d3d13d3eqqqpVVVWIiIi4FfawAAAAAXRSTlMAQObYZgAAAD9JREFUeNpNy0EOACEQAkEQR///42WDE+1bJQA+AeDoZJtK1qwwYsFsrXzJLGco26p9WPylpm1dympqn8Kb+QF6NwF+sCLEXgAAAABJRU5ErkJggg==);
+}
+
+.Checkbox-Platinum:checked:active::before {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAMCAIAAADd4huNAAAABnRSTlMARwBwAEyv7uYjAAAAVUlEQVR4AWIgBrgX+AARiBUK6HMOTgAGQCiGLudOmcVtW2jJ4aPm6lPcA34tZepzgov6ALBe1VVV/up2uHeU1HG47h6ot3XATNW6iwK6mQK9lPRO+gBv6oPNcnu5XAAAAABJRU5ErkJggg==);
+}
+
+.Checkbox-NeXT {
+    width: 15px;
+    height: 15px;
+}
+
+.Checkbox-NeXT::before {
+    width: 15px;
+    height: 15px;
+    background-size: 15px 15px;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAAAAAAevcqWAAAAGklEQVQIW2P4jwIYGP6vQgKhQ5AfigwY0AEAaVGC07Q0pHcAAAAASUVORK5CYII=);
+}
+
+.Checkbox-NeXT:active::before {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPAQAAAAATrajnAAAAEklEQVR4AWNgYGKo/0cU+v8PALOnFVk2Qb7KAAAAAElFTkSuQmCC);
+}
+
+.Checkbox-NeXT:checked::before {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAAAAAAevcqWAAAAOUlEQVQI113OsREAQAgCQZqkSZvkA/UVL9sZAiALUKxollswCywLxWWBMWay3Ww3Z29/Ps+/NHe4PXcZfC84BZOLAAAAAElFTkSuQmCC);
+}
+
+.Checkbox-NeXT:checked:active::before {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAAAAAAevcqWAAAAMElEQVR42lXHsQ0AMBACMZb8JVmSNJwU3FkrUn5z762eXm9RTvm1PeUtp5xy8HnWA90jrf0Em1UBAAAAAElFTkSuQmCC);
+}
+.Footer {
+    font-family: Geneva, Helvetica, sans-serif;
+    font-size: 9px;
+    color: #fff;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: #282c3422;
+    padding: 10px;
+    border-radius: 10px;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.Footer span {
+    display: inline-block;
+    height: 9px;
+    color: transparent;
+    cursor: pointer;
+    background-size: cover;
+    image-rendering: pixelated;
+}
+
+.Footer span:not(:first-child) {
+    margin-left: 12px;
+}
+
+.Footer .Footer-Logo {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJ4AAAASBAMAAABY2XrrAAAAGFBMVEX///9HcEwCuwDdAAAhIf/6wz2ZAGb/ZjLWH8/eAAAAAnRSTlOyAKBgAQIAAACFSURBVHhezc/bDUMhDAPQrOAVWIEVugIrsALrF0eWXEX9vA8sOYGfIyVaw2/GGFjL/94BzImSqA8FN3tbq/nvhfYzXmOSI8h7OwNucgl+duyFV/h3m8fqXnkuxGUzIjSTUk/x0uIULg8veow9yFBP8OCEeprne7Wj9AXPIMnqcexo42rvC0H8lH3mgdclAAAAAElFTkSuQmCC);
+    width: 79px;
+}
+
+.Footer .Footer-About {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAAASAQMAAADCNgqVAAAABlBMVEVHcEz///+flKJDAAAAAnRSTlMAslP8H5gAAAAvSURBVHgBY7A/8IEBBGyQWB8+YGP9P2B/AEgis6DABon1HwvrA9ksmL32H/gRLAD0aXKXlAP70gAAAABJRU5ErkJggg==);
+    width: 36px;
+}
+
+.Footer .Footer-Fullscreen {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIgAAAASAQMAAAC6iQQ0AAAABlBMVEX///8AAABVwtN+AAAAAnRSTlOyAKBgAQIAAABZSURBVHgBfc2BBURRDETREIAlDS0pPgX8VoYPMMxKWCDvXcCBa5YCxNC/RUIteK8CtAj5+TodfpasxzEtYiOMUhwlRuQtBrtJtQi6yFv1BAjuQps7Muj0TX71NOfT/L5AswAAAABJRU5ErkJggg==);
+    width: 68px;
+}
+
+.Footer .Footer-Donate {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFgAAAASAQMAAADlmIt9AAAABlBMVEX///9HcExwQjx2AAAAAnRSTlOyAKBgAQIAAABASURBVHhedc3BCQAwCANAoQM4kqsLLuQAglVfFZpA4F4JkeTEMpeZkVVIqnG2J8Lm/rECc5mAEziW+783Pc7rCxfvUbW5gQN4AAAAAElFTkSuQmCC);
+    width: 44px;
+}
+
+.fullscreen .Footer {
+    display: none;
+}
