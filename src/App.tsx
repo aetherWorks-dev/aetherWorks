@@ -70,12 +70,12 @@ function App() {
                 <Browser
                     initialCustomRunDef={initialBrowserCustomRunDef}
                     onRun={(runDef, inNewWindow) => {
-                        //const runDefUrl = runDefToUrl(runDef);
+                        const runDefUrl = runDefToUrl(runDef);
                         if (inNewWindow) {
-                            //window.open(runDefUrl, "_blank");
+                            window.open(runDefUrl, "_blank");
                             return;
                         }
-                        //history.pushState({}, "", runDefUrl);
+                        history.pushState({}, "", runDefUrl);
                         startViewTransition(() => {
                             flushSync(() => {
                                 setRunDef(runDef);
