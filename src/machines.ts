@@ -148,7 +148,7 @@ export const POWER_MACINTOSH_9500: MachineDef = {
     emulatorType: "SheepShaver",
     prefsPath: sheepShaverPrefsPath,
     bezelStyle: "Platinum",
-    ramSizes: ["256M", "128M", "64M", "32M", "16M"],
+    ramSizes: ["256M"],
 };
 
 export const POWER_MACINTOSH_7500: MachineDef = {

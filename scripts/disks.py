@@ -253,5 +253,5 @@ OPENSTEP_42 = Disk(
 )
 
 ALL_DISKS = [
-    SYSTEM_753,
+    SYSTEM_753_PPC
 ]
