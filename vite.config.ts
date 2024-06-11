@@ -16,6 +16,7 @@ const headers = {
     "X-Frame-Options": "DENY",
     "Referrer-Policy": "unsafe-url",
     "Feature-Policy": "none",
+    "Cache-Control": "max-age=${60 * 60 * 24 * 30}"
 };
 
 export default defineConfig(() => {
