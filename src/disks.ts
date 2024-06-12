@@ -1173,6 +1173,7 @@ ALL_DISKS.forEach(disk => {
 export const INFINITE_HD: EmulatorDiskDef = {
     prefetchChunks: [0, 3692, 3696, 3697, 3698],
     generatedSpec: () => import("./Data/Infinite HD.dsk.json"),
+    persistent: true,
 };
 
 export const INFINITE_HD6: EmulatorDiskDef = {

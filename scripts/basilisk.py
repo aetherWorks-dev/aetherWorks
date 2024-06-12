@@ -23,8 +23,7 @@ def run(disk_paths: typing.List[str], modelid: int = 14) -> None:
         ("--idlewait", "true"),
     ]
     subprocess.check_call([
-        "open",
-        "-a",
+        "xdg-open",
         "BasiliskII",
         "-W",
         "--args",
