@@ -1,3 +1,17 @@
+import {
+    type SystemDiskDef,
+    type PlaceholderDiskDef,
+    DISKS_BY_YEAR,
+    NOTABLE_DISKS_BY_YEAR,
+    isPlaceholderDiskDef,
+    NOTABLE_DISKS,
+    ALL_DISKS,
+    NEXT_DISKS,
+    NEXT_DISKS_BY_YEAR,
+} from "./disks";
+
+import {canSaveDisks} from "./canSaveDisks";
+
 import React, {Suspense, useEffect, useMemo, useState} from "react";
 import "./App.css";
 import {Browser} from "./Browser";
@@ -7,9 +21,21 @@ import {flushSync} from "react-dom";
 import {startViewTransition} from "./view-transitions";
 import {type RunDefMacProps} from "./RunDefMac";
 
+const disk = ALL_DISKS[0];
+
+const prefRunDef = {
+    disks: [disk],
+    screenSize: "auto",
+    includeInfiniteHD: true,
+    includeSavedHD: canSaveDisks(),
+    machine: disk.machines[0],
+    cdromURLs: [],
+    diskFiles: [],
+} satisfies RunDef;
+
 function App() {
     const [initialRunDef, editInitialRunDef] = useMemo(() => {
-        const runDef = runDefFromUrl(location.href);
+        const runDef = prefRunDef;
         const isEdit = new URL(location.href).searchParams.has("edit");
         return [runDef, isEdit];
     }, []);
