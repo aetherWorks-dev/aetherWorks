@@ -970,7 +970,7 @@ async function loadDisks(
     );
     return disks.map((d, i) => ({
         ...diskSpecs[i],
-        baseUrl: "",
+        baseUrl: ".",
         prefetchChunks: d.prefetchChunks,
         persistent: d.persistent,
         isFloppy: d.isFloppy,
