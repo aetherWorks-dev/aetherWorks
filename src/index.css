@@ -1,51 +1,71 @@
 /* 1. Retro Pop */
 .background-1 {
     background: linear-gradient(90deg, #ff8c00, #ff69b4, #1e90ff);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* 2. Tropical Dream */
 .background-2 {
     background: linear-gradient(90deg, #ff7e5f, #feb47b, #ff7f50);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* 3. Neon Nights */
 .background-3 {
     background: linear-gradient(90deg, #ff00cc, #333399, #00ffff);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* 4. Sunset Glow */
 .background-4 {
     background: linear-gradient(90deg, #ff9966, #ff5e62, #ffa07a);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* 5. Miami Vibes */
 .background-5 {
     background: linear-gradient(90deg, #50c9c3, #96deda, #f7797d);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* 6. Electric Groove */
 .background-6 {
     background: linear-gradient(90deg, #da4453, #89216b, #373b44);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* 7. Vintage Waves */
 .background-7 {
     background: linear-gradient(90deg, #f3ec78, #af4261, #fa709a);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* 8. Psychedelic Swirl */
 .background-8 {
     background: linear-gradient(90deg, #ff4e50, #f9d423, #1fddff);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* 9. Disco Lights */
 .background-9 {
     background: linear-gradient(90deg, #f1c40f, #e67e22, #e74c3c);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* 10. Retro Fusion */
 .background-10 {
     background: linear-gradient(90deg, #ff512f, #dd2476, #ff6b6b);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 body {
