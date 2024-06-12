@@ -16,6 +16,7 @@ import React, {Suspense, useEffect, useMemo, useState} from "react";
 import "./App.css";
 import {Browser} from "./Browser";
 import {Footer} from "./Footer";
+import RunDefMac from "./RunDefMac"; 
 import {type RunDef, runDefFromUrl, runDefToUrl} from "./run-def";
 import {flushSync} from "react-dom";
 import {startViewTransition} from "./view-transitions";
@@ -125,11 +126,11 @@ function App() {
 // Lazy load to avoid the bundle hit, but prefetch and replace with the
 // implementation so that we can use view transitions and not worry about
 // suspense boundaries.
-const runDefMacLoader = () => import("./RunDefMac");
-let RunDefMac: React.ComponentType<RunDefMacProps> =
-    React.lazy(runDefMacLoader);
-setTimeout(async () => {
-    RunDefMac = (await runDefMacLoader()).default;
-}, 1000);
+// const runDefMacLoader = () => import("./RunDefMac");
+// let RunDefMac: React.ComponentType<RunDefMacProps> =
+//     React.lazy(runDefMacLoader);
+// setTimeout(async () => {
+//     RunDefMac = (await runDefMacLoader()).default;
+// }, 1000);
 
 export default App;

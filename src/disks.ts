@@ -482,7 +482,8 @@ const SYSTEM_7_5_3_PPC: SystemDiskDef = {
     machines: [POWER_MACINTOSH_9500],
     appleTalkSupported: true,
     generatedSpec: () => import("./Data/System 7.5.3 (PPC) HD.dsk.json"),
-    notable: true
+    notable: true,
+    persistent: true
 };
 
 const KANJITALK_7_5_3: SystemDiskDef = {
