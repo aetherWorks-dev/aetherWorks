@@ -483,7 +483,6 @@ const SYSTEM_7_5_3_PPC: SystemDiskDef = {
     appleTalkSupported: true,
     generatedSpec: () => import("./Data/System 7.5.3 (PPC) HD.dsk.json"),
     notable: true,
-    persistent: true
 };
 
 const KANJITALK_7_5_3: SystemDiskDef = {
@@ -1174,7 +1173,6 @@ ALL_DISKS.forEach(disk => {
 export const INFINITE_HD: EmulatorDiskDef = {
     prefetchChunks: [0, 3692, 3696, 3697, 3698],
     generatedSpec: () => import("./Data/Infinite HD.dsk.json"),
-    persistent: true,
 };
 
 export const INFINITE_HD6: EmulatorDiskDef = {
@@ -1195,5 +1193,4 @@ export const INFINITE_HD_NEXT: EmulatorDiskDef = {
 export const SAVED_HD: EmulatorDiskDef = {
     prefetchChunks: [0],
     generatedSpec: () => import("./Data/Saved HD.dsk.json"),
-    persistent: true,
 };
