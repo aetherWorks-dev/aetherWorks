@@ -458,11 +458,10 @@ const SYSTEM_7_5_3: SystemDiskDef = {
         94, 96, 98, 99, 100, 102, 103, 104, 106, 107, 108, 109, 110, 111, 113,
         114, 116, 117, 166,
     ],
-    machines: [MAC_IIFX],
+    machines: [QUADRA_650],
     appleTalkSupported: true,
     generatedSpec: () => import("./Data/System 7.5.3 HD.dsk.json"),
     notable: true,
-    persistent: true
 };
 
 const SYSTEM_7_5_3_PPC: SystemDiskDef = {
@@ -1106,7 +1105,7 @@ const NEXTSTEP_3_0: SystemDiskDef = {
 
 export const ALL_DISKS = [
 
-    SYSTEM_7_5_3
+    MAC_OS_7_6
 
 ];
 

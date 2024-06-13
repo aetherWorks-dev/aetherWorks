@@ -253,5 +253,5 @@ OPENSTEP_42 = Disk(
 )
 
 ALL_DISKS = [
-    SYSTEM_753
+    MAC_OS_76
 ]
