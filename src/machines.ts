@@ -123,7 +123,7 @@ export const QUADRA_650: MachineDef = {
     emulatorType: "BasiliskII",
     prefsPath: basiliskPrefsPath,
     bezelStyle: "Platinum",
-    ramSizes: ["16M"],
+    ramSizes: ["128M"],
 };
 
 export const POWER_MACINTOSH_6100: MachineDef = {

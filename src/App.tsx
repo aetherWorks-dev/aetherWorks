@@ -28,7 +28,7 @@ const prefRunDef = {
     disks: [disk],
     screenSize: "auto",
     includeInfiniteHD: true,
-    includeSavedHD: true,
+    includeSavedHD: canSaveDisks(),
     machine: disk.machines[0],
     cdromURLs: [],
     diskFiles: [],
