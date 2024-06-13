@@ -26,23 +26,23 @@ export function MacCDROMs({
         "Mac-CDROMs-Expanded": expanded,
     });
 
-    return (
-        <div className={className}>
-            <div className="Mac-CDROMs-Title" onClick={toggleExpanded}>
-                CD-ROMs
-            </div>
-            {expanded && (
-                <MacCDROMsContents
-                    onRun={cdrom => {
-                        setExpanded(false);
-                        onRun(cdrom);
-                    }}
-                    appearance={appearance}
-                    platform={platform}
-                />
-            )}
-        </div>
-    );
+    // return (
+    //     <div className={className}>
+    //         <div className="Mac-CDROMs-Title" onClick={toggleExpanded}>
+    //             CD-ROMs
+    //         </div>
+    //         {expanded && (
+    //             <MacCDROMsContents
+    //                 onRun={cdrom => {
+    //                     setExpanded(false);
+    //                     onRun(cdrom);
+    //                 }}
+    //                 appearance={appearance}
+    //                 platform={platform}
+    //             />
+    //         )}
+    //     </div>
+    // );
 }
 
 function MacCDROMsContents({
