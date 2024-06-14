@@ -751,7 +751,7 @@ if __name__ == "__main__":
                 build_desktop_db6([infinite_hd6_image])
                 build_desktop_db([infinite_hd_image])
 
-        images.append(build_saved_hd_image("aetherWorks.dsk", dest_dir=temp_dir))
+        images.append(build_saved_hd_image("Saved HD.dsk", dest_dir=temp_dir))
 
         for image in images:
             write_chunked_image(image)
