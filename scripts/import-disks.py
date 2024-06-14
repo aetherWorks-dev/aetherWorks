@@ -745,7 +745,7 @@ if __name__ == "__main__":
                     continue
                 images.append(build_system_image(disk, temp_dir))
 
-        images.append(build_saved_hd_image("Saved HD.dsk", dest_dir=temp_dir))
+        # images.append(build_saved_hd_image("Saved HD.dsk", dest_dir=temp_dir))
 
         for image in images:
             write_chunked_image(image)
