@@ -744,12 +744,6 @@ if __name__ == "__main__":
                 if system_filter and system_filter not in disk.name:
                     continue
                 images.append(build_system_image(disk, temp_dir))
-        if not system_filter:
-            infinite_hd6_image, infinite_hd_image = build_library_images(temp_dir)
-            images.append(infinite_hd_image)
-            if not library_filter:
-                build_desktop_db6([infinite_hd6_image])
-                build_desktop_db([infinite_hd_image])
 
         images.append(build_saved_hd_image("Saved HD.dsk", dest_dir=temp_dir))
 
