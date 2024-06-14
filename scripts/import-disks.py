@@ -68,7 +68,7 @@ def import_manifests() -> ImportFolders:
         if not src_ext:
             _, src_ext = os.path.splitext(src_url.lower())
 
-        if src_ext in [".img", ".dsk", ".iso", ".hda"]:
+        if src_ext in [".img", ".dsk", ".iso"]:
             folder = import_disk_image(manifest_json)
         elif src_ext in [".hqx", ".sit", ".bin", ".zip"]:
             if not os.path.exists(paths.LSAR_PATH):

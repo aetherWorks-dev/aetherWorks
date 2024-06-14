@@ -255,5 +255,5 @@ OPENSTEP_42 = Disk(
 )
 
 ALL_DISKS = [
-    AETHERWORKSDISK
+    MAC_OS_76
 ]

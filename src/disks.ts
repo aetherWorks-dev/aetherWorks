@@ -1119,7 +1119,7 @@ const AETHERWORKSDISK: SystemDiskDef = {
 };
 
 export const ALL_DISKS = [
-    AETHERWORKSDISK
+    MAC_OS_7_6
 ];
 
 export const FLOPPY_DISKS = [
