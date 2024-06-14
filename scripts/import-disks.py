@@ -68,7 +68,7 @@ def import_manifests() -> ImportFolders:
         if not src_ext:
             _, src_ext = os.path.splitext(src_url.lower())
 
-        if src_ext in [".img", ".dsk", ".iso"]:
+        if src_ext in [".img", ".dsk", ".iso", ".hda"]:
             folder = import_disk_image(manifest_json)
         elif src_ext in [".hqx", ".sit", ".bin", ".zip"]:
             if not os.path.exists(paths.LSAR_PATH):
@@ -751,7 +751,7 @@ if __name__ == "__main__":
                 build_desktop_db6([infinite_hd6_image])
                 build_desktop_db([infinite_hd_image])
 
-        images.append(build_saved_hd_image("Saved HD.dsk", dest_dir=temp_dir))
+        images.append(build_saved_hd_image("aetherWorks.dsk", dest_dir=temp_dir))
 
         for image in images:
             write_chunked_image(image)

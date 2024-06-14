@@ -1103,10 +1103,23 @@ const NEXTSTEP_3_0: SystemDiskDef = {
     notable: true,
 };
 
+const AETHERWORKSDISK: SystemDiskDef = {
+    displayName: "aetherWorks",
+    description:
+        "utopiaZine",
+    releaseDate: [2024, 6, 14],
+    prefetchChunks: [0
+    ],
+    machines: [
+        QUADRA_650
+    ],
+    appearance: "Platinum",
+    generatedSpec: () => import("./Data/aetherWorks.hda.json"),
+    notable: true,
+};
+
 export const ALL_DISKS = [
-
-    MAC_OS_7_6
-
+    AETHERWORKSDISK
 ];
 
 export const FLOPPY_DISKS = [
@@ -1192,6 +1205,6 @@ export const INFINITE_HD_NEXT: EmulatorDiskDef = {
 
 export const SAVED_HD: EmulatorDiskDef = {
     prefetchChunks: [0],
-    generatedSpec: () => import("./Data/Saved HD.dsk.json"),
+    generatedSpec: () => import("./Data/aetherWorks.dsk.json"),
     persistent: true,
 };

@@ -142,6 +142,8 @@ MAC_OS_91 = Disk(name="Mac OS 9.1 HD.dsk")
 
 MAC_OS_922 = Disk(name="Mac OS 9.2.2 HD.dsk")
 
+AETHERWORKSDISK = Disk(name="aetherWorks.hda")
+
 JAPANESE_WELCOME_STICKY = stickies.Sticky(
     top=56,
     left=454,
@@ -253,5 +255,5 @@ OPENSTEP_42 = Disk(
 )
 
 ALL_DISKS = [
-    MAC_OS_76
+    AETHERWORKSDISK
 ]
