@@ -41,7 +41,7 @@ export function Browser({
         <div className="Browser">
             <header>
                 <div className="Logo">
-                    <h1>Infinite Mac</h1>
+                    <h1>aetherWorks</h1>
                 </div>
                 <Description
                     onRun={onRun}
