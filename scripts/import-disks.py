@@ -68,7 +68,7 @@ def import_manifests() -> ImportFolders:
         if not src_ext:
             _, src_ext = os.path.splitext(src_url.lower())
 
-        if src_ext in [".img", ".dsk", ".iso"]:
+        if src_ext in [".img", ".dsk", ".iso", ".hda"]:
             folder = import_disk_image(manifest_json)
         elif src_ext in [".hqx", ".sit", ".bin", ".zip"]:
             if not os.path.exists(paths.LSAR_PATH):
@@ -521,7 +521,7 @@ def build_system_image(
             disk.name)
     else:
         customized_stickies = copy.deepcopy(STICKIES)
-        with open("CHANGELOG.md", "r") as changelog_file:
+        with open("CURATORIAL_NOTES.md", "r") as changelog_file:
             changelog = changelog_file.read()
         if disk.welcome_sticky_override:
             customized_stickies[-1] = copy.deepcopy(
@@ -672,10 +672,9 @@ STICKIES = [
     stickies.Sticky(
         top=238,
         left=462,
-        bottom=525,
+        bottom=605,
         right=842,
         color=stickies.Color.GRAY,
-        font=stickies.Font.HELVETICA,
         text="CHANGELOG",
     ),
     stickies.Sticky(
@@ -684,7 +683,6 @@ STICKIES = [
         bottom=553,
         right=280,
         color=stickies.Color.PURPLE,
-        font=stickies.Font.HELVETICA,
         skip_in_ttxt=True,
         text=read_strings("tips.txt"),
     ),
@@ -694,17 +692,15 @@ STICKIES = [
         bottom=553,
         right=280,
         color=stickies.Color.PURPLE,
-        font=stickies.Font.HELVETICA,
         skip_in_stickies=True,
         text=read_strings("tips-no-outside-world.txt"),
     ),
     stickies.Sticky(
         top=352,
         left=296,
-        bottom=587,
+        bottom=595,
         right=482,
         color=stickies.Color.PINK,
-        font=stickies.Font.HELVETICA,
         text=("utopiaZine\n" * 20),
         skip_in_ttxt=True,
     ),

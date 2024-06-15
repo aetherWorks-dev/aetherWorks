@@ -252,6 +252,8 @@ OPENSTEP_42 = Disk(
     stickies_encoding="nextstep",
 )
 
+AW_CUSTOM = Disk(name="aetherWorks-custom.hda")
+
 ALL_DISKS = [
-    MAC_OS_76
+    AW_CUSTOM
 ]

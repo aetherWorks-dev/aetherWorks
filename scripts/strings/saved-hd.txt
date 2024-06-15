@@ -1,6 +1,7 @@
 The contents of Saved HD are saved in your browser's local storage. You can use this disk to save data across Infinite Mac sessions.
 
 Tips:
+
 • To ensure that the disk is not corrupted, shut down the emulated Mac before leaving a session.
 • The contents can be exported and imported from the emulator settings dialog, to allow backups and sharing across browsers and machines.
 • The contents can also be exported to a .dsk disk image file, so that they can be used in Basilisk II, SheepShaver and other native emulators.
