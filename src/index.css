@@ -68,6 +68,13 @@
     background-repeat: no-repeat;
 }
 
+@media (max-width: 480px), (orientation: portrait) {
+    body {
+        background: rgb(220, 20, 60) !important
+    }
+    
+}
+
 body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
@@ -78,7 +85,7 @@ body {
     -webkit-text-size-adjust: 100%;
     text-size-adjust: 100%;
     background: rgb(34,193,195);
-    background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    background: repeating-linear-gradient(45deg, #3f87a6, #ebf8e1 15%, #f69d3c 20%);
 }
 
 body,
