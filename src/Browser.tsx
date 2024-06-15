@@ -43,10 +43,6 @@ export function Browser({
                 <div className="Logo">
                     <h1>aetherWorks</h1>
                 </div>
-                <Description
-                    onRun={onRun}
-                    initialCustomRunDef={initialCustomRunDef}
-                />
             </header>
             <div className="Disks-Container">
                 <DiskFilters value={diskFilter} onChange={setDiskFilter} />
@@ -85,52 +81,6 @@ function Description({
         location.pathname === "/run" || initialCustomRunDef !== undefined
     );
 
-    return (
-        <div className="Description">
-            <p>
-                Infinite Mac is a collection of classic Macintosh and NeXT
-                system releases and software, all easily accessible from the
-                comfort of a (modern) web browser.
-            </p>
-            <p>
-                Pick any version of System Software/Mac OS or NeXTStep/OPENSTEP
-                from the 1980s or 1990s and run it (and major software of that
-                era) within a virtual machine. You can also{" "}
-                <span onClick={() => setCustomVisible(true)}>
-                    run a custom version
-                </span>{" "}
-                with your choice of machine and virtual disks. Files can be
-                imported and exported using drag and drop, and System 7 and
-                onward have more advanced integrations as well – refer to the
-                welcome screen in each machine for more details.
-                {customVisible && (
-                    <Custom
-                        initialRunDef={initialCustomRunDef}
-                        onRun={onRun}
-                        onDone={() => setCustomVisible(false)}
-                    />
-                )}
-            </p>
-            <p>
-                {aboutVisible && (
-                    <About onDone={() => setAboutVisible(false)} />
-                )}
-                {changelogVisible && (
-                    <Changelog onDone={() => setChangelogVisible(false)} />
-                )}
-                {donateVisible && (
-                    <Donate onDone={() => setDonateVisible(false)} />
-                )}
-                You can{" "}
-                <span onClick={() => setAboutVisible(true)}>learn more</span>,{" "}
-                <span onClick={() => setChangelogVisible(true)}>
-                    see what's changed recently
-                </span>{" "}
-                or <span onClick={() => setDonateVisible(true)}>donate</span> to
-                support this project.
-            </p>
-        </div>
-    );
 }
 
 const disks = {
