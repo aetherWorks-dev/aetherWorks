@@ -118,7 +118,6 @@ function App() {
     return (
         <div className="App">
             {contents}
-            {footer}
         </div>
     );
 }
