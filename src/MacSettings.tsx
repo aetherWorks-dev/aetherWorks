@@ -54,6 +54,16 @@ export function MacSettings({
             setStoragePersistenceStatus("error");
         });
     }, []);
+
+    useEffect(() => {
+        if (emulatorSettings.swapControlAndCommand === undefined) {
+            setEmulatorSettings({
+                ...emulatorSettings,
+                swapControlAndCommand: true,
+            });
+        }
+    }, [emulatorSettings, setEmulatorSettings]);
+
     useEffect(() => {
         handlePersistencePromise(navigator.storage.persisted());
     }, [handlePersistencePromise]);
