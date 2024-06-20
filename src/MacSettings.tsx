@@ -37,15 +37,18 @@ export function MacSettings({
     onSaveImage: (deviceImage?: boolean) => void;
     onDone: () => void;
 }) {
+
     const [storagePersistenceStatus, setStoragePersistenceStatus] = useState<
         "unknown" | "persistent" | "transient" | "error"
     >("unknown");
+
     const storagePersistenceStatusLabel = {
         "unknown": "Unknown",
         "persistent": "Persistent",
         "transient": "Transient",
         "error": <div style={{color: "#ff9999"}}>error</div>,
     }[storagePersistenceStatus];
+
     const handlePersistencePromise = useCallback((p: Promise<boolean>) => {
         p.then(persistent =>
             setStoragePersistenceStatus(persistent ? "persistent" : "transient")
@@ -55,14 +58,6 @@ export function MacSettings({
         });
     }, []);
 
-    useEffect(() => {
-        if (emulatorSettings.swapControlAndCommand === undefined) {
-            setEmulatorSettings({
-                ...emulatorSettings,
-                swapControlAndCommand: true,
-            });
-        }
-    }, [emulatorSettings, setEmulatorSettings]);
 
     useEffect(() => {
         handlePersistencePromise(navigator.storage.persisted());

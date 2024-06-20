@@ -813,8 +813,8 @@ const USING_TOUCH_INPUT =
     "matchMedia" in window && !window.matchMedia("(hover: hover)").matches;
 
 const DEFAULT_EMULATOR_SETTINGS: EmulatorSettings = {
-    swapControlAndCommand: false,
-    speed: -2,
+    swapControlAndCommand: true,
+    speed: -1,
     useMouseDeltas: false,
     trackpadMode: false,
 };
