@@ -176,7 +176,7 @@ const AW_CUSTOM: SystemDiskDef = {
         "utopiaZine #-1",
     releaseDate: [2024, 1, 6],
     prefetchChunks: [0],
-    machines: [POWER_MACINTOSH_9500],
+    machines: [MAC_IIFX],
     appleTalkSupported: true,
     generatedSpec: () => import("./Data/aetherWorks-custom.hda.json"),
     notable: true,
