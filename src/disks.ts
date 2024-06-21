@@ -177,10 +177,10 @@ const AW_CUSTOM: SystemDiskDef = {
     releaseDate: [2024, 1, 6],
     prefetchChunks: [0],
     machines: [QUADRA_650],
-    appleTalkSupported: true,
+    appleTalkSupported: false,
     generatedSpec: () => import("./Data/aetherWorks-custom.hda.json"),
     notable: true,
-    persistent: true
+    persistent: true,
 };
 
 export const ALL_DISKS = [

@@ -10,12 +10,12 @@ nocdrom false
 nosound false
 noclipconversion false
 nogui true
-jit false
-jitfpu false
-jitdebug false
-jitcachesize 8192
-jitlazyflush true
-jitinline true
+jit true                 # Ensure JIT is enabled
+jitfpu true              # Enable JIT for FPU
+jitdebug false           # Keep JIT debugging disabled
+jitcachesize 16384       # Use a moderate JIT cache size (16 MB)
+jitlazyflush true        # Enable lazy flushing
+jitinline true           # Enable inlining
 keyboardtype 5
 keycodes false
 mousewheelmode 1
