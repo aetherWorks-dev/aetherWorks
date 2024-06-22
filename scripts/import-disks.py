@@ -25,7 +25,7 @@ import time
 import unicodedata
 import urls
 
-CHUNK_SIZE = 8192 * 1024
+CHUNK_SIZE = 256 * 1024
 
 ImportFolders = typing.Tuple[
     typing.Dict[str, machfs.Folder], # Universal folders
