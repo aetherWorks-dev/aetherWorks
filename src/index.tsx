@@ -1,9 +1,7 @@
-
 import {createRoot} from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import {canSaveDisks} from "./canSaveDisks";
-
 
 // const gradients = [
 //       'background-1', 'background-2', 'background-3', 
@@ -25,4 +23,10 @@ try {
 
 const root = createRoot(document.getElementById("root")!);
 
-root.render(<App />);
+
+root.render(
+        
+        <App />
+
+
+);

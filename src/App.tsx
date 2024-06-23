@@ -40,9 +40,11 @@ function App() {
         const isEdit = new URL(location.href).searchParams.has("edit");
         return [runDef, isEdit];
     }, []);
+
     const [runDef, setRunDef] = useState<RunDef | undefined>(
         editInitialRunDef ? undefined : initialRunDef
     );
+
     const [initialBrowserCustomRunDef, setInitialBrowserCustomRunDef] =
         useState<RunDef | undefined>(
             editInitialRunDef ? initialRunDef : undefined
@@ -56,7 +58,9 @@ function App() {
     }, []);
 
     let contents;
+
     let footer: React.ReactElement | undefined = <Footer />;
+
     if (runDef) {
         const handleDone = () => {
             startViewTransition(async () => {
@@ -116,9 +120,11 @@ function App() {
     }
 
     return (
-        <div className="App">
-            {contents}
-        </div>
+
+            <div className="App">
+                {contents}
+            </div>
+        
     );
 }
 
