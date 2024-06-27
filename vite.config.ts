@@ -13,11 +13,12 @@ const headers = {
     "Service-Worker-Allowed": ".",
     "X-XSS-Protection": "1; mode=block",
     "X-Content-Type-Options": "nosniff",
-    "X-Frame-Options": "DENY",
+    // Removed "X-Frame-Options": "DENY",
     "Referrer-Policy": "unsafe-url",
     "Feature-Policy": "none",
-    "Content-Security-Policy": "frame-ancestors 'self' https://zora.co https://testnet.zora.co;"    
-};
+    // Add Content-Security-Policy header
+    "Content-Security-Policy": "frame-ancestors 'self' https://zora.co https://testnet.zora.co;"
+  };
 
 export default defineConfig(() => {
     return {

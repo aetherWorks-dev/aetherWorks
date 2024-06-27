@@ -78,7 +78,7 @@ async function handleRequest(
         }
 
         response.headers.set("X-Content-Type-Options", "nosniff");
-        response.headers.set("X-Frame-Options", "DENY");
+        //response.headers.set("X-Frame-Options", "DENY");
         // Allow SharedArrayBuffer to work
         response.headers.set("Cross-Origin-Opener-Policy", "same-origin");
         response.headers.set("Cross-Origin-Embedder-Policy", "require-corp");
