@@ -46,6 +46,7 @@ import {
 import {type ScreenSize} from "./run-def";
 import {viewTransitionNameForDisk} from "./view-transitions";
 
+
 export type MacProps = {
     disks: SystemDiskDef[];
     includeInfiniteHD: boolean;
@@ -382,6 +383,9 @@ export default function Mac({
     };
 
     let progress;
+
+
+
     if (!emulatorLoaded) {
         const [total, left] = emulatorLoadingProgress;
         if (total === 0 && left === 0 && debugPaused) {
