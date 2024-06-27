@@ -1,0 +1,10 @@
+/*
+  Cross-Origin-Opener-Policy: same-origin
+  Cross-Origin-Embedder-Policy: require-corp
+  Service-Worker-Allowed: .
+  X-XSS-Protection: 1; mode=block
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: unsafe-url
+  Feature-Policy: none
+  Content-Security-Policy: frame-ancestors 'self' https://zora.co https://testnet.zora.co
+  X-Frame-Options: ALLOW-FROM https://zora.co https://testnet.zora.co
