@@ -5,7 +5,7 @@ import { ConnectWallet, Wallet, WalletDropdown, WalletDropdownLink, WalletDropdo
 
 import { Address, Avatar, Name, Badge, Identity, EthBalance } from '@coinbase/onchainkit/identity';
 
-function WalletComponents() {
+export function WalletComponents() {
   return (
 
       <Wallet>
@@ -30,4 +30,10 @@ function WalletComponents() {
   );
 }
 
-export default WalletComponents;
+export function showWalletAddress() {
+  return (
+    <Address />
+  );
+}
+
+//export default WalletComponents;

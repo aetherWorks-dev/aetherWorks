@@ -1,7 +1,11 @@
 import {useCallback, useEffect, useState} from "react";
 
 import OnchainProviders from "./OnchainProviders"
-import WalletComponents from "./walletConnection"
+
+// import WalletComponents from "./walletConnection"
+// import { showWalletAddress } from "./walletConnection";
+
+import * as WalletFunctions from "./walletConnection"
 
 import {Dialog} from "./controls/Dialog";
 import {type Appearance} from "./controls/Appearance";
@@ -21,12 +25,9 @@ export function ConnectWalletSettings({
     return (
         <Dialog title="Wallet Connection" onDone={onDone} appearance={appearance}>
             <label>
-                {/* <Checkbox
-                    appearance={appearance}
-                    checked={false}
-                /> */}
                 <OnchainProviders>
-                    <WalletComponents />
+                    <WalletFunctions.WalletComponents />
+                    <WalletFunctions.showWalletAddress />
                 </OnchainProviders>
                 Connect Your Wallet
                 <div className="Dialog-Description">
