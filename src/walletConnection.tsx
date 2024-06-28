@@ -18,7 +18,8 @@ export function WalletComponents() {
             <Name>
               <Badge />
             </Name>
-            <Address />
+            <Identity.address />
+            <Address.address />
             <EthBalance />
           </Identity>
           <WalletDropdownLink icon="wallet" href="https://wallet.coinbase.com">
