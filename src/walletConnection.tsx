@@ -31,9 +31,14 @@ export function WalletComponents() {
 }
 
 export function showWalletAddress() {
-  return (
-    <Address />
-  );
+  
+  if (Identity.Address) {
+
+      return (
+        <div>{Identity.Address}</div>
+      );
+  } else {
+  }
 }
 
 //export default WalletComponents;
