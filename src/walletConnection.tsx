@@ -14,12 +14,12 @@ export function WalletComponents() {
           <Name />
         </ConnectWallet>
         <WalletDropdown>
-          <Identity>
+          <Identity hasCopyAddressOnClick>
             <Avatar />
             <Name>
               <Badge />
             </Name>
-            <Address />
+            <Address.Address />
             <EthBalance />
           </Identity>
           <WalletDropdownLink icon="wallet" href="https://wallet.coinbase.com">
@@ -32,10 +32,10 @@ export function WalletComponents() {
 
 export function showWalletAddress() {
   
-  if (Identity.Address) {
+  if (Address.Address) {
 
       return (
-        <div>{Identity.Address}</div>
+        <div><Address.Address /></div>
       );
   } else {
   }
