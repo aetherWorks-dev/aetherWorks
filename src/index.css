@@ -1,3 +1,8 @@
+
+*,:after,:before {
+    box-sizing: content-box !important;
+}
+
 /* 1. Retro Pop */
 .background-1 {
     background: linear-gradient(90deg, #ff8c00, #ff69b4, #1e90ff);

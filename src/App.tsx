@@ -1,3 +1,6 @@
+
+import '@coinbase/onchainkit/styles.css';
+
 import { WagmiProvider } from 'wagmi'
 import { wagmiConfig } from './wagmi'
 

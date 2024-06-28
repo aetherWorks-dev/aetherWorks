@@ -5,8 +5,6 @@ import { ConnectWallet, Wallet, WalletDropdown, WalletDropdownLink, WalletDropdo
 
 import { Address, Avatar, Name, Badge, Identity, EthBalance } from '@coinbase/onchainkit/identity';
 
-import { color } from '@coinbase/onchainkit/theme';
-
 function WalletComponents() {
   return (
 
@@ -21,7 +19,7 @@ function WalletComponents() {
             <Name>
               <Badge />
             </Name>
-            <Address className={color.foregroundMuted} />
+            <Address />
             <EthBalance />
           </Identity>
           <WalletDropdownLink icon="wallet" href="https://wallet.coinbase.com">
