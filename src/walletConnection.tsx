@@ -10,11 +10,11 @@ function WalletComponents() {
 
       <Wallet>
         <ConnectWallet>
-          <Avatar className="h-6 w-6" />
+          <Avatar/>
           <Name />
         </ConnectWallet>
         <WalletDropdown>
-          <Identity className="px-4 pt-3 pb-2">
+          <Identity>
             <Avatar />
             <Name>
               <Badge />
