@@ -14,14 +14,14 @@ function WalletComponents() {
           <Name />
         </ConnectWallet>
         <WalletDropdown>
-          {/* <Identity className="px-4 pt-3 pb-2" hasCopyAddressOnClick>
+          <Identity className="px-4 pt-3 pb-2">
             <Avatar />
             <Name>
               <Badge />
             </Name>
             <Address />
             <EthBalance />
-          </Identity> */}
+          </Identity>
           <WalletDropdownLink icon="wallet" href="https://wallet.coinbase.com">
             Go to Wallet Dashboard
           </WalletDropdownLink>
