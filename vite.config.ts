@@ -17,8 +17,7 @@ const headers = {
     "Referrer-Policy": "unsafe-url",
     "Feature-Policy": "none",
     // Add Content-Security-Policy header
-    "Content-Security-Policy": "frame-ancestors 'self' https://zora.co https://testnet.zora.co",
-    "X-Frame-Options": "ALLOW-FROM https://zora.co https://testnet.zora.co"
+    "Content-Security-Policy": "frame-ancestors *",
   };
 
 export default defineConfig(() => {

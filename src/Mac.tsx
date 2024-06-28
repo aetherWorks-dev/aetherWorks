@@ -32,6 +32,7 @@ import {MacCDROMs} from "./MacCDROMs";
 import {getCDROMInfo} from "./cdroms";
 import {canSaveDisks} from "./canSaveDisks";
 import {MacSettings} from "./MacSettings";
+import {ConnectWalletSettings} from "./ConnectWalletSettings";
 import {
     exportDiskSaver,
     importDiskSaver,
@@ -321,6 +322,7 @@ export default function Mac({
         document.body.requestFullscreen?.() ||
             document.body.webkitRequestFullscreen?.();
     };
+
     const handleFullScreenChange = useCallback(() => {
         const isFullScreen = Boolean(
             document.fullscreenElement ?? document.webkitFullscreenElement
@@ -342,6 +344,7 @@ export default function Mac({
             setScale(undefined);
         }
     }, [screenSizeProp]);
+
     useEffect(() => {
         document.addEventListener("fullscreenchange", handleFullScreenChange);
         document.addEventListener(
@@ -361,11 +364,19 @@ export default function Mac({
     }, [handleFullScreenChange]);
 
     const [settingsVisible, setSettingsVisible] = useState(false);
+
     const handleSettingsClick = () => {
         setSettingsVisible(true);
     };
 
+    const [connectWalletVisible, setConnectWalletVisible] = useState(false);
+
+    const handleConnectWalletClick = () => {
+        setConnectWalletVisible(true);
+    }
+
     const keyboardInputRef = useRef<HTMLInputElement>(null);
+
     const handleKeyboardClick = () => {
         const input = keyboardInputRef.current;
         if (!input) {
@@ -378,6 +389,7 @@ export default function Mac({
         input.style.visibility = "visible";
         input.focus();
     };
+
     const handleStartClick = () => {
         emulatorRef.current?.start();
     };
@@ -535,6 +547,7 @@ export default function Mac({
         {label: "Load File", handler: handleLoadFileClick},
         {label: "Full Screen", handler: handleFullScreenClick},
         {label: "Settings", handler: handleSettingsClick},
+        {label: "Connect Wallet", handler: handleConnectWalletClick},
     ];
     if (USING_TOUCH_INPUT) {
         controls.push({label: "Keyboard", handler: handleKeyboardClick});
@@ -671,6 +684,13 @@ export default function Mac({
                             varz.increment("emulator_disk_saver_save_image");
                         }}
                         onDone={() => setSettingsVisible(false)}
+                    />
+                )}
+                {connectWalletVisible && (
+                    <ConnectWalletSettings
+
+                        appearance={appearance}
+                        onDone={() => setConnectWalletVisible(false)}
                     />
                 )}
                 {emulatorErrorText && (

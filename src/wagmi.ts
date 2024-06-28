@@ -7,7 +7,7 @@ export const wagmiConfig = createConfig({
   multiInjectedProviderDiscovery: false,
   connectors: [
     coinbaseWallet({
-      appName: 'aetherWorks',
+      appName: 'onchainkit',
       preference: 'all',
       version: '4',
     }),

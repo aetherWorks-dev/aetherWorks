@@ -1,3 +1,10 @@
+import { WagmiProvider } from 'wagmi'
+import { wagmiConfig } from './wagmi'
+
+import OnchainProviders from "./OnchainProviders"
+
+import WalletComponents from "./walletConnection"
+
 import {
     type SystemDiskDef,
     type PlaceholderDiskDef,
@@ -121,7 +128,9 @@ function App() {
 
     return (
             <div className="App">
+
                 {contents}
+                
             </div>
     
     );
