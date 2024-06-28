@@ -7,7 +7,6 @@ import { Address, Avatar, Name, Badge, Identity, EthBalance } from '@coinbase/on
 
 export function WalletComponents() {
   return (
-
       <Wallet>
         <ConnectWallet>
           <Avatar/>
@@ -19,7 +18,7 @@ export function WalletComponents() {
             <Name>
               <Badge />
             </Name>
-            <Address.Address />
+            <Address />
             <EthBalance />
           </Identity>
           <WalletDropdownLink icon="wallet" href="https://wallet.coinbase.com">
@@ -27,18 +26,12 @@ export function WalletComponents() {
           </WalletDropdownLink>
         </WalletDropdown>
       </Wallet>
+
   );
 }
 
 export function showWalletAddress() {
-  
-  if (Address.Address) {
-
-      return (
-        <div><Address.Address /></div>
-      );
-  } else {
-  }
+  return (<div>{Address.address}</div>)
 }
 
 //export default WalletComponents;
