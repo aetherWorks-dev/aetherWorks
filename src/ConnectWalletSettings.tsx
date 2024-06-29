@@ -103,20 +103,28 @@ export function ConnectWalletSettings({
 
     return (
         <Dialog title="Wallet Connection" onDone={onDone} appearance={appearance}>
-            <label>
-                <OnchainProviders>
-                    <WalletFunctions.WalletComponents />
-                </OnchainProviders>
-                
-            </label>
 
             <div className="MacSettings-Row">
+
+                        {/* <div className="MacSettings-Row-Label">Connect:</div> */}
+                        
+                        <OnchainProviders>
+                        <WalletFunctions.WalletComponents />
+                        </OnchainProviders>
+                        
+                        {/* <div className="Dialog-Description">
+                            The connection is powered by Coinbase Smart Wallet.
+                        </div> */}
+            </div>
+
+            <div className="MacSettings-Row">
+
                         <div className="MacSettings-Row-Label">PRNG Magic:</div>
+
                         <Button
                         appearance={appearance}
                         onClick={() => {
                         console.log('Button clicked');
-
                         generateColors();
                         }
                         }
@@ -124,11 +132,11 @@ export function ConnectWalletSettings({
                         </Button>
                         
                         <div className="Dialog-Description">
-                            After connecting your wallet, you will be able
+                            After connecting, you will be able
                             to generate CSS gradient backgrounds, randomized
-                            using your wallet address as the seed.
+                            using your wallet address as a seed.
                         </div>
-                    </div>
+            </div>
             
             
         </Dialog>
