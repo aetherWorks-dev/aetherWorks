@@ -1,0 +1,30 @@
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/components/Address.js b/node_modules/@coinbase/onchainkit/esm/identity/components/Address.js
+index 7f225f4..ea270ba 100644
+--- a/node_modules/@coinbase/onchainkit/esm/identity/components/Address.js
++++ b/node_modules/@coinbase/onchainkit/esm/identity/components/Address.js
+@@ -13,8 +13,9 @@ function Address({
+   }
+   return /*#__PURE__*/jsx("span", {
+     "data-testid": "ockAddress",
++    "id": "curAddress",
+     className: cn(text.label2, className),
+-    children: getSlicedAddress(contextAddress ?? address)
++    children: contextAddress ?? address
+   });
+ }
+ export { Address };
+diff --git a/node_modules/@coinbase/onchainkit/src/identity/components/Address.tsx b/node_modules/@coinbase/onchainkit/src/identity/components/Address.tsx
+index 0f60c11..d9174fa 100644
+--- a/node_modules/@coinbase/onchainkit/src/identity/components/Address.tsx
++++ b/node_modules/@coinbase/onchainkit/src/identity/components/Address.tsx
+@@ -12,8 +12,8 @@ export function Address({ address = null, className }: AddressReact) {
+   }
+ 
+   return (
+-    <span data-testid="ockAddress" className={cn(text.label2, className)}>
+-      {getSlicedAddress(contextAddress ?? address)}
++    <span id="curAddress" data-testid="ockAddress" className={cn(text.label2, className)}>
++      {contextAddress ?? address}
+     </span>
+   );
+ }

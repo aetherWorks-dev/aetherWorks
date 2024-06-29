@@ -19,7 +19,9 @@ function OnchainProviders({ children }: Props) {
           apiKey={"LcQG26fR8PIAy8-PG0nakwSjnGg2mQP9"}
           chain={base}
           schemaId="0xf58b8b212ef75ee8cd7e8d803c37c03e0519890502d5e99ee2412aae1456cafe"
+          
         >
+    
           {children}
         </OnchainKitProvider>
       </QueryClientProvider>

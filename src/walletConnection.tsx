@@ -5,13 +5,14 @@ import { ConnectWallet, Wallet, WalletDropdown, WalletDropdownLink, WalletDropdo
 
 import { Address, Avatar, Name, Badge, Identity, EthBalance } from '@coinbase/onchainkit/identity';
 
+
 export function WalletComponents() {
   return (
       <Wallet>
         <ConnectWallet>
           <Avatar />
           <Name />
-          <div>{ConnectWallet.address.toString() }</div>
+          
         </ConnectWallet>
         <WalletDropdown>
           <Identity hasCopyAddressOnClick>
@@ -19,7 +20,8 @@ export function WalletComponents() {
             <Name>
               <Badge />
             </Name>
-            <Address />
+            <Address  />
+            
             <Identity />
             <EthBalance />
           </Identity>

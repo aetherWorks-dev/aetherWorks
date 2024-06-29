@@ -4,6 +4,7 @@ import OnchainProviders from "./OnchainProviders"
 
 import { Address, Avatar, Name, Badge, Identity, EthBalance } from '@coinbase/onchainkit/identity';
 
+
 // import WalletComponents from "./walletConnection"
 // import { showWalletAddress } from "./walletConnection";
 
@@ -24,7 +25,38 @@ export function ConnectWalletSettings({
     onDone: () => void;
 }) {
 
-    const curAddress = IdentityProvider.address;
+    function generateColors() {
+
+        const addressText = document.getElementById("curAddress").textContent.toString()
+        const seed = (addressText) ? addressText : "0x02feeb0AdE57b6adEEdE5A4EEea6Cf8c21BeB6B1";
+        //const seed = "0x02feeb0AdE57b6adEEdE5A4EEea6Cf8c21BeB6B1"
+
+        let seedNumber = parseInt(seed, 16);
+    
+        // Define a basic PRNG function
+        function basicPRNG(seed) {
+            return function() {
+                seed = Math.sin(seed) * 10000;
+                return seed - Math.floor(seed);
+            };
+        }
+    
+        // Initialize a PRNG instance with the seed
+        let rand = basicPRNG(seedNumber);
+    
+        // Generate 4 random colors in hexadecimal format
+        let colors = [];
+        for (let i = 0; i < 4; i++) {
+            let randomColor = Math.floor(rand() * 0xFFFFFF); // Generate random color number
+            let colorString = '#' + ('000000' + randomColor.toString(16)).slice(-6); // Pad with zeros and slice to get 6 characters
+            colors.push(colorString);
+        }
+    
+        let gradientToYield = `repeating-linear-gradient(45deg, ${colors[0]}, ${colors[1]} 15%, ${colors[2]} 20%, ${colors[3]} 30%)`;
+        console.log(gradientToYield);
+
+        document.body.style.background=gradientToYield;
+    }
 
     return (
         <Dialog title="Wallet Connection" onDone={onDone} appearance={appearance}>
@@ -32,17 +64,28 @@ export function ConnectWalletSettings({
                 <OnchainProviders>
                     <WalletFunctions.WalletComponents />
 
-                    <Identity address="0x838aD0EAE54F99F1926dA7C3b6bFbF617389B4D9">
-                    </Identity>
-
-
                 </OnchainProviders>
                 Connect Your Wallet
                 <div className="Dialog-Description">
                     Connect your wallet to see the CSS in action.
                 </div>
+                
             </label>
+
+            <Button
+                appearance={appearance}
+                onClick={() => {
+                    console.log('Button clicked');
+                    generateColors();
+                }
+                }
+                    >generate
+                    </Button>
+            
         </Dialog>
+
+       
+        
     );
 }
 

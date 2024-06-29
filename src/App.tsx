@@ -1,13 +1,6 @@
 
 import '@coinbase/onchainkit/styles.css';
 
-import { WagmiProvider } from 'wagmi'
-import { wagmiConfig } from './wagmi'
-
-import OnchainProviders from "./OnchainProviders"
-
-import WalletComponents from "./walletConnection"
-
 import {
     type SystemDiskDef,
     type PlaceholderDiskDef,
