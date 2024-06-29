@@ -76,6 +76,11 @@ export function ConnectWalletSettings({
                 appearance={appearance}
                 onClick={() => {
                     console.log('Button clicked');
+
+                    <OnchainProviders>
+                    <Address />
+                    </OnchainProviders>
+
                     generateColors();
                 }
                 }

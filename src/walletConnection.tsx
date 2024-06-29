@@ -14,6 +14,7 @@ export function WalletComponents() {
           <Name />
           
         </ConnectWallet>
+        
         <WalletDropdown>
           <Identity hasCopyAddressOnClick>
             <Avatar />
@@ -36,7 +37,7 @@ export function WalletComponents() {
 }
 
 export function showWalletAddress() {
-  return (<div>{Address.address}</div>)
+  return (<div>{Address.contextAddress}</div>)
 }
 
 //export default WalletComponents;
