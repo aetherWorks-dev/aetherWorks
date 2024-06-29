@@ -35,7 +35,7 @@ export function ConnectWalletSettings({
         // Define a basic PRNG function
         function basicPRNG(seed) {
             return function() {
-                seed = Math.sin(seed) * 10000;
+                seed = Math.sin(seed) * Math.random() * 1000;
                 return seed - Math.floor(seed);
             };
         }
