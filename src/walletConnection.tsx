@@ -10,11 +10,10 @@ export function WalletComponents() {
   return (
       <Wallet>
         <ConnectWallet>
-          <Avatar />
-          <Name />
+        <Address  />
           
         </ConnectWallet>
-        <Address  />
+        
         <WalletDropdown>
           <Identity hasCopyAddressOnClick>
             <Avatar />

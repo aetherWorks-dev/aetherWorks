@@ -27,8 +27,7 @@ export function ConnectWalletSettings({
 
     function generateColors() {
 
-        const addressText = document.getElementById("curAddress").textContent.toString()
-        const seed = (addressText) ? addressText : "0x02feeb0AdE57b6adEEdE5A4EEea6Cf8c21BeB6B1";
+        const seed = document.getElementById("curAddress").textContent.toString()
         //const seed = "0x02feeb0AdE57b6adEEdE5A4EEea6Cf8c21BeB6B1"
 
         let seedNumber = parseInt(seed, 16);
