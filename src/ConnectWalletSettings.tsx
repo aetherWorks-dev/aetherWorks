@@ -30,6 +30,12 @@ export function ConnectWalletSettings({
         const seed = document.getElementById("curAddress").textContent.toString()
         //const seed = "0x02feeb0AdE57b6adEEdE5A4EEea6Cf8c21BeB6B1"
 
+        if (seed === null) {
+            return (
+                console.log("You should connect your wallet first.")
+            )
+        } else {
+
         let seedNumber = parseInt(seed, 16);
     
         // Define a basic PRNG function
@@ -55,6 +61,9 @@ export function ConnectWalletSettings({
         console.log(gradientToYield);
 
         document.body.style.background=gradientToYield;
+        }
+        
+
     }
 
     return (
@@ -63,23 +72,29 @@ export function ConnectWalletSettings({
                 <OnchainProviders>
                     <WalletFunctions.WalletComponents />
                 </OnchainProviders>
-                Connect Your Wallet
-                <div className="Dialog-Description">
-                    Connect your wallet to see the CSS in action.
-                </div>
                 
             </label>
 
-            <Button
-                appearance={appearance}
-                onClick={() => {
-                    console.log('Button clicked');
+            <div className="MacSettings-Row">
+                        <div className="MacSettings-Row-Label">PRNG Magic:</div>
+                        <Button
+                        appearance={appearance}
+                        onClick={() => {
+                        console.log('Button clicked');
 
-                    generateColors();
-                }
-                }
-                    >generate
-                    </Button>
+                        generateColors();
+                        }
+                        }
+                        >Generate
+                        </Button>
+                        
+                        <div className="Dialog-Description">
+                            After connecting your wallet, you will be able
+                            to generate CSS gradient backgrounds, randomized
+                            using your wallet address as the seed.
+                        </div>
+                    </div>
+            
             
         </Dialog>
 
