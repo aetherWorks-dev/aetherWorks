@@ -63,7 +63,6 @@ export function ConnectWalletSettings({
             <label>
                 <OnchainProviders>
                     <WalletFunctions.WalletComponents />
-
                 </OnchainProviders>
                 Connect Your Wallet
                 <div className="Dialog-Description">
@@ -76,10 +75,6 @@ export function ConnectWalletSettings({
                 appearance={appearance}
                 onClick={() => {
                     console.log('Button clicked');
-
-                    <OnchainProviders>
-                    <Address />
-                    </OnchainProviders>
 
                     generateColors();
                 }

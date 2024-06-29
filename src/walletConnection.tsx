@@ -14,7 +14,7 @@ export function WalletComponents() {
           <Name />
           
         </ConnectWallet>
-        
+        <Address  />
         <WalletDropdown>
           <Identity hasCopyAddressOnClick>
             <Avatar />
