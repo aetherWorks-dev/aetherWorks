@@ -27,37 +27,72 @@ export function ConnectWalletSettings({
 
     function generateColors() {
 
-        const seed = document.getElementById("curAddress").textContent.toString()
-        //const seed = "0x02feeb0AdE57b6adEEdE5A4EEea6Cf8c21BeB6B1"
+        const seedText = document.getElementById("curAddress").textContent.toString()
+        //const seedText = "0x02feeb0AdE57b6adEEdE5A4EEea6Cf8c21BeB6B9"
 
-        if (seed === null) {
+        if (seedText === null) {
             return (
                 console.log("You should connect your wallet first.")
             )
         } else {
 
-        let seedNumber = parseInt(seed, 16);
+        let seeding = parseInt(seedText, 16);
+
+        const now = new Date();
+        const subSeeding = now.getMilliseconds();
     
         // Define a basic PRNG function
-        function basicPRNG(seed) {
+        // function basicPRNG(seed) {
+        //     return function() {
+        //         seed = Math.sin(seed) * Math.random() * 1000;
+        //         return seed - Math.floor(seed);
+        //     };
+        // }
+
+        // Linear Congruential Generator (LCG) PRNG
+        function LCG(seed: number, subSeed: number) {
+            const a = 1664525;
+            const c = 1013904223;
+            const m = Math.pow(2, 32);
+            let state = seed;
+
+            function mixStateAndSubseed(state, subseed) {
+                // Combine state and subseed using XOR and bitwise shifts
+                let mixed = (state ^ subseed) >>> 0;
+                mixed = (mixed ^ (mixed >>> 21)) ^ (mixed << 7) ^ (mixed << 4);
+                return mixed >>> 0;
+            }
+
             return function() {
-                seed = Math.sin(seed) * Math.random() * 1000;
-                return seed - Math.floor(seed);
+
+                state = mixStateAndSubseed(state, subSeed);
+                state = (a * state + c) % m;
+                return state / m;
+            }
             };
-        }
+
     
         // Initialize a PRNG instance with the seed
-        let rand = basicPRNG(seedNumber);
-    
-        // Generate 4 random colors in hexadecimal format
-        let colors = [];
-        for (let i = 0; i < 4; i++) {
+        let rand = LCG(seeding, subSeeding);
+
+        function getRandomColor() {
             let randomColor = Math.floor(rand() * 0xFFFFFF); // Generate random color number
             let colorString = '#' + ('000000' + randomColor.toString(16)).slice(-6); // Pad with zeros and slice to get 6 characters
-            colors.push(colorString);
+            return colorString;
         }
-    
-        let gradientToYield = `repeating-linear-gradient(45deg, ${colors[0]}, ${colors[1]} 15%, ${colors[2]} 20%, ${colors[3]} 30%)`;
+
+        // function getRandomColor() {
+        //     const r = Math.floor(0 + rand() * (256 - 0));
+        //     const g = Math.floor(0 + rand() * (256 - 0));
+        //     const b = Math.floor(0 + rand() * (256 - 0));
+
+        //     const colorString = '#' + ('00' + r.toString(16)).slice(-2) +
+        //                           ('00' + g.toString(16)).slice(-2) +
+        //                           ('00' + b.toString(16)).slice(-2);
+        //     return colorString;
+        // }
+            
+        let gradientToYield = `repeating-linear-gradient(${0 + rand() * (360 - 0)}deg, ${getRandomColor()}, ${getRandomColor()} 15%, ${getRandomColor()} 20%, ${getRandomColor()} 30%)`;
         console.log(gradientToYield);
 
         document.body.style.background=gradientToYield;
