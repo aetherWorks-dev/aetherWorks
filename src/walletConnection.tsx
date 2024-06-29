@@ -9,8 +9,9 @@ export function WalletComponents() {
   return (
       <Wallet>
         <ConnectWallet>
-          <Avatar/>
+          <Avatar />
           <Name />
+          <div>{ConnectWallet.address.toString() }</div>
         </ConnectWallet>
         <WalletDropdown>
           <Identity hasCopyAddressOnClick>
@@ -18,15 +19,15 @@ export function WalletComponents() {
             <Name>
               <Badge />
             </Name>
-            <Identity />
             <Address />
+            <Identity />
             <EthBalance />
           </Identity>
+          
           <WalletDropdownLink icon="wallet" href="https://wallet.coinbase.com">
             Go to Wallet Dashboard
           </WalletDropdownLink>
         </WalletDropdown>
-        <div>{Identity.IdentityContext.address}</div>
       </Wallet>
 
   );
