@@ -77,10 +77,6 @@ export function ScreenFrame(props: ScreenFrameProps) {
             {...divProps}
         >
             <div className="ScreenFrame-Controls-Container">
-                <div className="ScreenFrame-Logo">
-                    <Logo className="Background" />
-                    <Logo className="Foreground" />
-                </div>
                 {controls.map(
                     ({label, handler, alwaysVisible, selected}, i) => (
                         <div
