@@ -30,7 +30,7 @@ export function ConnectWalletSettings({
         const seedText = document.getElementById("curAddress").textContent.toString()
         //const seedText = "0x02feeb0AdE57b6adEEdE5A4EEea6Cf8c21BeB6B9"
 
-        if (seedText === null) {
+        if (seedText === "") {
             return (
                 console.log("You should connect your wallet first.")
             )
@@ -41,7 +41,6 @@ export function ConnectWalletSettings({
         const now = new Date();
         const subSeeding = now.getMilliseconds();
     
-        // Define a basic PRNG function
         // function basicPRNG(seed) {
         //     return function() {
         //         seed = Math.sin(seed) * Math.random() * 1000;
@@ -57,7 +56,6 @@ export function ConnectWalletSettings({
             let state = seed;
 
             function mixStateAndSubseed(state, subseed) {
-                // Combine state and subseed using XOR and bitwise shifts
                 let mixed = (state ^ subseed) >>> 0;
                 mixed = (mixed ^ (mixed >>> 21)) ^ (mixed << 7) ^ (mixed << 4);
                 return mixed >>> 0;
@@ -71,13 +69,12 @@ export function ConnectWalletSettings({
             }
             };
 
-    
-        // Initialize a PRNG instance with the seed
+
         let rand = LCG(seeding, subSeeding);
 
         function getRandomColor() {
-            let randomColor = Math.floor(rand() * 0xFFFFFF); // Generate random color number
-            let colorString = '#' + ('000000' + randomColor.toString(16)).slice(-6); // Pad with zeros and slice to get 6 characters
+            let randomColor = Math.floor(rand() * 0xFFFFFF);
+            let colorString = '#' + ('000000' + randomColor.toString(16)).slice(-6);
             return colorString;
         }
 
@@ -102,19 +99,19 @@ export function ConnectWalletSettings({
     }
 
     return (
-        <Dialog title="Wallet Connection" onDone={onDone} appearance={appearance}>
+        <Dialog title="Smart Wallet Connection" onDone={onDone} appearance={appearance}>
 
             <div className="MacSettings-Row">
-
-                        {/* <div className="MacSettings-Row-Label">Connect:</div> */}
+                        <div className="MacSettings-Row-Label">Connect:</div>
                         
                         <OnchainProviders>
                         <WalletFunctions.WalletComponents />
                         </OnchainProviders>
                         
-                        {/* <div className="Dialog-Description">
-                            The connection is powered by Coinbase Smart Wallet.
-                        </div> */}
+                        <div className="Dialog-Description">
+                            The connection is powered by Coinbase Smart Wallet,
+                            available thanks to OnchainKit.
+                        </div>
             </div>
 
             <div className="MacSettings-Row">
@@ -134,7 +131,7 @@ export function ConnectWalletSettings({
                         <div className="Dialog-Description">
                             After connecting, you will be able
                             to generate CSS gradient backgrounds, randomized
-                            using your wallet address as a seed.
+                            using your wallet address and the current Unix time as seeds.
                         </div>
             </div>
             

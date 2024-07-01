@@ -1,5 +1,187 @@
+diff --git a/node_modules/@coinbase/onchainkit/LICENSE.md b/node_modules/@coinbase/onchainkit/LICENSE.md
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/README.md b/node_modules/@coinbase/onchainkit/README.md
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/OnchainKitConfig.d.ts b/node_modules/@coinbase/onchainkit/esm/OnchainKitConfig.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/OnchainKitConfig.d.ts.map b/node_modules/@coinbase/onchainkit/esm/OnchainKitConfig.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/OnchainKitConfig.js b/node_modules/@coinbase/onchainkit/esm/OnchainKitConfig.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/OnchainKitConfig.js.map b/node_modules/@coinbase/onchainkit/esm/OnchainKitConfig.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/OnchainKitProvider.d.ts b/node_modules/@coinbase/onchainkit/esm/OnchainKitProvider.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/OnchainKitProvider.d.ts.map b/node_modules/@coinbase/onchainkit/esm/OnchainKitProvider.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/OnchainKitProvider.js b/node_modules/@coinbase/onchainkit/esm/OnchainKitProvider.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/OnchainKitProvider.js.map b/node_modules/@coinbase/onchainkit/esm/OnchainKitProvider.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/core/index.d.ts b/node_modules/@coinbase/onchainkit/esm/core/index.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/core/index.d.ts.map b/node_modules/@coinbase/onchainkit/esm/core/index.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/core/index.js b/node_modules/@coinbase/onchainkit/esm/core/index.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/core/index.js.map b/node_modules/@coinbase/onchainkit/esm/core/index.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/farcaster/getFarcasterUserAddress.d.ts b/node_modules/@coinbase/onchainkit/esm/farcaster/getFarcasterUserAddress.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/farcaster/getFarcasterUserAddress.d.ts.map b/node_modules/@coinbase/onchainkit/esm/farcaster/getFarcasterUserAddress.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/farcaster/getFarcasterUserAddress.js b/node_modules/@coinbase/onchainkit/esm/farcaster/getFarcasterUserAddress.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/farcaster/getFarcasterUserAddress.js.map b/node_modules/@coinbase/onchainkit/esm/farcaster/getFarcasterUserAddress.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/farcaster/index.d.ts b/node_modules/@coinbase/onchainkit/esm/farcaster/index.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/farcaster/index.d.ts.map b/node_modules/@coinbase/onchainkit/esm/farcaster/index.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/farcaster/index.js b/node_modules/@coinbase/onchainkit/esm/farcaster/index.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/farcaster/index.js.map b/node_modules/@coinbase/onchainkit/esm/farcaster/index.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/farcaster/types.d.ts b/node_modules/@coinbase/onchainkit/esm/farcaster/types.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/farcaster/types.d.ts.map b/node_modules/@coinbase/onchainkit/esm/farcaster/types.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/farcaster/types.js b/node_modules/@coinbase/onchainkit/esm/farcaster/types.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/farcaster/types.js.map b/node_modules/@coinbase/onchainkit/esm/farcaster/types.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/frame/components/FrameMetadata.d.ts b/node_modules/@coinbase/onchainkit/esm/frame/components/FrameMetadata.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/frame/components/FrameMetadata.d.ts.map b/node_modules/@coinbase/onchainkit/esm/frame/components/FrameMetadata.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/frame/components/FrameMetadata.js b/node_modules/@coinbase/onchainkit/esm/frame/components/FrameMetadata.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/frame/components/FrameMetadata.js.map b/node_modules/@coinbase/onchainkit/esm/frame/components/FrameMetadata.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/frame/getFrameHtmlResponse.d.ts b/node_modules/@coinbase/onchainkit/esm/frame/getFrameHtmlResponse.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/frame/getFrameHtmlResponse.d.ts.map b/node_modules/@coinbase/onchainkit/esm/frame/getFrameHtmlResponse.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/frame/getFrameHtmlResponse.js b/node_modules/@coinbase/onchainkit/esm/frame/getFrameHtmlResponse.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/frame/getFrameHtmlResponse.js.map b/node_modules/@coinbase/onchainkit/esm/frame/getFrameHtmlResponse.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/frame/getFrameMessage.d.ts b/node_modules/@coinbase/onchainkit/esm/frame/getFrameMessage.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/frame/getFrameMessage.d.ts.map b/node_modules/@coinbase/onchainkit/esm/frame/getFrameMessage.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/frame/getFrameMessage.integ.d.ts b/node_modules/@coinbase/onchainkit/esm/frame/getFrameMessage.integ.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/frame/getFrameMessage.integ.d.ts.map b/node_modules/@coinbase/onchainkit/esm/frame/getFrameMessage.integ.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/frame/getFrameMessage.integ.js b/node_modules/@coinbase/onchainkit/esm/frame/getFrameMessage.integ.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/frame/getFrameMessage.integ.js.map b/node_modules/@coinbase/onchainkit/esm/frame/getFrameMessage.integ.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/frame/getFrameMessage.js b/node_modules/@coinbase/onchainkit/esm/frame/getFrameMessage.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/frame/getFrameMessage.js.map b/node_modules/@coinbase/onchainkit/esm/frame/getFrameMessage.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/frame/getFrameMetadata.d.ts b/node_modules/@coinbase/onchainkit/esm/frame/getFrameMetadata.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/frame/getFrameMetadata.d.ts.map b/node_modules/@coinbase/onchainkit/esm/frame/getFrameMetadata.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/frame/getFrameMetadata.js b/node_modules/@coinbase/onchainkit/esm/frame/getFrameMetadata.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/frame/getFrameMetadata.js.map b/node_modules/@coinbase/onchainkit/esm/frame/getFrameMetadata.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/frame/getMockFrameRequest.d.ts b/node_modules/@coinbase/onchainkit/esm/frame/getMockFrameRequest.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/frame/getMockFrameRequest.d.ts.map b/node_modules/@coinbase/onchainkit/esm/frame/getMockFrameRequest.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/frame/getMockFrameRequest.js b/node_modules/@coinbase/onchainkit/esm/frame/getMockFrameRequest.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/frame/getMockFrameRequest.js.map b/node_modules/@coinbase/onchainkit/esm/frame/getMockFrameRequest.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/frame/index.d.ts b/node_modules/@coinbase/onchainkit/esm/frame/index.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/frame/index.d.ts.map b/node_modules/@coinbase/onchainkit/esm/frame/index.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/frame/index.js b/node_modules/@coinbase/onchainkit/esm/frame/index.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/frame/index.js.map b/node_modules/@coinbase/onchainkit/esm/frame/index.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/frame/types.d.ts b/node_modules/@coinbase/onchainkit/esm/frame/types.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/frame/types.d.ts.map b/node_modules/@coinbase/onchainkit/esm/frame/types.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/frame/types.js b/node_modules/@coinbase/onchainkit/esm/frame/types.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/frame/types.js.map b/node_modules/@coinbase/onchainkit/esm/frame/types.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/components/Address.d.ts b/node_modules/@coinbase/onchainkit/esm/identity/components/Address.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/components/Address.d.ts.map b/node_modules/@coinbase/onchainkit/esm/identity/components/Address.d.ts.map
+old mode 100644
+new mode 100755
 diff --git a/node_modules/@coinbase/onchainkit/esm/identity/components/Address.js b/node_modules/@coinbase/onchainkit/esm/identity/components/Address.js
-index 7f225f4..ea270ba 100644
+old mode 100644
+new mode 100755
+index 7f225f4..ea270ba
 --- a/node_modules/@coinbase/onchainkit/esm/identity/components/Address.js
 +++ b/node_modules/@coinbase/onchainkit/esm/identity/components/Address.js
 @@ -13,8 +13,9 @@ function Address({
@@ -13,18 +195,2074 @@ index 7f225f4..ea270ba 100644
    });
  }
  export { Address };
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/components/Address.js.map b/node_modules/@coinbase/onchainkit/esm/identity/components/Address.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/components/Avatar.d.ts b/node_modules/@coinbase/onchainkit/esm/identity/components/Avatar.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/components/Avatar.d.ts.map b/node_modules/@coinbase/onchainkit/esm/identity/components/Avatar.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/components/Avatar.js b/node_modules/@coinbase/onchainkit/esm/identity/components/Avatar.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/components/Avatar.js.map b/node_modules/@coinbase/onchainkit/esm/identity/components/Avatar.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/components/Badge.d.ts b/node_modules/@coinbase/onchainkit/esm/identity/components/Badge.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/components/Badge.d.ts.map b/node_modules/@coinbase/onchainkit/esm/identity/components/Badge.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/components/Badge.js b/node_modules/@coinbase/onchainkit/esm/identity/components/Badge.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/components/Badge.js.map b/node_modules/@coinbase/onchainkit/esm/identity/components/Badge.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/components/DisplayBadge.d.ts b/node_modules/@coinbase/onchainkit/esm/identity/components/DisplayBadge.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/components/DisplayBadge.d.ts.map b/node_modules/@coinbase/onchainkit/esm/identity/components/DisplayBadge.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/components/DisplayBadge.js b/node_modules/@coinbase/onchainkit/esm/identity/components/DisplayBadge.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/components/DisplayBadge.js.map b/node_modules/@coinbase/onchainkit/esm/identity/components/DisplayBadge.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/components/EthBalance.d.ts b/node_modules/@coinbase/onchainkit/esm/identity/components/EthBalance.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/components/EthBalance.d.ts.map b/node_modules/@coinbase/onchainkit/esm/identity/components/EthBalance.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/components/EthBalance.js b/node_modules/@coinbase/onchainkit/esm/identity/components/EthBalance.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/components/EthBalance.js.map b/node_modules/@coinbase/onchainkit/esm/identity/components/EthBalance.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/components/Identity.d.ts b/node_modules/@coinbase/onchainkit/esm/identity/components/Identity.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/components/Identity.d.ts.map b/node_modules/@coinbase/onchainkit/esm/identity/components/Identity.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/components/Identity.js b/node_modules/@coinbase/onchainkit/esm/identity/components/Identity.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/components/Identity.js.map b/node_modules/@coinbase/onchainkit/esm/identity/components/Identity.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/components/IdentityLayout.d.ts b/node_modules/@coinbase/onchainkit/esm/identity/components/IdentityLayout.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/components/IdentityLayout.d.ts.map b/node_modules/@coinbase/onchainkit/esm/identity/components/IdentityLayout.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/components/IdentityLayout.js b/node_modules/@coinbase/onchainkit/esm/identity/components/IdentityLayout.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/components/IdentityLayout.js.map b/node_modules/@coinbase/onchainkit/esm/identity/components/IdentityLayout.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/components/IdentityProvider.d.ts b/node_modules/@coinbase/onchainkit/esm/identity/components/IdentityProvider.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/components/IdentityProvider.d.ts.map b/node_modules/@coinbase/onchainkit/esm/identity/components/IdentityProvider.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/components/IdentityProvider.js b/node_modules/@coinbase/onchainkit/esm/identity/components/IdentityProvider.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/components/IdentityProvider.js.map b/node_modules/@coinbase/onchainkit/esm/identity/components/IdentityProvider.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/components/Name.d.ts b/node_modules/@coinbase/onchainkit/esm/identity/components/Name.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/components/Name.d.ts.map b/node_modules/@coinbase/onchainkit/esm/identity/components/Name.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/components/Name.js b/node_modules/@coinbase/onchainkit/esm/identity/components/Name.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/components/Name.js.map b/node_modules/@coinbase/onchainkit/esm/identity/components/Name.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/components/defaultAvatarSVG.d.ts b/node_modules/@coinbase/onchainkit/esm/identity/components/defaultAvatarSVG.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/components/defaultAvatarSVG.d.ts.map b/node_modules/@coinbase/onchainkit/esm/identity/components/defaultAvatarSVG.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/components/defaultAvatarSVG.js b/node_modules/@coinbase/onchainkit/esm/identity/components/defaultAvatarSVG.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/components/defaultAvatarSVG.js.map b/node_modules/@coinbase/onchainkit/esm/identity/components/defaultAvatarSVG.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/components/defaultLoadingSVG.d.ts b/node_modules/@coinbase/onchainkit/esm/identity/components/defaultLoadingSVG.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/components/defaultLoadingSVG.d.ts.map b/node_modules/@coinbase/onchainkit/esm/identity/components/defaultLoadingSVG.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/components/defaultLoadingSVG.js b/node_modules/@coinbase/onchainkit/esm/identity/components/defaultLoadingSVG.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/components/defaultLoadingSVG.js.map b/node_modules/@coinbase/onchainkit/esm/identity/components/defaultLoadingSVG.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/core/getAvatar.d.ts b/node_modules/@coinbase/onchainkit/esm/identity/core/getAvatar.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/core/getAvatar.d.ts.map b/node_modules/@coinbase/onchainkit/esm/identity/core/getAvatar.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/core/getAvatar.js b/node_modules/@coinbase/onchainkit/esm/identity/core/getAvatar.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/core/getAvatar.js.map b/node_modules/@coinbase/onchainkit/esm/identity/core/getAvatar.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/core/getName.d.ts b/node_modules/@coinbase/onchainkit/esm/identity/core/getName.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/core/getName.d.ts.map b/node_modules/@coinbase/onchainkit/esm/identity/core/getName.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/core/getName.js b/node_modules/@coinbase/onchainkit/esm/identity/core/getName.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/core/getName.js.map b/node_modules/@coinbase/onchainkit/esm/identity/core/getName.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/easSupportedChains.d.ts b/node_modules/@coinbase/onchainkit/esm/identity/easSupportedChains.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/easSupportedChains.d.ts.map b/node_modules/@coinbase/onchainkit/esm/identity/easSupportedChains.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/easSupportedChains.js b/node_modules/@coinbase/onchainkit/esm/identity/easSupportedChains.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/easSupportedChains.js.map b/node_modules/@coinbase/onchainkit/esm/identity/easSupportedChains.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/getAttestations.d.ts b/node_modules/@coinbase/onchainkit/esm/identity/getAttestations.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/getAttestations.d.ts.map b/node_modules/@coinbase/onchainkit/esm/identity/getAttestations.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/getAttestations.js b/node_modules/@coinbase/onchainkit/esm/identity/getAttestations.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/getAttestations.js.map b/node_modules/@coinbase/onchainkit/esm/identity/getAttestations.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/getSlicedAddress.d.ts b/node_modules/@coinbase/onchainkit/esm/identity/getSlicedAddress.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/getSlicedAddress.d.ts.map b/node_modules/@coinbase/onchainkit/esm/identity/getSlicedAddress.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/getSlicedAddress.js b/node_modules/@coinbase/onchainkit/esm/identity/getSlicedAddress.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/getSlicedAddress.js.map b/node_modules/@coinbase/onchainkit/esm/identity/getSlicedAddress.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/hooks/getNewReactQueryTestProvider.d.ts b/node_modules/@coinbase/onchainkit/esm/identity/hooks/getNewReactQueryTestProvider.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/hooks/getNewReactQueryTestProvider.d.ts.map b/node_modules/@coinbase/onchainkit/esm/identity/hooks/getNewReactQueryTestProvider.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/hooks/getNewReactQueryTestProvider.js b/node_modules/@coinbase/onchainkit/esm/identity/hooks/getNewReactQueryTestProvider.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/hooks/getNewReactQueryTestProvider.js.map b/node_modules/@coinbase/onchainkit/esm/identity/hooks/getNewReactQueryTestProvider.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/hooks/useAttestations.d.ts b/node_modules/@coinbase/onchainkit/esm/identity/hooks/useAttestations.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/hooks/useAttestations.d.ts.map b/node_modules/@coinbase/onchainkit/esm/identity/hooks/useAttestations.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/hooks/useAttestations.js b/node_modules/@coinbase/onchainkit/esm/identity/hooks/useAttestations.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/hooks/useAttestations.js.map b/node_modules/@coinbase/onchainkit/esm/identity/hooks/useAttestations.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/hooks/useAvatar.d.ts b/node_modules/@coinbase/onchainkit/esm/identity/hooks/useAvatar.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/hooks/useAvatar.d.ts.map b/node_modules/@coinbase/onchainkit/esm/identity/hooks/useAvatar.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/hooks/useAvatar.js b/node_modules/@coinbase/onchainkit/esm/identity/hooks/useAvatar.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/hooks/useAvatar.js.map b/node_modules/@coinbase/onchainkit/esm/identity/hooks/useAvatar.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/hooks/useName.d.ts b/node_modules/@coinbase/onchainkit/esm/identity/hooks/useName.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/hooks/useName.d.ts.map b/node_modules/@coinbase/onchainkit/esm/identity/hooks/useName.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/hooks/useName.js b/node_modules/@coinbase/onchainkit/esm/identity/hooks/useName.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/hooks/useName.js.map b/node_modules/@coinbase/onchainkit/esm/identity/hooks/useName.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/index.d.ts b/node_modules/@coinbase/onchainkit/esm/identity/index.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/index.d.ts.map b/node_modules/@coinbase/onchainkit/esm/identity/index.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/index.js b/node_modules/@coinbase/onchainkit/esm/identity/index.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/index.js.map b/node_modules/@coinbase/onchainkit/esm/identity/index.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/types.d.ts b/node_modules/@coinbase/onchainkit/esm/identity/types.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/types.d.ts.map b/node_modules/@coinbase/onchainkit/esm/identity/types.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/types.js b/node_modules/@coinbase/onchainkit/esm/identity/types.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/identity/types.js.map b/node_modules/@coinbase/onchainkit/esm/identity/types.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/index.d.ts b/node_modules/@coinbase/onchainkit/esm/index.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/index.d.ts.map b/node_modules/@coinbase/onchainkit/esm/index.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/index.js b/node_modules/@coinbase/onchainkit/esm/index.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/index.js.map b/node_modules/@coinbase/onchainkit/esm/index.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/internal/form/TextInput.d.ts b/node_modules/@coinbase/onchainkit/esm/internal/form/TextInput.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/internal/form/TextInput.d.ts.map b/node_modules/@coinbase/onchainkit/esm/internal/form/TextInput.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/internal/form/TextInput.js b/node_modules/@coinbase/onchainkit/esm/internal/form/TextInput.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/internal/form/TextInput.js.map b/node_modules/@coinbase/onchainkit/esm/internal/form/TextInput.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/internal/form/useDebounce.d.ts b/node_modules/@coinbase/onchainkit/esm/internal/form/useDebounce.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/internal/form/useDebounce.d.ts.map b/node_modules/@coinbase/onchainkit/esm/internal/form/useDebounce.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/internal/form/useDebounce.js b/node_modules/@coinbase/onchainkit/esm/internal/form/useDebounce.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/internal/form/useDebounce.js.map b/node_modules/@coinbase/onchainkit/esm/internal/form/useDebounce.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/internal/hooks/useValue.d.ts b/node_modules/@coinbase/onchainkit/esm/internal/hooks/useValue.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/internal/hooks/useValue.d.ts.map b/node_modules/@coinbase/onchainkit/esm/internal/hooks/useValue.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/internal/hooks/useValue.js b/node_modules/@coinbase/onchainkit/esm/internal/hooks/useValue.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/internal/hooks/useValue.js.map b/node_modules/@coinbase/onchainkit/esm/internal/hooks/useValue.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/internal/loading/Spinner.d.ts b/node_modules/@coinbase/onchainkit/esm/internal/loading/Spinner.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/internal/loading/Spinner.d.ts.map b/node_modules/@coinbase/onchainkit/esm/internal/loading/Spinner.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/internal/loading/Spinner.js b/node_modules/@coinbase/onchainkit/esm/internal/loading/Spinner.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/internal/loading/Spinner.js.map b/node_modules/@coinbase/onchainkit/esm/internal/loading/Spinner.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/internal/testing/index.d.ts b/node_modules/@coinbase/onchainkit/esm/internal/testing/index.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/internal/testing/index.d.ts.map b/node_modules/@coinbase/onchainkit/esm/internal/testing/index.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/internal/testing/index.js b/node_modules/@coinbase/onchainkit/esm/internal/testing/index.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/internal/testing/index.js.map b/node_modules/@coinbase/onchainkit/esm/internal/testing/index.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/internal/testing/mock.d.ts b/node_modules/@coinbase/onchainkit/esm/internal/testing/mock.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/internal/testing/mock.d.ts.map b/node_modules/@coinbase/onchainkit/esm/internal/testing/mock.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/internal/testing/mock.js b/node_modules/@coinbase/onchainkit/esm/internal/testing/mock.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/internal/testing/mock.js.map b/node_modules/@coinbase/onchainkit/esm/internal/testing/mock.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/internal/testing/silenceError.d.ts b/node_modules/@coinbase/onchainkit/esm/internal/testing/silenceError.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/internal/testing/silenceError.d.ts.map b/node_modules/@coinbase/onchainkit/esm/internal/testing/silenceError.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/internal/testing/silenceError.js b/node_modules/@coinbase/onchainkit/esm/internal/testing/silenceError.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/internal/testing/silenceError.js.map b/node_modules/@coinbase/onchainkit/esm/internal/testing/silenceError.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/internal/utils/findComponent.d.ts b/node_modules/@coinbase/onchainkit/esm/internal/utils/findComponent.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/internal/utils/findComponent.d.ts.map b/node_modules/@coinbase/onchainkit/esm/internal/utils/findComponent.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/internal/utils/findComponent.js b/node_modules/@coinbase/onchainkit/esm/internal/utils/findComponent.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/internal/utils/findComponent.js.map b/node_modules/@coinbase/onchainkit/esm/internal/utils/findComponent.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/isBase.d.ts b/node_modules/@coinbase/onchainkit/esm/isBase.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/isBase.d.ts.map b/node_modules/@coinbase/onchainkit/esm/isBase.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/isBase.js b/node_modules/@coinbase/onchainkit/esm/isBase.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/isBase.js.map b/node_modules/@coinbase/onchainkit/esm/isBase.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/network/attestations.d.ts b/node_modules/@coinbase/onchainkit/esm/network/attestations.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/network/attestations.d.ts.map b/node_modules/@coinbase/onchainkit/esm/network/attestations.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/network/attestations.js b/node_modules/@coinbase/onchainkit/esm/network/attestations.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/network/attestations.js.map b/node_modules/@coinbase/onchainkit/esm/network/attestations.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/network/client.d.ts b/node_modules/@coinbase/onchainkit/esm/network/client.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/network/client.d.ts.map b/node_modules/@coinbase/onchainkit/esm/network/client.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/network/client.js b/node_modules/@coinbase/onchainkit/esm/network/client.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/network/client.js.map b/node_modules/@coinbase/onchainkit/esm/network/client.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/network/createEasGraphQLClient.d.ts b/node_modules/@coinbase/onchainkit/esm/network/createEasGraphQLClient.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/network/createEasGraphQLClient.d.ts.map b/node_modules/@coinbase/onchainkit/esm/network/createEasGraphQLClient.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/network/createEasGraphQLClient.js b/node_modules/@coinbase/onchainkit/esm/network/createEasGraphQLClient.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/network/createEasGraphQLClient.js.map b/node_modules/@coinbase/onchainkit/esm/network/createEasGraphQLClient.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/network/definitions/base.d.ts b/node_modules/@coinbase/onchainkit/esm/network/definitions/base.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/network/definitions/base.d.ts.map b/node_modules/@coinbase/onchainkit/esm/network/definitions/base.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/network/definitions/base.js b/node_modules/@coinbase/onchainkit/esm/network/definitions/base.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/network/definitions/base.js.map b/node_modules/@coinbase/onchainkit/esm/network/definitions/base.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/network/definitions/baseSepolia.d.ts b/node_modules/@coinbase/onchainkit/esm/network/definitions/baseSepolia.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/network/definitions/baseSepolia.d.ts.map b/node_modules/@coinbase/onchainkit/esm/network/definitions/baseSepolia.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/network/definitions/baseSepolia.js b/node_modules/@coinbase/onchainkit/esm/network/definitions/baseSepolia.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/network/definitions/baseSepolia.js.map b/node_modules/@coinbase/onchainkit/esm/network/definitions/baseSepolia.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/network/definitions/optimism.d.ts b/node_modules/@coinbase/onchainkit/esm/network/definitions/optimism.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/network/definitions/optimism.d.ts.map b/node_modules/@coinbase/onchainkit/esm/network/definitions/optimism.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/network/definitions/optimism.js b/node_modules/@coinbase/onchainkit/esm/network/definitions/optimism.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/network/definitions/optimism.js.map b/node_modules/@coinbase/onchainkit/esm/network/definitions/optimism.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/network/definitions/swap.d.ts b/node_modules/@coinbase/onchainkit/esm/network/definitions/swap.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/network/definitions/swap.d.ts.map b/node_modules/@coinbase/onchainkit/esm/network/definitions/swap.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/network/definitions/swap.js b/node_modules/@coinbase/onchainkit/esm/network/definitions/swap.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/network/definitions/swap.js.map b/node_modules/@coinbase/onchainkit/esm/network/definitions/swap.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/network/getRPCUrl.d.ts b/node_modules/@coinbase/onchainkit/esm/network/getRPCUrl.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/network/getRPCUrl.d.ts.map b/node_modules/@coinbase/onchainkit/esm/network/getRPCUrl.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/network/getRPCUrl.js b/node_modules/@coinbase/onchainkit/esm/network/getRPCUrl.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/network/getRPCUrl.js.map b/node_modules/@coinbase/onchainkit/esm/network/getRPCUrl.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/network/request.d.ts b/node_modules/@coinbase/onchainkit/esm/network/request.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/network/request.d.ts.map b/node_modules/@coinbase/onchainkit/esm/network/request.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/network/request.js b/node_modules/@coinbase/onchainkit/esm/network/request.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/network/request.js.map b/node_modules/@coinbase/onchainkit/esm/network/request.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/styles/theme.d.ts b/node_modules/@coinbase/onchainkit/esm/styles/theme.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/styles/theme.d.ts.map b/node_modules/@coinbase/onchainkit/esm/styles/theme.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/styles/theme.js b/node_modules/@coinbase/onchainkit/esm/styles/theme.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/styles/theme.js.map b/node_modules/@coinbase/onchainkit/esm/styles/theme.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/components/Swap.d.ts b/node_modules/@coinbase/onchainkit/esm/swap/components/Swap.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/components/Swap.d.ts.map b/node_modules/@coinbase/onchainkit/esm/swap/components/Swap.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/components/Swap.js b/node_modules/@coinbase/onchainkit/esm/swap/components/Swap.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/components/Swap.js.map b/node_modules/@coinbase/onchainkit/esm/swap/components/Swap.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/components/SwapAmountInput.d.ts b/node_modules/@coinbase/onchainkit/esm/swap/components/SwapAmountInput.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/components/SwapAmountInput.d.ts.map b/node_modules/@coinbase/onchainkit/esm/swap/components/SwapAmountInput.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/components/SwapAmountInput.js b/node_modules/@coinbase/onchainkit/esm/swap/components/SwapAmountInput.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/components/SwapAmountInput.js.map b/node_modules/@coinbase/onchainkit/esm/swap/components/SwapAmountInput.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/components/SwapButton.d.ts b/node_modules/@coinbase/onchainkit/esm/swap/components/SwapButton.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/components/SwapButton.d.ts.map b/node_modules/@coinbase/onchainkit/esm/swap/components/SwapButton.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/components/SwapButton.js b/node_modules/@coinbase/onchainkit/esm/swap/components/SwapButton.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/components/SwapButton.js.map b/node_modules/@coinbase/onchainkit/esm/swap/components/SwapButton.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/components/SwapMessage.d.ts b/node_modules/@coinbase/onchainkit/esm/swap/components/SwapMessage.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/components/SwapMessage.d.ts.map b/node_modules/@coinbase/onchainkit/esm/swap/components/SwapMessage.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/components/SwapMessage.js b/node_modules/@coinbase/onchainkit/esm/swap/components/SwapMessage.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/components/SwapMessage.js.map b/node_modules/@coinbase/onchainkit/esm/swap/components/SwapMessage.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/components/SwapToggleButton.d.ts b/node_modules/@coinbase/onchainkit/esm/swap/components/SwapToggleButton.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/components/SwapToggleButton.d.ts.map b/node_modules/@coinbase/onchainkit/esm/swap/components/SwapToggleButton.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/components/SwapToggleButton.js b/node_modules/@coinbase/onchainkit/esm/swap/components/SwapToggleButton.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/components/SwapToggleButton.js.map b/node_modules/@coinbase/onchainkit/esm/swap/components/SwapToggleButton.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/constants.d.ts b/node_modules/@coinbase/onchainkit/esm/swap/constants.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/constants.d.ts.map b/node_modules/@coinbase/onchainkit/esm/swap/constants.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/constants.js b/node_modules/@coinbase/onchainkit/esm/swap/constants.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/constants.js.map b/node_modules/@coinbase/onchainkit/esm/swap/constants.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/context.d.ts b/node_modules/@coinbase/onchainkit/esm/swap/context.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/context.d.ts.map b/node_modules/@coinbase/onchainkit/esm/swap/context.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/context.js b/node_modules/@coinbase/onchainkit/esm/swap/context.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/context.js.map b/node_modules/@coinbase/onchainkit/esm/swap/context.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/core/buildSwapTransaction.d.ts b/node_modules/@coinbase/onchainkit/esm/swap/core/buildSwapTransaction.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/core/buildSwapTransaction.d.ts.map b/node_modules/@coinbase/onchainkit/esm/swap/core/buildSwapTransaction.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/core/buildSwapTransaction.js b/node_modules/@coinbase/onchainkit/esm/swap/core/buildSwapTransaction.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/core/buildSwapTransaction.js.map b/node_modules/@coinbase/onchainkit/esm/swap/core/buildSwapTransaction.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/core/formatDecimals.d.ts b/node_modules/@coinbase/onchainkit/esm/swap/core/formatDecimals.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/core/formatDecimals.d.ts.map b/node_modules/@coinbase/onchainkit/esm/swap/core/formatDecimals.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/core/formatDecimals.js b/node_modules/@coinbase/onchainkit/esm/swap/core/formatDecimals.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/core/formatDecimals.js.map b/node_modules/@coinbase/onchainkit/esm/swap/core/formatDecimals.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/core/getAPIParamsForToken.d.ts b/node_modules/@coinbase/onchainkit/esm/swap/core/getAPIParamsForToken.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/core/getAPIParamsForToken.d.ts.map b/node_modules/@coinbase/onchainkit/esm/swap/core/getAPIParamsForToken.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/core/getAPIParamsForToken.js b/node_modules/@coinbase/onchainkit/esm/swap/core/getAPIParamsForToken.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/core/getAPIParamsForToken.js.map b/node_modules/@coinbase/onchainkit/esm/swap/core/getAPIParamsForToken.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/core/getSwapErrorCode.d.ts b/node_modules/@coinbase/onchainkit/esm/swap/core/getSwapErrorCode.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/core/getSwapErrorCode.d.ts.map b/node_modules/@coinbase/onchainkit/esm/swap/core/getSwapErrorCode.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/core/getSwapErrorCode.js b/node_modules/@coinbase/onchainkit/esm/swap/core/getSwapErrorCode.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/core/getSwapErrorCode.js.map b/node_modules/@coinbase/onchainkit/esm/swap/core/getSwapErrorCode.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/core/getSwapMessage.d.ts b/node_modules/@coinbase/onchainkit/esm/swap/core/getSwapMessage.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/core/getSwapMessage.d.ts.map b/node_modules/@coinbase/onchainkit/esm/swap/core/getSwapMessage.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/core/getSwapMessage.js b/node_modules/@coinbase/onchainkit/esm/swap/core/getSwapMessage.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/core/getSwapMessage.js.map b/node_modules/@coinbase/onchainkit/esm/swap/core/getSwapMessage.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/core/getSwapQuote.d.ts b/node_modules/@coinbase/onchainkit/esm/swap/core/getSwapQuote.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/core/getSwapQuote.d.ts.map b/node_modules/@coinbase/onchainkit/esm/swap/core/getSwapQuote.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/core/getSwapQuote.js b/node_modules/@coinbase/onchainkit/esm/swap/core/getSwapQuote.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/core/getSwapQuote.js.map b/node_modules/@coinbase/onchainkit/esm/swap/core/getSwapQuote.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/core/getSwapTransaction.d.ts b/node_modules/@coinbase/onchainkit/esm/swap/core/getSwapTransaction.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/core/getSwapTransaction.d.ts.map b/node_modules/@coinbase/onchainkit/esm/swap/core/getSwapTransaction.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/core/getSwapTransaction.js b/node_modules/@coinbase/onchainkit/esm/swap/core/getSwapTransaction.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/core/getSwapTransaction.js.map b/node_modules/@coinbase/onchainkit/esm/swap/core/getSwapTransaction.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/core/getTokenBalanceErrorState.d.ts b/node_modules/@coinbase/onchainkit/esm/swap/core/getTokenBalanceErrorState.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/core/getTokenBalanceErrorState.d.ts.map b/node_modules/@coinbase/onchainkit/esm/swap/core/getTokenBalanceErrorState.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/core/getTokenBalanceErrorState.js b/node_modules/@coinbase/onchainkit/esm/swap/core/getTokenBalanceErrorState.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/core/getTokenBalanceErrorState.js.map b/node_modules/@coinbase/onchainkit/esm/swap/core/getTokenBalanceErrorState.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/core/getTokenBalances.d.ts b/node_modules/@coinbase/onchainkit/esm/swap/core/getTokenBalances.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/core/getTokenBalances.d.ts.map b/node_modules/@coinbase/onchainkit/esm/swap/core/getTokenBalances.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/core/getTokenBalances.js b/node_modules/@coinbase/onchainkit/esm/swap/core/getTokenBalances.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/core/getTokenBalances.js.map b/node_modules/@coinbase/onchainkit/esm/swap/core/getTokenBalances.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/core/isSwapError.d.ts b/node_modules/@coinbase/onchainkit/esm/swap/core/isSwapError.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/core/isSwapError.d.ts.map b/node_modules/@coinbase/onchainkit/esm/swap/core/isSwapError.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/core/isSwapError.js b/node_modules/@coinbase/onchainkit/esm/swap/core/isSwapError.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/core/isSwapError.js.map b/node_modules/@coinbase/onchainkit/esm/swap/core/isSwapError.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/index.d.ts b/node_modules/@coinbase/onchainkit/esm/swap/index.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/index.d.ts.map b/node_modules/@coinbase/onchainkit/esm/swap/index.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/index.js b/node_modules/@coinbase/onchainkit/esm/swap/index.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/index.js.map b/node_modules/@coinbase/onchainkit/esm/swap/index.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/types.d.ts b/node_modules/@coinbase/onchainkit/esm/swap/types.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/types.d.ts.map b/node_modules/@coinbase/onchainkit/esm/swap/types.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/types.js b/node_modules/@coinbase/onchainkit/esm/swap/types.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/swap/types.js.map b/node_modules/@coinbase/onchainkit/esm/swap/types.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/token/components/SearchIcon.d.ts b/node_modules/@coinbase/onchainkit/esm/token/components/SearchIcon.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/token/components/SearchIcon.d.ts.map b/node_modules/@coinbase/onchainkit/esm/token/components/SearchIcon.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/token/components/SearchIcon.js b/node_modules/@coinbase/onchainkit/esm/token/components/SearchIcon.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/token/components/SearchIcon.js.map b/node_modules/@coinbase/onchainkit/esm/token/components/SearchIcon.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/token/components/TokenChip.d.ts b/node_modules/@coinbase/onchainkit/esm/token/components/TokenChip.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/token/components/TokenChip.d.ts.map b/node_modules/@coinbase/onchainkit/esm/token/components/TokenChip.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/token/components/TokenChip.js b/node_modules/@coinbase/onchainkit/esm/token/components/TokenChip.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/token/components/TokenChip.js.map b/node_modules/@coinbase/onchainkit/esm/token/components/TokenChip.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/token/components/TokenImage.d.ts b/node_modules/@coinbase/onchainkit/esm/token/components/TokenImage.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/token/components/TokenImage.d.ts.map b/node_modules/@coinbase/onchainkit/esm/token/components/TokenImage.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/token/components/TokenImage.js b/node_modules/@coinbase/onchainkit/esm/token/components/TokenImage.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/token/components/TokenImage.js.map b/node_modules/@coinbase/onchainkit/esm/token/components/TokenImage.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/token/components/TokenRow.d.ts b/node_modules/@coinbase/onchainkit/esm/token/components/TokenRow.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/token/components/TokenRow.d.ts.map b/node_modules/@coinbase/onchainkit/esm/token/components/TokenRow.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/token/components/TokenRow.js b/node_modules/@coinbase/onchainkit/esm/token/components/TokenRow.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/token/components/TokenRow.js.map b/node_modules/@coinbase/onchainkit/esm/token/components/TokenRow.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/token/components/TokenSearch.d.ts b/node_modules/@coinbase/onchainkit/esm/token/components/TokenSearch.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/token/components/TokenSearch.d.ts.map b/node_modules/@coinbase/onchainkit/esm/token/components/TokenSearch.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/token/components/TokenSearch.js b/node_modules/@coinbase/onchainkit/esm/token/components/TokenSearch.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/token/components/TokenSearch.js.map b/node_modules/@coinbase/onchainkit/esm/token/components/TokenSearch.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/token/components/TokenSelectButton.d.ts b/node_modules/@coinbase/onchainkit/esm/token/components/TokenSelectButton.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/token/components/TokenSelectButton.d.ts.map b/node_modules/@coinbase/onchainkit/esm/token/components/TokenSelectButton.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/token/components/TokenSelectButton.js b/node_modules/@coinbase/onchainkit/esm/token/components/TokenSelectButton.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/token/components/TokenSelectButton.js.map b/node_modules/@coinbase/onchainkit/esm/token/components/TokenSelectButton.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/token/components/TokenSelectDropdown.d.ts b/node_modules/@coinbase/onchainkit/esm/token/components/TokenSelectDropdown.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/token/components/TokenSelectDropdown.d.ts.map b/node_modules/@coinbase/onchainkit/esm/token/components/TokenSelectDropdown.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/token/components/TokenSelectDropdown.js b/node_modules/@coinbase/onchainkit/esm/token/components/TokenSelectDropdown.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/token/components/TokenSelectDropdown.js.map b/node_modules/@coinbase/onchainkit/esm/token/components/TokenSelectDropdown.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/token/components/TokenSelectModal.d.ts b/node_modules/@coinbase/onchainkit/esm/token/components/TokenSelectModal.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/token/components/TokenSelectModal.d.ts.map b/node_modules/@coinbase/onchainkit/esm/token/components/TokenSelectModal.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/token/components/TokenSelectModal.js b/node_modules/@coinbase/onchainkit/esm/token/components/TokenSelectModal.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/token/components/TokenSelectModal.js.map b/node_modules/@coinbase/onchainkit/esm/token/components/TokenSelectModal.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/token/components/getTokenImageColor.d.ts b/node_modules/@coinbase/onchainkit/esm/token/components/getTokenImageColor.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/token/components/getTokenImageColor.d.ts.map b/node_modules/@coinbase/onchainkit/esm/token/components/getTokenImageColor.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/token/components/getTokenImageColor.js b/node_modules/@coinbase/onchainkit/esm/token/components/getTokenImageColor.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/token/components/getTokenImageColor.js.map b/node_modules/@coinbase/onchainkit/esm/token/components/getTokenImageColor.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/token/core/formatAmount.d.ts b/node_modules/@coinbase/onchainkit/esm/token/core/formatAmount.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/token/core/formatAmount.d.ts.map b/node_modules/@coinbase/onchainkit/esm/token/core/formatAmount.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/token/core/formatAmount.js b/node_modules/@coinbase/onchainkit/esm/token/core/formatAmount.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/token/core/formatAmount.js.map b/node_modules/@coinbase/onchainkit/esm/token/core/formatAmount.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/token/core/getTokens.d.ts b/node_modules/@coinbase/onchainkit/esm/token/core/getTokens.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/token/core/getTokens.d.ts.map b/node_modules/@coinbase/onchainkit/esm/token/core/getTokens.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/token/core/getTokens.js b/node_modules/@coinbase/onchainkit/esm/token/core/getTokens.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/token/core/getTokens.js.map b/node_modules/@coinbase/onchainkit/esm/token/core/getTokens.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/token/index.d.ts b/node_modules/@coinbase/onchainkit/esm/token/index.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/token/index.d.ts.map b/node_modules/@coinbase/onchainkit/esm/token/index.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/token/index.js b/node_modules/@coinbase/onchainkit/esm/token/index.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/token/index.js.map b/node_modules/@coinbase/onchainkit/esm/token/index.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/token/types.d.ts b/node_modules/@coinbase/onchainkit/esm/token/types.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/token/types.d.ts.map b/node_modules/@coinbase/onchainkit/esm/token/types.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/token/types.js b/node_modules/@coinbase/onchainkit/esm/token/types.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/token/types.js.map b/node_modules/@coinbase/onchainkit/esm/token/types.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/types.d.ts b/node_modules/@coinbase/onchainkit/esm/types.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/types.d.ts.map b/node_modules/@coinbase/onchainkit/esm/types.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/types.js b/node_modules/@coinbase/onchainkit/esm/types.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/types.js.map b/node_modules/@coinbase/onchainkit/esm/types.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/useOnchainKit.d.ts b/node_modules/@coinbase/onchainkit/esm/useOnchainKit.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/useOnchainKit.d.ts.map b/node_modules/@coinbase/onchainkit/esm/useOnchainKit.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/useOnchainKit.js b/node_modules/@coinbase/onchainkit/esm/useOnchainKit.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/useOnchainKit.js.map b/node_modules/@coinbase/onchainkit/esm/useOnchainKit.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/checkHashLength.d.ts b/node_modules/@coinbase/onchainkit/esm/utils/checkHashLength.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/checkHashLength.d.ts.map b/node_modules/@coinbase/onchainkit/esm/utils/checkHashLength.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/checkHashLength.js b/node_modules/@coinbase/onchainkit/esm/utils/checkHashLength.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/checkHashLength.js.map b/node_modules/@coinbase/onchainkit/esm/utils/checkHashLength.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/formatTokenAmount.d.ts b/node_modules/@coinbase/onchainkit/esm/utils/formatTokenAmount.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/formatTokenAmount.d.ts.map b/node_modules/@coinbase/onchainkit/esm/utils/formatTokenAmount.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/formatTokenAmount.js b/node_modules/@coinbase/onchainkit/esm/utils/formatTokenAmount.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/formatTokenAmount.js.map b/node_modules/@coinbase/onchainkit/esm/utils/formatTokenAmount.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/getRoundedAmount.d.ts b/node_modules/@coinbase/onchainkit/esm/utils/getRoundedAmount.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/getRoundedAmount.d.ts.map b/node_modules/@coinbase/onchainkit/esm/utils/getRoundedAmount.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/getRoundedAmount.js b/node_modules/@coinbase/onchainkit/esm/utils/getRoundedAmount.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/getRoundedAmount.js.map b/node_modules/@coinbase/onchainkit/esm/utils/getRoundedAmount.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/isValidAmount.d.ts b/node_modules/@coinbase/onchainkit/esm/utils/isValidAmount.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/isValidAmount.d.ts.map b/node_modules/@coinbase/onchainkit/esm/utils/isValidAmount.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/isValidAmount.js b/node_modules/@coinbase/onchainkit/esm/utils/isValidAmount.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/isValidAmount.js.map b/node_modules/@coinbase/onchainkit/esm/utils/isValidAmount.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/neynar/exceptions/FetchError.d.ts b/node_modules/@coinbase/onchainkit/esm/utils/neynar/exceptions/FetchError.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/neynar/exceptions/FetchError.d.ts.map b/node_modules/@coinbase/onchainkit/esm/utils/neynar/exceptions/FetchError.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/neynar/exceptions/FetchError.js b/node_modules/@coinbase/onchainkit/esm/utils/neynar/exceptions/FetchError.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/neynar/exceptions/FetchError.js.map b/node_modules/@coinbase/onchainkit/esm/utils/neynar/exceptions/FetchError.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/neynar/frame/convertToNeynarResponseModel.d.ts b/node_modules/@coinbase/onchainkit/esm/utils/neynar/frame/convertToNeynarResponseModel.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/neynar/frame/convertToNeynarResponseModel.d.ts.map b/node_modules/@coinbase/onchainkit/esm/utils/neynar/frame/convertToNeynarResponseModel.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/neynar/frame/convertToNeynarResponseModel.js b/node_modules/@coinbase/onchainkit/esm/utils/neynar/frame/convertToNeynarResponseModel.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/neynar/frame/convertToNeynarResponseModel.js.map b/node_modules/@coinbase/onchainkit/esm/utils/neynar/frame/convertToNeynarResponseModel.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/neynar/frame/neynarFrameValidation.d.ts b/node_modules/@coinbase/onchainkit/esm/utils/neynar/frame/neynarFrameValidation.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/neynar/frame/neynarFrameValidation.d.ts.map b/node_modules/@coinbase/onchainkit/esm/utils/neynar/frame/neynarFrameValidation.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/neynar/frame/neynarFrameValidation.js b/node_modules/@coinbase/onchainkit/esm/utils/neynar/frame/neynarFrameValidation.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/neynar/frame/neynarFrameValidation.js.map b/node_modules/@coinbase/onchainkit/esm/utils/neynar/frame/neynarFrameValidation.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/neynar/frame/types.d.ts b/node_modules/@coinbase/onchainkit/esm/utils/neynar/frame/types.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/neynar/frame/types.d.ts.map b/node_modules/@coinbase/onchainkit/esm/utils/neynar/frame/types.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/neynar/frame/types.js b/node_modules/@coinbase/onchainkit/esm/utils/neynar/frame/types.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/neynar/frame/types.js.map b/node_modules/@coinbase/onchainkit/esm/utils/neynar/frame/types.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/neynar/getDataFromNeynar.d.ts b/node_modules/@coinbase/onchainkit/esm/utils/neynar/getDataFromNeynar.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/neynar/getDataFromNeynar.d.ts.map b/node_modules/@coinbase/onchainkit/esm/utils/neynar/getDataFromNeynar.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/neynar/getDataFromNeynar.js b/node_modules/@coinbase/onchainkit/esm/utils/neynar/getDataFromNeynar.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/neynar/getDataFromNeynar.js.map b/node_modules/@coinbase/onchainkit/esm/utils/neynar/getDataFromNeynar.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/neynar/postDataToNeynar.d.ts b/node_modules/@coinbase/onchainkit/esm/utils/neynar/postDataToNeynar.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/neynar/postDataToNeynar.d.ts.map b/node_modules/@coinbase/onchainkit/esm/utils/neynar/postDataToNeynar.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/neynar/postDataToNeynar.js b/node_modules/@coinbase/onchainkit/esm/utils/neynar/postDataToNeynar.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/neynar/postDataToNeynar.js.map b/node_modules/@coinbase/onchainkit/esm/utils/neynar/postDataToNeynar.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/neynar/user/convertToNeynarResponseModel.d.ts b/node_modules/@coinbase/onchainkit/esm/utils/neynar/user/convertToNeynarResponseModel.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/neynar/user/convertToNeynarResponseModel.d.ts.map b/node_modules/@coinbase/onchainkit/esm/utils/neynar/user/convertToNeynarResponseModel.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/neynar/user/convertToNeynarResponseModel.js b/node_modules/@coinbase/onchainkit/esm/utils/neynar/user/convertToNeynarResponseModel.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/neynar/user/convertToNeynarResponseModel.js.map b/node_modules/@coinbase/onchainkit/esm/utils/neynar/user/convertToNeynarResponseModel.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/neynar/user/convertToNeynarUserModel.d.ts b/node_modules/@coinbase/onchainkit/esm/utils/neynar/user/convertToNeynarUserModel.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/neynar/user/convertToNeynarUserModel.d.ts.map b/node_modules/@coinbase/onchainkit/esm/utils/neynar/user/convertToNeynarUserModel.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/neynar/user/convertToNeynarUserModel.js b/node_modules/@coinbase/onchainkit/esm/utils/neynar/user/convertToNeynarUserModel.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/neynar/user/convertToNeynarUserModel.js.map b/node_modules/@coinbase/onchainkit/esm/utils/neynar/user/convertToNeynarUserModel.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/neynar/user/getCustodyAddressForFidNeynar.d.ts b/node_modules/@coinbase/onchainkit/esm/utils/neynar/user/getCustodyAddressForFidNeynar.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/neynar/user/getCustodyAddressForFidNeynar.d.ts.map b/node_modules/@coinbase/onchainkit/esm/utils/neynar/user/getCustodyAddressForFidNeynar.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/neynar/user/getCustodyAddressForFidNeynar.js b/node_modules/@coinbase/onchainkit/esm/utils/neynar/user/getCustodyAddressForFidNeynar.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/neynar/user/getCustodyAddressForFidNeynar.js.map b/node_modules/@coinbase/onchainkit/esm/utils/neynar/user/getCustodyAddressForFidNeynar.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/neynar/user/getVerifiedAddressesForFidNeynar.d.ts b/node_modules/@coinbase/onchainkit/esm/utils/neynar/user/getVerifiedAddressesForFidNeynar.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/neynar/user/getVerifiedAddressesForFidNeynar.d.ts.map b/node_modules/@coinbase/onchainkit/esm/utils/neynar/user/getVerifiedAddressesForFidNeynar.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/neynar/user/getVerifiedAddressesForFidNeynar.js b/node_modules/@coinbase/onchainkit/esm/utils/neynar/user/getVerifiedAddressesForFidNeynar.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/neynar/user/getVerifiedAddressesForFidNeynar.js.map b/node_modules/@coinbase/onchainkit/esm/utils/neynar/user/getVerifiedAddressesForFidNeynar.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/neynar/user/neynarBulkUserLookup.d.ts b/node_modules/@coinbase/onchainkit/esm/utils/neynar/user/neynarBulkUserLookup.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/neynar/user/neynarBulkUserLookup.d.ts.map b/node_modules/@coinbase/onchainkit/esm/utils/neynar/user/neynarBulkUserLookup.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/neynar/user/neynarBulkUserLookup.js b/node_modules/@coinbase/onchainkit/esm/utils/neynar/user/neynarBulkUserLookup.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/neynar/user/neynarBulkUserLookup.js.map b/node_modules/@coinbase/onchainkit/esm/utils/neynar/user/neynarBulkUserLookup.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/neynar/user/types.d.ts b/node_modules/@coinbase/onchainkit/esm/utils/neynar/user/types.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/neynar/user/types.d.ts.map b/node_modules/@coinbase/onchainkit/esm/utils/neynar/user/types.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/neynar/user/types.js b/node_modules/@coinbase/onchainkit/esm/utils/neynar/user/types.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/utils/neynar/user/types.js.map b/node_modules/@coinbase/onchainkit/esm/utils/neynar/user/types.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/version.d.ts b/node_modules/@coinbase/onchainkit/esm/version.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/version.d.ts.map b/node_modules/@coinbase/onchainkit/esm/version.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/version.js b/node_modules/@coinbase/onchainkit/esm/version.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/version.js.map b/node_modules/@coinbase/onchainkit/esm/version.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/components/ConnectAccount.d.ts b/node_modules/@coinbase/onchainkit/esm/wallet/components/ConnectAccount.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/components/ConnectAccount.d.ts.map b/node_modules/@coinbase/onchainkit/esm/wallet/components/ConnectAccount.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/components/ConnectAccount.js b/node_modules/@coinbase/onchainkit/esm/wallet/components/ConnectAccount.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/components/ConnectAccount.js.map b/node_modules/@coinbase/onchainkit/esm/wallet/components/ConnectAccount.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/components/ConnectWallet.d.ts b/node_modules/@coinbase/onchainkit/esm/wallet/components/ConnectWallet.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/components/ConnectWallet.d.ts.map b/node_modules/@coinbase/onchainkit/esm/wallet/components/ConnectWallet.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/components/ConnectWallet.js b/node_modules/@coinbase/onchainkit/esm/wallet/components/ConnectWallet.js
+old mode 100644
+new mode 100755
+index 764b79c..770029d
+--- a/node_modules/@coinbase/onchainkit/esm/wallet/components/ConnectWallet.js
++++ b/node_modules/@coinbase/onchainkit/esm/wallet/components/ConnectWallet.js
+@@ -32,7 +32,7 @@ function ConnectWallet({
+       children: /*#__PURE__*/jsx("button", {
+         type: "button",
+         "data-testid": "ockConnectWallet_ConnectButton",
+-        className: cn(pressable.primary, text.headline, color.inverse, 'inline-flex min-w-[153px] items-center justify-center rounded-xl px-4 py-3', className),
++        className: cn(pressable.primary, text.headline, color.inverse, 'inline-flex min-w-[153px] items-center justify-center rounded-xl px-1 py-1', className),
+         onClick: () => connect({
+           connector
+         }),
+@@ -50,7 +50,7 @@ function ConnectWallet({
+       children: /*#__PURE__*/jsx("button", {
+         type: "button",
+         "data-testid": "ockConnectAccountButtonInner",
+-        className: cn(pressable.primary, text.headline, color.inverse, 'inline-flex min-w-[153px] items-center justify-center rounded-xl px-4 py-3', pressable.disabled, className),
++        className: cn(pressable.primary, text.headline, color.inverse, 'inline-flex min-w-[153px] items-center justify-center rounded-xl px-1 py-1', pressable.disabled, className),
+         disabled: true,
+         children: /*#__PURE__*/jsx(Spinner, {})
+       })
+@@ -64,7 +64,7 @@ function ConnectWallet({
+       children: /*#__PURE__*/jsx("button", {
+         type: "button",
+         "data-testid": "ockConnectWallet_Connected",
+-        className: cn(pressable.secondary, 'rounded-xl px-4 py-3', isOpen && 'bg-secondary-active hover:bg-secondary-active', className),
++        className: cn(pressable.secondary, 'rounded-xl px-1 py-1', isOpen && 'bg-secondary-active hover:bg-secondary-active', className),
+         onClick: handleToggle,
+         children: /*#__PURE__*/jsx("div", {
+           className: "flex gap-2",
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/components/ConnectWallet.js.map b/node_modules/@coinbase/onchainkit/esm/wallet/components/ConnectWallet.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/components/Wallet.d.ts b/node_modules/@coinbase/onchainkit/esm/wallet/components/Wallet.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/components/Wallet.d.ts.map b/node_modules/@coinbase/onchainkit/esm/wallet/components/Wallet.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/components/Wallet.js b/node_modules/@coinbase/onchainkit/esm/wallet/components/Wallet.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/components/Wallet.js.map b/node_modules/@coinbase/onchainkit/esm/wallet/components/Wallet.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/components/WalletDropdown.d.ts b/node_modules/@coinbase/onchainkit/esm/wallet/components/WalletDropdown.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/components/WalletDropdown.d.ts.map b/node_modules/@coinbase/onchainkit/esm/wallet/components/WalletDropdown.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/components/WalletDropdown.js b/node_modules/@coinbase/onchainkit/esm/wallet/components/WalletDropdown.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/components/WalletDropdown.js.map b/node_modules/@coinbase/onchainkit/esm/wallet/components/WalletDropdown.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/components/WalletDropdownDisconnect.d.ts b/node_modules/@coinbase/onchainkit/esm/wallet/components/WalletDropdownDisconnect.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/components/WalletDropdownDisconnect.d.ts.map b/node_modules/@coinbase/onchainkit/esm/wallet/components/WalletDropdownDisconnect.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/components/WalletDropdownDisconnect.js b/node_modules/@coinbase/onchainkit/esm/wallet/components/WalletDropdownDisconnect.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/components/WalletDropdownDisconnect.js.map b/node_modules/@coinbase/onchainkit/esm/wallet/components/WalletDropdownDisconnect.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/components/WalletDropdownLink.d.ts b/node_modules/@coinbase/onchainkit/esm/wallet/components/WalletDropdownLink.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/components/WalletDropdownLink.d.ts.map b/node_modules/@coinbase/onchainkit/esm/wallet/components/WalletDropdownLink.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/components/WalletDropdownLink.js b/node_modules/@coinbase/onchainkit/esm/wallet/components/WalletDropdownLink.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/components/WalletDropdownLink.js.map b/node_modules/@coinbase/onchainkit/esm/wallet/components/WalletDropdownLink.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/components/WalletProvider.d.ts b/node_modules/@coinbase/onchainkit/esm/wallet/components/WalletProvider.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/components/WalletProvider.d.ts.map b/node_modules/@coinbase/onchainkit/esm/wallet/components/WalletProvider.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/components/WalletProvider.js b/node_modules/@coinbase/onchainkit/esm/wallet/components/WalletProvider.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/components/WalletProvider.js.map b/node_modules/@coinbase/onchainkit/esm/wallet/components/WalletProvider.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/components/disconnectSvg.d.ts b/node_modules/@coinbase/onchainkit/esm/wallet/components/disconnectSvg.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/components/disconnectSvg.d.ts.map b/node_modules/@coinbase/onchainkit/esm/wallet/components/disconnectSvg.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/components/disconnectSvg.js b/node_modules/@coinbase/onchainkit/esm/wallet/components/disconnectSvg.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/components/disconnectSvg.js.map b/node_modules/@coinbase/onchainkit/esm/wallet/components/disconnectSvg.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/components/walletSvg.d.ts b/node_modules/@coinbase/onchainkit/esm/wallet/components/walletSvg.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/components/walletSvg.d.ts.map b/node_modules/@coinbase/onchainkit/esm/wallet/components/walletSvg.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/components/walletSvg.js b/node_modules/@coinbase/onchainkit/esm/wallet/components/walletSvg.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/components/walletSvg.js.map b/node_modules/@coinbase/onchainkit/esm/wallet/components/walletSvg.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/constants.d.ts b/node_modules/@coinbase/onchainkit/esm/wallet/constants.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/constants.d.ts.map b/node_modules/@coinbase/onchainkit/esm/wallet/constants.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/constants.js b/node_modules/@coinbase/onchainkit/esm/wallet/constants.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/constants.js.map b/node_modules/@coinbase/onchainkit/esm/wallet/constants.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/core/useGetETHBalance.d.ts b/node_modules/@coinbase/onchainkit/esm/wallet/core/useGetETHBalance.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/core/useGetETHBalance.d.ts.map b/node_modules/@coinbase/onchainkit/esm/wallet/core/useGetETHBalance.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/core/useGetETHBalance.js b/node_modules/@coinbase/onchainkit/esm/wallet/core/useGetETHBalance.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/core/useGetETHBalance.js.map b/node_modules/@coinbase/onchainkit/esm/wallet/core/useGetETHBalance.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/core/useGetTokenBalance.d.ts b/node_modules/@coinbase/onchainkit/esm/wallet/core/useGetTokenBalance.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/core/useGetTokenBalance.d.ts.map b/node_modules/@coinbase/onchainkit/esm/wallet/core/useGetTokenBalance.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/core/useGetTokenBalance.js b/node_modules/@coinbase/onchainkit/esm/wallet/core/useGetTokenBalance.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/core/useGetTokenBalance.js.map b/node_modules/@coinbase/onchainkit/esm/wallet/core/useGetTokenBalance.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/index.d.ts b/node_modules/@coinbase/onchainkit/esm/wallet/index.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/index.d.ts.map b/node_modules/@coinbase/onchainkit/esm/wallet/index.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/index.js b/node_modules/@coinbase/onchainkit/esm/wallet/index.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/index.js.map b/node_modules/@coinbase/onchainkit/esm/wallet/index.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/isValidAAEntrypoint.d.ts b/node_modules/@coinbase/onchainkit/esm/wallet/isValidAAEntrypoint.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/isValidAAEntrypoint.d.ts.map b/node_modules/@coinbase/onchainkit/esm/wallet/isValidAAEntrypoint.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/isValidAAEntrypoint.js b/node_modules/@coinbase/onchainkit/esm/wallet/isValidAAEntrypoint.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/isValidAAEntrypoint.js.map b/node_modules/@coinbase/onchainkit/esm/wallet/isValidAAEntrypoint.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/isWalletACoinbaseSmartWallet.d.ts b/node_modules/@coinbase/onchainkit/esm/wallet/isWalletACoinbaseSmartWallet.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/isWalletACoinbaseSmartWallet.d.ts.map b/node_modules/@coinbase/onchainkit/esm/wallet/isWalletACoinbaseSmartWallet.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/isWalletACoinbaseSmartWallet.js b/node_modules/@coinbase/onchainkit/esm/wallet/isWalletACoinbaseSmartWallet.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/isWalletACoinbaseSmartWallet.js.map b/node_modules/@coinbase/onchainkit/esm/wallet/isWalletACoinbaseSmartWallet.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/types.d.ts b/node_modules/@coinbase/onchainkit/esm/wallet/types.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/types.d.ts.map b/node_modules/@coinbase/onchainkit/esm/wallet/types.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/types.js b/node_modules/@coinbase/onchainkit/esm/wallet/types.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/types.js.map b/node_modules/@coinbase/onchainkit/esm/wallet/types.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/xmtp/getXmtpFrameMessage.d.ts b/node_modules/@coinbase/onchainkit/esm/xmtp/getXmtpFrameMessage.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/xmtp/getXmtpFrameMessage.d.ts.map b/node_modules/@coinbase/onchainkit/esm/xmtp/getXmtpFrameMessage.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/xmtp/getXmtpFrameMessage.js b/node_modules/@coinbase/onchainkit/esm/xmtp/getXmtpFrameMessage.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/xmtp/getXmtpFrameMessage.js.map b/node_modules/@coinbase/onchainkit/esm/xmtp/getXmtpFrameMessage.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/xmtp/index.d.ts b/node_modules/@coinbase/onchainkit/esm/xmtp/index.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/xmtp/index.d.ts.map b/node_modules/@coinbase/onchainkit/esm/xmtp/index.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/xmtp/index.js b/node_modules/@coinbase/onchainkit/esm/xmtp/index.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/xmtp/index.js.map b/node_modules/@coinbase/onchainkit/esm/xmtp/index.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/xmtp/isXmtpFrameRequest.d.ts b/node_modules/@coinbase/onchainkit/esm/xmtp/isXmtpFrameRequest.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/xmtp/isXmtpFrameRequest.d.ts.map b/node_modules/@coinbase/onchainkit/esm/xmtp/isXmtpFrameRequest.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/xmtp/isXmtpFrameRequest.js b/node_modules/@coinbase/onchainkit/esm/xmtp/isXmtpFrameRequest.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/xmtp/isXmtpFrameRequest.js.map b/node_modules/@coinbase/onchainkit/esm/xmtp/isXmtpFrameRequest.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/xmtp/types.d.ts b/node_modules/@coinbase/onchainkit/esm/xmtp/types.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/xmtp/types.d.ts.map b/node_modules/@coinbase/onchainkit/esm/xmtp/types.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/xmtp/types.js b/node_modules/@coinbase/onchainkit/esm/xmtp/types.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/esm/xmtp/types.js.map b/node_modules/@coinbase/onchainkit/esm/xmtp/types.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/OnchainKitConfig.test.ts b/node_modules/@coinbase/onchainkit/src/OnchainKitConfig.test.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/OnchainKitConfig.ts b/node_modules/@coinbase/onchainkit/src/OnchainKitConfig.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/OnchainKitProvider.test.tsx b/node_modules/@coinbase/onchainkit/src/OnchainKitProvider.test.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/OnchainKitProvider.tsx b/node_modules/@coinbase/onchainkit/src/OnchainKitProvider.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/core/index.ts b/node_modules/@coinbase/onchainkit/src/core/index.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/farcaster/getFarcasterUserAddress.test.ts b/node_modules/@coinbase/onchainkit/src/farcaster/getFarcasterUserAddress.test.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/farcaster/getFarcasterUserAddress.ts b/node_modules/@coinbase/onchainkit/src/farcaster/getFarcasterUserAddress.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/farcaster/index.ts b/node_modules/@coinbase/onchainkit/src/farcaster/index.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/farcaster/types.ts b/node_modules/@coinbase/onchainkit/src/farcaster/types.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/frame/components/FrameMetadata.test.tsx b/node_modules/@coinbase/onchainkit/src/frame/components/FrameMetadata.test.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/frame/components/FrameMetadata.tsx b/node_modules/@coinbase/onchainkit/src/frame/components/FrameMetadata.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/frame/getFrameHtmlResponse.test.ts b/node_modules/@coinbase/onchainkit/src/frame/getFrameHtmlResponse.test.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/frame/getFrameHtmlResponse.ts b/node_modules/@coinbase/onchainkit/src/frame/getFrameHtmlResponse.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/frame/getFrameMessage.integ.ts b/node_modules/@coinbase/onchainkit/src/frame/getFrameMessage.integ.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/frame/getFrameMessage.test.ts b/node_modules/@coinbase/onchainkit/src/frame/getFrameMessage.test.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/frame/getFrameMessage.ts b/node_modules/@coinbase/onchainkit/src/frame/getFrameMessage.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/frame/getFrameMetadata.test.ts b/node_modules/@coinbase/onchainkit/src/frame/getFrameMetadata.test.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/frame/getFrameMetadata.ts b/node_modules/@coinbase/onchainkit/src/frame/getFrameMetadata.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/frame/getMockFrameRequest.ts b/node_modules/@coinbase/onchainkit/src/frame/getMockFrameRequest.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/frame/index.ts b/node_modules/@coinbase/onchainkit/src/frame/index.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/frame/types.ts b/node_modules/@coinbase/onchainkit/src/frame/types.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/identity/components/Address.test.tsx b/node_modules/@coinbase/onchainkit/src/identity/components/Address.test.tsx
+old mode 100644
+new mode 100755
 diff --git a/node_modules/@coinbase/onchainkit/src/identity/components/Address.tsx b/node_modules/@coinbase/onchainkit/src/identity/components/Address.tsx
-index 0f60c11..d9174fa 100644
+old mode 100644
+new mode 100755
+index 0f60c11..206c5fa
 --- a/node_modules/@coinbase/onchainkit/src/identity/components/Address.tsx
 +++ b/node_modules/@coinbase/onchainkit/src/identity/components/Address.tsx
-@@ -12,8 +12,8 @@ export function Address({ address = null, className }: AddressReact) {
+@@ -12,8 +12,10 @@ export function Address({ address = null, className }: AddressReact) {
    }
  
    return (
 -    <span data-testid="ockAddress" className={cn(text.label2, className)}>
 -      {getSlicedAddress(contextAddress ?? address)}
++
++    
 +    <span id="curAddress" data-testid="ockAddress" className={cn(text.label2, className)}>
 +      {contextAddress ?? address}
      </span>
    );
  }
+diff --git a/node_modules/@coinbase/onchainkit/src/identity/components/Avatar.test.tsx b/node_modules/@coinbase/onchainkit/src/identity/components/Avatar.test.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/identity/components/Avatar.tsx b/node_modules/@coinbase/onchainkit/src/identity/components/Avatar.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/identity/components/Badge.test.tsx b/node_modules/@coinbase/onchainkit/src/identity/components/Badge.test.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/identity/components/Badge.tsx b/node_modules/@coinbase/onchainkit/src/identity/components/Badge.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/identity/components/DisplayBadge.test.tsx b/node_modules/@coinbase/onchainkit/src/identity/components/DisplayBadge.test.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/identity/components/DisplayBadge.tsx b/node_modules/@coinbase/onchainkit/src/identity/components/DisplayBadge.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/identity/components/EthBalance.test.tsx b/node_modules/@coinbase/onchainkit/src/identity/components/EthBalance.test.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/identity/components/EthBalance.tsx b/node_modules/@coinbase/onchainkit/src/identity/components/EthBalance.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/identity/components/Identity.test.tsx b/node_modules/@coinbase/onchainkit/src/identity/components/Identity.test.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/identity/components/Identity.tsx b/node_modules/@coinbase/onchainkit/src/identity/components/Identity.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/identity/components/IdentityLayout.test.tsx b/node_modules/@coinbase/onchainkit/src/identity/components/IdentityLayout.test.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/identity/components/IdentityLayout.tsx b/node_modules/@coinbase/onchainkit/src/identity/components/IdentityLayout.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/identity/components/IdentityProvider.test.tsx b/node_modules/@coinbase/onchainkit/src/identity/components/IdentityProvider.test.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/identity/components/IdentityProvider.tsx b/node_modules/@coinbase/onchainkit/src/identity/components/IdentityProvider.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/identity/components/Name.test.tsx b/node_modules/@coinbase/onchainkit/src/identity/components/Name.test.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/identity/components/Name.tsx b/node_modules/@coinbase/onchainkit/src/identity/components/Name.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/identity/components/defaultAvatarSVG.tsx b/node_modules/@coinbase/onchainkit/src/identity/components/defaultAvatarSVG.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/identity/components/defaultLoadingSVG.tsx b/node_modules/@coinbase/onchainkit/src/identity/components/defaultLoadingSVG.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/identity/core/getAvatar.test.tsx b/node_modules/@coinbase/onchainkit/src/identity/core/getAvatar.test.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/identity/core/getAvatar.ts b/node_modules/@coinbase/onchainkit/src/identity/core/getAvatar.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/identity/core/getName.test.tsx b/node_modules/@coinbase/onchainkit/src/identity/core/getName.test.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/identity/core/getName.ts b/node_modules/@coinbase/onchainkit/src/identity/core/getName.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/identity/easSupportedChains.test.ts b/node_modules/@coinbase/onchainkit/src/identity/easSupportedChains.test.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/identity/easSupportedChains.ts b/node_modules/@coinbase/onchainkit/src/identity/easSupportedChains.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/identity/getAttestations.test.ts b/node_modules/@coinbase/onchainkit/src/identity/getAttestations.test.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/identity/getAttestations.ts b/node_modules/@coinbase/onchainkit/src/identity/getAttestations.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/identity/getSlicedAddress.test.ts b/node_modules/@coinbase/onchainkit/src/identity/getSlicedAddress.test.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/identity/getSlicedAddress.ts b/node_modules/@coinbase/onchainkit/src/identity/getSlicedAddress.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/identity/hooks/getNewReactQueryTestProvider.tsx b/node_modules/@coinbase/onchainkit/src/identity/hooks/getNewReactQueryTestProvider.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/identity/hooks/useAttestations.test.ts b/node_modules/@coinbase/onchainkit/src/identity/hooks/useAttestations.test.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/identity/hooks/useAttestations.ts b/node_modules/@coinbase/onchainkit/src/identity/hooks/useAttestations.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/identity/hooks/useAvatar.test.tsx b/node_modules/@coinbase/onchainkit/src/identity/hooks/useAvatar.test.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/identity/hooks/useAvatar.ts b/node_modules/@coinbase/onchainkit/src/identity/hooks/useAvatar.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/identity/hooks/useName.test.tsx b/node_modules/@coinbase/onchainkit/src/identity/hooks/useName.test.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/identity/hooks/useName.ts b/node_modules/@coinbase/onchainkit/src/identity/hooks/useName.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/identity/index.ts b/node_modules/@coinbase/onchainkit/src/identity/index.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/identity/types.ts b/node_modules/@coinbase/onchainkit/src/identity/types.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/index.ts b/node_modules/@coinbase/onchainkit/src/index.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/internal/form/TextInput.tsx b/node_modules/@coinbase/onchainkit/src/internal/form/TextInput.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/internal/form/useDebounce.ts b/node_modules/@coinbase/onchainkit/src/internal/form/useDebounce.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/internal/hooks/useValue.ts b/node_modules/@coinbase/onchainkit/src/internal/hooks/useValue.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/internal/loading/Spinner.test.tsx b/node_modules/@coinbase/onchainkit/src/internal/loading/Spinner.test.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/internal/loading/Spinner.tsx b/node_modules/@coinbase/onchainkit/src/internal/loading/Spinner.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/internal/testing/index.ts b/node_modules/@coinbase/onchainkit/src/internal/testing/index.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/internal/testing/mock.ts b/node_modules/@coinbase/onchainkit/src/internal/testing/mock.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/internal/testing/silenceError.ts b/node_modules/@coinbase/onchainkit/src/internal/testing/silenceError.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/internal/utils/findComponent.test.tsx b/node_modules/@coinbase/onchainkit/src/internal/utils/findComponent.test.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/internal/utils/findComponent.ts b/node_modules/@coinbase/onchainkit/src/internal/utils/findComponent.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/isBase.test.ts b/node_modules/@coinbase/onchainkit/src/isBase.test.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/isBase.ts b/node_modules/@coinbase/onchainkit/src/isBase.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/network/attestations.test.ts b/node_modules/@coinbase/onchainkit/src/network/attestations.test.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/network/attestations.ts b/node_modules/@coinbase/onchainkit/src/network/attestations.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/network/client.ts b/node_modules/@coinbase/onchainkit/src/network/client.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/network/createEasGraphQLClient.test.ts b/node_modules/@coinbase/onchainkit/src/network/createEasGraphQLClient.test.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/network/createEasGraphQLClient.ts b/node_modules/@coinbase/onchainkit/src/network/createEasGraphQLClient.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/network/definitions/base.ts b/node_modules/@coinbase/onchainkit/src/network/definitions/base.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/network/definitions/baseSepolia.ts b/node_modules/@coinbase/onchainkit/src/network/definitions/baseSepolia.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/network/definitions/optimism.ts b/node_modules/@coinbase/onchainkit/src/network/definitions/optimism.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/network/definitions/swap.ts b/node_modules/@coinbase/onchainkit/src/network/definitions/swap.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/network/getRPCUrl.test.ts b/node_modules/@coinbase/onchainkit/src/network/getRPCUrl.test.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/network/getRPCUrl.ts b/node_modules/@coinbase/onchainkit/src/network/getRPCUrl.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/network/request.test.ts b/node_modules/@coinbase/onchainkit/src/network/request.test.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/network/request.ts b/node_modules/@coinbase/onchainkit/src/network/request.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/styles.css b/node_modules/@coinbase/onchainkit/src/styles.css
+old mode 100644
+new mode 100755
+index f6f223c..bf18fa0
+--- a/node_modules/@coinbase/onchainkit/src/styles.css
++++ b/node_modules/@coinbase/onchainkit/src/styles.css
+@@ -1,2 +1,2 @@
+ @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz@0,9..40;1,9..40&display=swap");@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,700;1,9..40,700&display=swap");
+-/*! tailwindcss v3.4.3 | MIT License | https://tailwindcss.com*/*,:after,:before{box-sizing:border-box;border:0 solid #e5e7eb}:after,:before{--tw-content:""}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;-o-tab-size:4;tab-size:4;font-family:Inter,sans-serif;font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:initial}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:initial;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:initial}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0}fieldset,legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{opacity:1;color:#9ca3af}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]{display:none}:root{--text-inverse:#f9fafb;--text-foreground:#030712;--text-foreground-muted:#4b5563;--text-error:#e11d48;--text-primary:#4f46e5;--text-success:#65a30d;--text-warning:#ea580c;--text-disabled:#9ca3af;--bg-default:#f9fafb;--bg-default-hover:#e5e7eb;--bg-default-active:#d1d5db;--bg-alternate:#e5e7eb;--bg-alternate-hover:#d1d5db;--bg-alternate-active:#9ca3af;--bg-inverse:#f3f4f6;--bg-inverse-hover:#e5e7eb;--bg-inverse-active:#d1d5db;--bg-primary:#4f46e5;--bg-primary-hover:#4338ca;--bg-primary-active:#3730a3;--bg-secondary:#e2e8f0;--bg-secondary-hover:#cbd5e1;--bg-secondary-active:#94a3b8;--bg-error:#e11d48;--bg-warning:#ea580c;--bg-success:#bef264}*,::backdrop,:after,:before{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:#3b82f680;--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.-bottom-0{bottom:0}.-bottom-0\.5{bottom:-.125rem}.-right-0{right:0}.-right-0\.5{right:-.125rem}.left-0{left:0}.left-2\/4{left:50%}.left-4{left:1rem}.left-6{left:1.5rem}.left-\[46px\]{left:46px}.right-0{right:0}.right-4{right:1rem}.top-0{top:0}.top-1\/2,.top-2\/4{top:50%}.top-\[-5px\]{top:-5px}.top-\[calc\(100\%_-_5px\)\]{top:calc(100% - 5px)}.z-10{z-index:10}.z-50{z-index:50}.mb-4{margin-bottom:1rem}.mt-1{margin-top:.25rem}.mt-3{margin-top:.75rem}.mt-4{margin-top:1rem}.box-border{box-sizing:border-box}.flex{display:flex}.inline-flex{display:inline-flex}.h-0{height:0}.h-1{height:.25rem}.h-10{height:2.5rem}.h-12{height:3rem}.h-16{height:4rem}.h-3{height:.75rem}.h-4{height:1rem}.h-5{height:1.25rem}.h-8{height:2rem}.h-\[15px\]{height:15px}.h-full{height:100%}.max-h-80{max-height:20rem}.w-0{width:0}.w-12{width:3rem}.w-3{width:.75rem}.w-4{width:1rem}.w-5{width:1.25rem}.w-8{width:2rem}.w-\[15px\]{width:15px}.w-\[250px\]{width:250px}.w-\[475px\]{width:475px}.w-\[500px\]{width:500px}.w-fit{width:-moz-fit-content;width:fit-content}.w-full{width:100%}.w-max{width:-moz-max-content;width:max-content}.min-w-\[153px\]{min-width:153px}.min-w-\[250px\]{min-width:250px}.shrink-0{flex-shrink:0}.grow{flex-grow:1}.-translate-x-2\/4{--tw-translate-x:-50%;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.-translate-y-1\/2,.-translate-y-2\/4{--tw-translate-y:-50%}.-translate-y-1\/2,.-translate-y-2\/4,.transform{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}@keyframes spin{to{transform:rotate(1turn)}}.animate-spin{animation:spin 1s linear infinite}.cursor-pointer{cursor:pointer}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-1{gap:.25rem}.gap-2{gap:.5rem}.gap-3{gap:.75rem}.gap-4{gap:1rem}.space-x-4>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1rem*var(--tw-space-x-reverse));margin-left:calc(1rem*(1 - var(--tw-space-x-reverse)))}.overflow-hidden{overflow:hidden}.overflow-y-auto{overflow-y:auto}.overflow-y-hidden{overflow-y:hidden}.rounded{border-radius:.25rem}.rounded-3xl{border-radius:1.5rem}.rounded-\[50\%\]{border-radius:50%}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:.5rem}.rounded-md{border-radius:.375rem}.rounded-xl{border-radius:.75rem}.border{border-width:1px}.border-2{border-width:2px}.border-4{border-width:4px}.border-x-\[5px\]{border-left-width:5px;border-right-width:5px}.border-b{border-bottom-width:1px}.border-b-\[5px\]{border-bottom-width:5px}.border-solid{border-style:solid}.border-\[none\]{border-color:none}.border-gray-100{--tw-border-opacity:1;border-color:rgb(243 244 246/var(--tw-border-opacity))}.border-gray-200{--tw-border-opacity:1;border-color:rgb(229 231 235/var(--tw-border-opacity))}.border-transparent{border-color:#0000}.border-x-transparent{border-left-color:#0000;border-right-color:#0000}.border-b-\[color\:var\(--bg-inverse\)\]{border-bottom-color:var(--bg-inverse)}.border-t-blue-500{--tw-border-opacity:1;border-top-color:rgb(59 130 246/var(--tw-border-opacity))}.bg-\[\#ffffff\]{--tw-bg-opacity:1;background-color:rgb(255 255 255/var(--tw-bg-opacity))}.bg-alternate{background-color:var(--bg-alternate)}.bg-default{background-color:var(--bg-default)}.bg-error{background-color:var(--bg-error)}.bg-inverse{background-color:var(--bg-inverse)}.bg-primary{background-color:var(--bg-primary)}.bg-secondary{background-color:var(--bg-secondary)}.bg-secondary-active{background-color:var(--bg-secondary-active)}.bg-success{background-color:var(--bg-success)}.bg-transparent{background-color:initial}.bg-warning{background-color:var(--bg-warning)}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255/var(--tw-bg-opacity))}.fill-error{fill:var(--bg-error)}.fill-inverse{fill:var(--bg-inverse)}.fill-primary{fill:var(--bg-primary)}.fill-success{fill:var(--bg-success)}.fill-warning{fill:var(--bg-warning)}.p-4{padding:1rem}.p-6{padding:1.5rem}.px-2{padding-left:.5rem;padding-right:.5rem}.px-2\.5{padding-left:.625rem;padding-right:.625rem}.px-3{padding-left:.75rem;padding-right:.75rem}.px-4{padding-left:1rem;padding-right:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.py-1{padding-top:.25rem;padding-bottom:.25rem}.py-2{padding-top:.5rem;padding-bottom:.5rem}.py-2\.5{padding-top:.625rem;padding-bottom:.625rem}.py-3{padding-top:.75rem;padding-bottom:.75rem}.pb-2{padding-bottom:.5rem}.pb-4{padding-bottom:1rem}.pl-1{padding-left:.25rem}.pl-12{padding-left:3rem}.pr-3{padding-right:.75rem}.pr-5{padding-right:1.25rem}.pt-2{padding-top:.5rem}.pt-6{padding-top:1.5rem}.font-display{font-family:DM Sans,sans-serif}.font-sans{font-family:Inter,sans-serif}.text-\[2\.5rem\]{font-size:2.5rem}.text-base{font-size:1rem;line-height:1.5rem}.text-sm{font-size:.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:.75rem;line-height:1rem}.font-bold{font-weight:700}.font-medium{font-weight:500}.leading-4{line-height:1rem}.leading-5{line-height:1.25rem}.leading-6{line-height:1.5rem}.leading-7{line-height:1.75rem}.leading-none{line-height:1}.leading-normal{line-height:1.5}.text-black{--tw-text-opacity:1;color:rgb(0 0 0/var(--tw-text-opacity))}.text-disabled{color:var(--text-disabled)}.text-error{color:var(--text-error)}.text-foreground{color:var(--text-foreground)}.text-foreground-muted{color:var(--text-foreground-muted)}.text-inverse{color:var(--text-inverse)}.text-primary{color:var(--text-primary)}.text-success{color:var(--text-success)}.text-warning{color:var(--text-warning)}.text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}.placeholder-\[\#5B616E\]::-moz-placeholder{--tw-placeholder-opacity:1;color:rgb(91 97 110/var(--tw-placeholder-opacity))}.placeholder-\[\#5B616E\]::placeholder{--tw-placeholder-opacity:1;color:rgb(91 97 110/var(--tw-placeholder-opacity))}.opacity-\[0\.38\]{opacity:.38}.shadow{--tw-shadow:0 1px 3px 0 #0000001a,0 1px 2px -1px #0000001a;--tw-shadow-colored:0 1px 3px 0 var(--tw-shadow-color),0 1px 2px -1px var(--tw-shadow-color)}.shadow,.shadow-\[0px_4px_8px_rgba\(0\2c 0\2c 0\2c 0\.1\)\]{box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-\[0px_4px_8px_rgba\(0\2c 0\2c 0\2c 0\.1\)\]{--tw-shadow:0px 4px 8px #0000001a;--tw-shadow-colored:0px 4px 8px var(--tw-shadow-color)}.shadow-\[0px_8px_12px_0px_\#5B616E1F\]{--tw-shadow:0px 8px 12px 0px #5b616e1f;--tw-shadow-colored:0px 8px 12px 0px var(--tw-shadow-color)}.shadow-\[0px_8px_12px_0px_\#5B616E1F\],.shadow-none{box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-none{--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000}.outline-none{outline:2px solid #0000;outline-offset:2px}.filter{filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.ock-scrollbar{scrollbar-width:thin;scrollbar-color:#d1d5db #fff}.hover\:bg-alternate-hover:hover{background-color:var(--bg-alternate-hover)}.hover\:bg-default-hover:hover{background-color:var(--bg-default-hover)}.hover\:bg-inverse-hover:hover{background-color:var(--bg-inverse-hover)}.hover\:bg-primary-hover:hover{background-color:var(--bg-primary-hover)}.hover\:bg-secondary-active:hover{background-color:var(--bg-secondary-active)}.hover\:bg-secondary-hover:hover{background-color:var(--bg-secondary-hover)}.active\:bg-alternate-active:active{background-color:var(--bg-alternate-active)}.active\:bg-default-active:active{background-color:var(--bg-default-active)}.active\:bg-inverse-active:active{background-color:var(--bg-inverse-active)}.active\:bg-primary-active:active{background-color:var(--bg-primary-active)}.active\:bg-secondary-active:active{background-color:var(--bg-secondary-active)}
+\ No newline at end of file
++/*! tailwindcss v3.4.3 | MIT License | https://tailwindcss.com*/*,:after,:before{box-sizing:content-box;border:0 solid #e5e7eb}:after,:before{--tw-content:""}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;-o-tab-size:4;tab-size:4;font-family:Inter,sans-serif;font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:initial}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:initial;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:initial}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0}fieldset,legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{opacity:1;color:#9ca3af}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]{display:none}:root{--text-inverse:#f9fafb;--text-foreground:#030712;--text-foreground-muted:#4b5563;--text-error:#e11d48;--text-primary:#4f46e5;--text-success:#65a30d;--text-warning:#ea580c;--text-disabled:#9ca3af;--bg-default:#f9fafb;--bg-default-hover:#e5e7eb;--bg-default-active:#d1d5db;--bg-alternate:#e5e7eb;--bg-alternate-hover:#d1d5db;--bg-alternate-active:#9ca3af;--bg-inverse:#f3f4f6;--bg-inverse-hover:#e5e7eb;--bg-inverse-active:#d1d5db;--bg-primary:#4f46e5;--bg-primary-hover:#4338ca;--bg-primary-active:#3730a3;--bg-secondary:#e2e8f0;--bg-secondary-hover:#cbd5e1;--bg-secondary-active:#94a3b8;--bg-error:#e11d48;--bg-warning:#ea580c;--bg-success:#bef264}*,::backdrop,:after,:before{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:#3b82f680;--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.-bottom-0{bottom:0}.-bottom-0\.5{bottom:-.125rem}.-right-0{right:0}.-right-0\.5{right:-.125rem}.left-0{left:0}.left-2\/4{left:50%}.left-4{left:1rem}.left-6{left:1.5rem}.left-\[46px\]{left:46px}.right-0{right:0}.right-4{right:1rem}.top-0{top:0}.top-1\/2,.top-2\/4{top:50%}.top-\[-5px\]{top:-5px}.top-\[calc\(100\%_-_5px\)\]{top:calc(100% - 5px)}.z-10{z-index:10}.z-50{z-index:50}.mb-4{margin-bottom:1rem}.mt-1{margin-top:.25rem}.mt-3{margin-top:.75rem}.mt-4{margin-top:1rem}.box-border{box-sizing:border-box}.flex{display:flex}.inline-flex{display:inline-flex}.h-0{height:0}.h-1{height:.25rem}.h-10{height:2.5rem}.h-12{height:3rem}.h-16{height:4rem}.h-3{height:.75rem}.h-4{height:1rem}.h-5{height:1.25rem}.h-8{height:2rem}.h-\[15px\]{height:15px}.h-full{height:100%}.max-h-80{max-height:20rem}.w-0{width:0}.w-12{width:3rem}.w-3{width:.75rem}.w-4{width:1rem}.w-5{width:1.25rem}.w-8{width:2rem}.w-\[15px\]{width:15px}.w-\[250px\]{width:250px}.w-\[475px\]{width:475px}.w-\[500px\]{width:500px}.w-fit{width:-moz-fit-content;width:fit-content}.w-full{width:100%}.w-max{width:-moz-max-content;width:max-content}.min-w-\[153px\]{min-width:153px}.min-w-\[250px\]{min-width:250px}.shrink-0{display:inline-flex}.grow{flex-grow:1}.-translate-x-2\/4{--tw-translate-x:-50%;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.-translate-y-1\/2,.-translate-y-2\/4{--tw-translate-y:-50%}.-translate-y-1\/2,.-translate-y-2\/4,.transform{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}@keyframes spin{to{transform:rotate(1turn)}}.animate-spin{animation:spin 1s linear infinite}.cursor-pointer{cursor:pointer}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-1{gap:.25rem}.gap-2{gap:.5rem}.gap-3{gap:.75rem}.gap-4{gap:1rem}.space-x-4>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1rem*var(--tw-space-x-reverse));margin-left:calc(1rem*(1 - var(--tw-space-x-reverse)))}.overflow-hidden{overflow:hidden}.overflow-y-auto{overflow-y:auto}.overflow-y-hidden{overflow-y:hidden}.rounded{border-radius:.25rem}.rounded-3xl{border-radius:1.5rem}.rounded-\[50\%\]{border-radius:50%}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:.5rem}.rounded-md{border-radius:.375rem}.rounded-xl{border-radius:.75rem}.border{border-width:1px}.border-2{border-width:2px}.border-4{border-width:4px}.border-x-\[5px\]{border-left-width:5px;border-right-width:5px}.border-b{border-bottom-width:1px}.border-b-\[5px\]{border-bottom-width:5px}.border-solid{border-style:solid}.border-\[none\]{border-color:none}.border-gray-100{--tw-border-opacity:1;border-color:rgb(243 244 246/var(--tw-border-opacity))}.border-gray-200{--tw-border-opacity:1;border-color:rgb(229 231 235/var(--tw-border-opacity))}.border-transparent{border-color:#0000}.border-x-transparent{border-left-color:#0000;border-right-color:#0000}.border-b-\[color\:var\(--bg-inverse\)\]{border-bottom-color:var(--bg-inverse)}.border-t-blue-500{--tw-border-opacity:1;border-top-color:rgb(59 130 246/var(--tw-border-opacity))}.bg-\[\#ffffff\]{--tw-bg-opacity:1;background-color:rgb(255 255 255/var(--tw-bg-opacity))}.bg-alternate{background-color:var(--bg-alternate)}.bg-default{background-color:var(--bg-default)}.bg-error{background-color:var(--bg-error)}.bg-inverse{background-color:var(--bg-inverse)}.bg-primary{background-color:var(--bg-primary)}.bg-secondary{background-color:var(--bg-secondary)}.bg-secondary-active{background-color:var(--bg-secondary-active)}.bg-success{background-color:var(--bg-success)}.bg-transparent{background-color:initial}.bg-warning{background-color:var(--bg-warning)}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255/var(--tw-bg-opacity))}.fill-error{fill:var(--bg-error)}.fill-inverse{fill:var(--bg-inverse)}.fill-primary{fill:var(--bg-primary)}.fill-success{fill:var(--bg-success)}.fill-warning{fill:var(--bg-warning)}.p-4{padding:1rem}.p-6{padding:1.5rem}.px-2{padding-left:.5rem;padding-right:.5rem}.px-2\.5{padding-left:.625rem;padding-right:.625rem}.px-3{padding-left:.75rem;padding-right:.75rem}.px-4{padding-left:1rem;padding-right:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.py-1{padding-top:.25rem;padding-bottom:.25rem}.py-2{padding-top:.5rem;padding-bottom:.5rem}.py-2\.5{padding-top:.625rem;padding-bottom:.625rem}.py-3{padding-top:.75rem;padding-bottom:.75rem}.pb-2{padding-bottom:.5rem}.pb-4{padding-bottom:1rem}.pl-1{padding-left:.25rem}.pl-12{padding-left:3rem}.pr-3{padding-right:.75rem}.pr-5{padding-right:1.25rem}.pt-2{padding-top:.5rem}.pt-6{padding-top:1.5rem}.font-display{font-family:DM Sans,sans-serif}.font-sans{font-family:Inter,sans-serif}.text-\[2\.5rem\]{font-size:2.5rem}.text-base{font-size:13px;line-height:1.5rem}.text-sm{font-size:.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:.75rem;line-height:1rem}.font-bold{font-weight:700}.font-medium{font-weight:500}.leading-4{line-height:1rem}.leading-5{line-height:1.25rem}.leading-6{line-height:1.5rem}.leading-7{line-height:1.75rem}.leading-none{line-height:1}.leading-normal{line-height:1.5}.text-black{--tw-text-opacity:1;color:rgb(0 0 0/var(--tw-text-opacity))}.text-disabled{color:var(--text-disabled)}.text-error{color:var(--text-error)}.text-foreground{color:var(--text-foreground)}.text-foreground-muted{color:var(--text-foreground-muted)}.text-inverse{color:var(--text-inverse)}.text-primary{color:var(--text-primary)}.text-success{color:var(--text-success)}.text-warning{color:var(--text-warning)}.text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}.placeholder-\[\#5B616E\]::-moz-placeholder{--tw-placeholder-opacity:1;color:rgb(91 97 110/var(--tw-placeholder-opacity))}.placeholder-\[\#5B616E\]::placeholder{--tw-placeholder-opacity:1;color:rgb(91 97 110/var(--tw-placeholder-opacity))}.opacity-\[0\.38\]{opacity:.38}.shadow{--tw-shadow:0 1px 3px 0 #0000001a,0 1px 2px -1px #0000001a;--tw-shadow-colored:0 1px 3px 0 var(--tw-shadow-color),0 1px 2px -1px var(--tw-shadow-color)}.shadow,.shadow-\[0px_4px_8px_rgba\(0\2c 0\2c 0\2c 0\.1\)\]{box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-\[0px_4px_8px_rgba\(0\2c 0\2c 0\2c 0\.1\)\]{--tw-shadow:0px 4px 8px #0000001a;--tw-shadow-colored:0px 4px 8px var(--tw-shadow-color)}.shadow-\[0px_8px_12px_0px_\#5B616E1F\]{--tw-shadow:0px 8px 12px 0px #5b616e1f;--tw-shadow-colored:0px 8px 12px 0px var(--tw-shadow-color)}.shadow-\[0px_8px_12px_0px_\#5B616E1F\],.shadow-none{box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-none{--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000}.outline-none{outline:2px solid #0000;outline-offset:2px}.filter{filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.ock-scrollbar{scrollbar-width:thin;scrollbar-color:#d1d5db #fff}.hover\:bg-alternate-hover:hover{background-color:var(--bg-alternate-hover)}.hover\:bg-default-hover:hover{background-color:var(--bg-default-hover)}.hover\:bg-inverse-hover:hover{background-color:var(--bg-inverse-hover)}.hover\:bg-primary-hover:hover{background-color:var(--bg-primary-hover)}.hover\:bg-secondary-active:hover{background-color:var(--bg-secondary-active)}.hover\:bg-secondary-hover:hover{background-color:var(--bg-secondary-hover)}.active\:bg-alternate-active:active{background-color:var(--bg-alternate-active)}.active\:bg-default-active:active{background-color:var(--bg-default-active)}.active\:bg-inverse-active:active{background-color:var(--bg-inverse-active)}.active\:bg-primary-active:active{background-color:var(--bg-primary-active)}.active\:bg-secondary-active:active{background-color:var(--bg-secondary-active)}
+\ No newline at end of file
+diff --git a/node_modules/@coinbase/onchainkit/src/styles/index-with-tailwind.css b/node_modules/@coinbase/onchainkit/src/styles/index-with-tailwind.css
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/styles/index.css b/node_modules/@coinbase/onchainkit/src/styles/index.css
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/styles/tailwind-base.css b/node_modules/@coinbase/onchainkit/src/styles/tailwind-base.css
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/styles/theme.ts b/node_modules/@coinbase/onchainkit/src/styles/theme.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/swap/components/Swap.test.tsx b/node_modules/@coinbase/onchainkit/src/swap/components/Swap.test.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/swap/components/Swap.tsx b/node_modules/@coinbase/onchainkit/src/swap/components/Swap.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/swap/components/SwapAmountInput.test.tsx b/node_modules/@coinbase/onchainkit/src/swap/components/SwapAmountInput.test.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/swap/components/SwapAmountInput.tsx b/node_modules/@coinbase/onchainkit/src/swap/components/SwapAmountInput.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/swap/components/SwapButton.test.tsx b/node_modules/@coinbase/onchainkit/src/swap/components/SwapButton.test.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/swap/components/SwapButton.tsx b/node_modules/@coinbase/onchainkit/src/swap/components/SwapButton.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/swap/components/SwapMessage.test.tsx b/node_modules/@coinbase/onchainkit/src/swap/components/SwapMessage.test.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/swap/components/SwapMessage.tsx b/node_modules/@coinbase/onchainkit/src/swap/components/SwapMessage.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/swap/components/SwapToggleButton.tsx b/node_modules/@coinbase/onchainkit/src/swap/components/SwapToggleButton.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/swap/constants.ts b/node_modules/@coinbase/onchainkit/src/swap/constants.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/swap/context.test.tsx b/node_modules/@coinbase/onchainkit/src/swap/context.test.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/swap/context.ts b/node_modules/@coinbase/onchainkit/src/swap/context.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/swap/core/buildSwapTransaction.test.ts b/node_modules/@coinbase/onchainkit/src/swap/core/buildSwapTransaction.test.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/swap/core/buildSwapTransaction.ts b/node_modules/@coinbase/onchainkit/src/swap/core/buildSwapTransaction.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/swap/core/formatDecimals.test.ts b/node_modules/@coinbase/onchainkit/src/swap/core/formatDecimals.test.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/swap/core/formatDecimals.ts b/node_modules/@coinbase/onchainkit/src/swap/core/formatDecimals.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/swap/core/getAPIParamsForToken.test.ts b/node_modules/@coinbase/onchainkit/src/swap/core/getAPIParamsForToken.test.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/swap/core/getAPIParamsForToken.ts b/node_modules/@coinbase/onchainkit/src/swap/core/getAPIParamsForToken.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/swap/core/getSwapErrorCode.test.ts b/node_modules/@coinbase/onchainkit/src/swap/core/getSwapErrorCode.test.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/swap/core/getSwapErrorCode.ts b/node_modules/@coinbase/onchainkit/src/swap/core/getSwapErrorCode.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/swap/core/getSwapMessage.test.ts b/node_modules/@coinbase/onchainkit/src/swap/core/getSwapMessage.test.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/swap/core/getSwapMessage.ts b/node_modules/@coinbase/onchainkit/src/swap/core/getSwapMessage.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/swap/core/getSwapQuote.test.ts b/node_modules/@coinbase/onchainkit/src/swap/core/getSwapQuote.test.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/swap/core/getSwapQuote.ts b/node_modules/@coinbase/onchainkit/src/swap/core/getSwapQuote.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/swap/core/getSwapTransaction.test.ts b/node_modules/@coinbase/onchainkit/src/swap/core/getSwapTransaction.test.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/swap/core/getSwapTransaction.ts b/node_modules/@coinbase/onchainkit/src/swap/core/getSwapTransaction.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/swap/core/getTokenBalanceErrorState.test.ts b/node_modules/@coinbase/onchainkit/src/swap/core/getTokenBalanceErrorState.test.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/swap/core/getTokenBalanceErrorState.ts b/node_modules/@coinbase/onchainkit/src/swap/core/getTokenBalanceErrorState.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/swap/core/getTokenBalances.test.ts b/node_modules/@coinbase/onchainkit/src/swap/core/getTokenBalances.test.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/swap/core/getTokenBalances.ts b/node_modules/@coinbase/onchainkit/src/swap/core/getTokenBalances.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/swap/core/isSwapError.test.ts b/node_modules/@coinbase/onchainkit/src/swap/core/isSwapError.test.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/swap/core/isSwapError.ts b/node_modules/@coinbase/onchainkit/src/swap/core/isSwapError.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/swap/index.ts b/node_modules/@coinbase/onchainkit/src/swap/index.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/swap/types.ts b/node_modules/@coinbase/onchainkit/src/swap/types.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/tailwind.css b/node_modules/@coinbase/onchainkit/src/tailwind.css
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/token/components/SearchIcon.tsx b/node_modules/@coinbase/onchainkit/src/token/components/SearchIcon.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/token/components/TokenChip.test.tsx b/node_modules/@coinbase/onchainkit/src/token/components/TokenChip.test.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/token/components/TokenChip.tsx b/node_modules/@coinbase/onchainkit/src/token/components/TokenChip.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/token/components/TokenImage.test.tsx b/node_modules/@coinbase/onchainkit/src/token/components/TokenImage.test.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/token/components/TokenImage.tsx b/node_modules/@coinbase/onchainkit/src/token/components/TokenImage.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/token/components/TokenRow.test.tsx b/node_modules/@coinbase/onchainkit/src/token/components/TokenRow.test.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/token/components/TokenRow.tsx b/node_modules/@coinbase/onchainkit/src/token/components/TokenRow.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/token/components/TokenSearch.test.tsx b/node_modules/@coinbase/onchainkit/src/token/components/TokenSearch.test.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/token/components/TokenSearch.tsx b/node_modules/@coinbase/onchainkit/src/token/components/TokenSearch.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/token/components/TokenSelectButton.test.tsx b/node_modules/@coinbase/onchainkit/src/token/components/TokenSelectButton.test.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/token/components/TokenSelectButton.tsx b/node_modules/@coinbase/onchainkit/src/token/components/TokenSelectButton.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/token/components/TokenSelectDropdown.css b/node_modules/@coinbase/onchainkit/src/token/components/TokenSelectDropdown.css
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/token/components/TokenSelectDropdown.test.tsx b/node_modules/@coinbase/onchainkit/src/token/components/TokenSelectDropdown.test.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/token/components/TokenSelectDropdown.tsx b/node_modules/@coinbase/onchainkit/src/token/components/TokenSelectDropdown.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/token/components/TokenSelectModal.test.tsx b/node_modules/@coinbase/onchainkit/src/token/components/TokenSelectModal.test.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/token/components/TokenSelectModal.tsx b/node_modules/@coinbase/onchainkit/src/token/components/TokenSelectModal.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/token/components/getTokenImageColor.test.ts b/node_modules/@coinbase/onchainkit/src/token/components/getTokenImageColor.test.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/token/components/getTokenImageColor.ts b/node_modules/@coinbase/onchainkit/src/token/components/getTokenImageColor.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/token/core/formatAmount.test.ts b/node_modules/@coinbase/onchainkit/src/token/core/formatAmount.test.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/token/core/formatAmount.ts b/node_modules/@coinbase/onchainkit/src/token/core/formatAmount.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/token/core/getToken.test.ts b/node_modules/@coinbase/onchainkit/src/token/core/getToken.test.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/token/core/getTokens.ts b/node_modules/@coinbase/onchainkit/src/token/core/getTokens.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/token/index.test.ts b/node_modules/@coinbase/onchainkit/src/token/index.test.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/token/index.ts b/node_modules/@coinbase/onchainkit/src/token/index.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/token/types.ts b/node_modules/@coinbase/onchainkit/src/token/types.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/types.ts b/node_modules/@coinbase/onchainkit/src/types.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/useOnchainKit.test.tsx b/node_modules/@coinbase/onchainkit/src/useOnchainKit.test.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/useOnchainKit.tsx b/node_modules/@coinbase/onchainkit/src/useOnchainKit.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/utils/checkHashLength.test.ts b/node_modules/@coinbase/onchainkit/src/utils/checkHashLength.test.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/utils/checkHashLength.ts b/node_modules/@coinbase/onchainkit/src/utils/checkHashLength.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/utils/formatTokenAmount.test.ts b/node_modules/@coinbase/onchainkit/src/utils/formatTokenAmount.test.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/utils/formatTokenAmount.ts b/node_modules/@coinbase/onchainkit/src/utils/formatTokenAmount.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/utils/getRoundedAmount.test.ts b/node_modules/@coinbase/onchainkit/src/utils/getRoundedAmount.test.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/utils/getRoundedAmount.ts b/node_modules/@coinbase/onchainkit/src/utils/getRoundedAmount.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/utils/isValidAmount.test.ts b/node_modules/@coinbase/onchainkit/src/utils/isValidAmount.test.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/utils/isValidAmount.ts b/node_modules/@coinbase/onchainkit/src/utils/isValidAmount.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/utils/neynar/exceptions/FetchError.ts b/node_modules/@coinbase/onchainkit/src/utils/neynar/exceptions/FetchError.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/utils/neynar/frame/convertToNeynarResponseModel.ts b/node_modules/@coinbase/onchainkit/src/utils/neynar/frame/convertToNeynarResponseModel.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/utils/neynar/frame/neynarFrameValidation.test.ts b/node_modules/@coinbase/onchainkit/src/utils/neynar/frame/neynarFrameValidation.test.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/utils/neynar/frame/neynarFrameValidation.ts b/node_modules/@coinbase/onchainkit/src/utils/neynar/frame/neynarFrameValidation.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/utils/neynar/frame/types.ts b/node_modules/@coinbase/onchainkit/src/utils/neynar/frame/types.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/utils/neynar/getDataFromNeynar.test.ts b/node_modules/@coinbase/onchainkit/src/utils/neynar/getDataFromNeynar.test.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/utils/neynar/getDataFromNeynar.ts b/node_modules/@coinbase/onchainkit/src/utils/neynar/getDataFromNeynar.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/utils/neynar/postDataToNeynar.test.ts b/node_modules/@coinbase/onchainkit/src/utils/neynar/postDataToNeynar.test.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/utils/neynar/postDataToNeynar.ts b/node_modules/@coinbase/onchainkit/src/utils/neynar/postDataToNeynar.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/utils/neynar/user/convertToNeynarResponseModel.test.ts b/node_modules/@coinbase/onchainkit/src/utils/neynar/user/convertToNeynarResponseModel.test.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/utils/neynar/user/convertToNeynarResponseModel.ts b/node_modules/@coinbase/onchainkit/src/utils/neynar/user/convertToNeynarResponseModel.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/utils/neynar/user/convertToNeynarUserModel.test.ts b/node_modules/@coinbase/onchainkit/src/utils/neynar/user/convertToNeynarUserModel.test.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/utils/neynar/user/convertToNeynarUserModel.ts b/node_modules/@coinbase/onchainkit/src/utils/neynar/user/convertToNeynarUserModel.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/utils/neynar/user/getCustodyAddressForFidNeynar.test.ts b/node_modules/@coinbase/onchainkit/src/utils/neynar/user/getCustodyAddressForFidNeynar.test.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/utils/neynar/user/getCustodyAddressForFidNeynar.ts b/node_modules/@coinbase/onchainkit/src/utils/neynar/user/getCustodyAddressForFidNeynar.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/utils/neynar/user/getVerifiedAddressesForFidNeynar.test.ts b/node_modules/@coinbase/onchainkit/src/utils/neynar/user/getVerifiedAddressesForFidNeynar.test.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/utils/neynar/user/getVerifiedAddressesForFidNeynar.ts b/node_modules/@coinbase/onchainkit/src/utils/neynar/user/getVerifiedAddressesForFidNeynar.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/utils/neynar/user/neynarBulkUserLookup.test.ts b/node_modules/@coinbase/onchainkit/src/utils/neynar/user/neynarBulkUserLookup.test.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/utils/neynar/user/neynarBulkUserLookup.ts b/node_modules/@coinbase/onchainkit/src/utils/neynar/user/neynarBulkUserLookup.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/utils/neynar/user/types.ts b/node_modules/@coinbase/onchainkit/src/utils/neynar/user/types.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/version.ts b/node_modules/@coinbase/onchainkit/src/version.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/wallet/components/ConnectAccount.tsx b/node_modules/@coinbase/onchainkit/src/wallet/components/ConnectAccount.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/wallet/components/ConnectWallet.test.tsx b/node_modules/@coinbase/onchainkit/src/wallet/components/ConnectWallet.test.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/wallet/components/ConnectWallet.tsx b/node_modules/@coinbase/onchainkit/src/wallet/components/ConnectWallet.tsx
+old mode 100644
+new mode 100755
+index fa34dfa..21a5e2e
+--- a/node_modules/@coinbase/onchainkit/src/wallet/components/ConnectWallet.tsx
++++ b/node_modules/@coinbase/onchainkit/src/wallet/components/ConnectWallet.tsx
+@@ -31,7 +31,7 @@ export function ConnectWallet({
+             pressable.primary,
+             text.headline,
+             color.inverse,
+-            'inline-flex min-w-[153px] items-center justify-center rounded-xl px-4 py-3',
++            'inline-flex min-w-[153px] items-center justify-center rounded-xl px-1 py-1',
+             className,
+           )}
+           onClick={() => connect({ connector })}
+@@ -52,7 +52,7 @@ export function ConnectWallet({
+             pressable.primary,
+             text.headline,
+             color.inverse,
+-            'inline-flex min-w-[153px] items-center justify-center rounded-xl px-4 py-3',
++            'inline-flex min-w-[153px] items-center justify-center rounded-xl px-1 py-1',
+             pressable.disabled,
+             className,
+           )}
+@@ -72,7 +72,7 @@ export function ConnectWallet({
+           data-testid="ockConnectWallet_Connected"
+           className={cn(
+             pressable.secondary,
+-            'rounded-xl px-4 py-3',
++            'rounded-xl px-1 py-1',
+             isOpen && 'bg-secondary-active hover:bg-secondary-active',
+             className,
+           )}
+diff --git a/node_modules/@coinbase/onchainkit/src/wallet/components/Wallet.test.tsx b/node_modules/@coinbase/onchainkit/src/wallet/components/Wallet.test.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/wallet/components/Wallet.tsx b/node_modules/@coinbase/onchainkit/src/wallet/components/Wallet.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/wallet/components/WalletDropdown.test.tsx b/node_modules/@coinbase/onchainkit/src/wallet/components/WalletDropdown.test.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/wallet/components/WalletDropdown.tsx b/node_modules/@coinbase/onchainkit/src/wallet/components/WalletDropdown.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/wallet/components/WalletDropdownDisconnect.tsx b/node_modules/@coinbase/onchainkit/src/wallet/components/WalletDropdownDisconnect.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/wallet/components/WalletDropdownLink.tsx b/node_modules/@coinbase/onchainkit/src/wallet/components/WalletDropdownLink.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/wallet/components/WalletProvider.test.tsx b/node_modules/@coinbase/onchainkit/src/wallet/components/WalletProvider.test.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/wallet/components/WalletProvider.tsx b/node_modules/@coinbase/onchainkit/src/wallet/components/WalletProvider.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/wallet/components/disconnectSvg.tsx b/node_modules/@coinbase/onchainkit/src/wallet/components/disconnectSvg.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/wallet/components/walletSvg.tsx b/node_modules/@coinbase/onchainkit/src/wallet/components/walletSvg.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/wallet/constants.ts b/node_modules/@coinbase/onchainkit/src/wallet/constants.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/wallet/core/useGetETHBalance.test.ts b/node_modules/@coinbase/onchainkit/src/wallet/core/useGetETHBalance.test.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/wallet/core/useGetETHBalance.ts b/node_modules/@coinbase/onchainkit/src/wallet/core/useGetETHBalance.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/wallet/core/useGetTokenBalance.test.ts b/node_modules/@coinbase/onchainkit/src/wallet/core/useGetTokenBalance.test.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/wallet/core/useGetTokenBalance.ts b/node_modules/@coinbase/onchainkit/src/wallet/core/useGetTokenBalance.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/wallet/index.ts b/node_modules/@coinbase/onchainkit/src/wallet/index.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/wallet/isValidAAEntrypoint.test.ts b/node_modules/@coinbase/onchainkit/src/wallet/isValidAAEntrypoint.test.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/wallet/isValidAAEntrypoint.ts b/node_modules/@coinbase/onchainkit/src/wallet/isValidAAEntrypoint.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/wallet/isWalletACoinbaseSmartWallet.test.ts b/node_modules/@coinbase/onchainkit/src/wallet/isWalletACoinbaseSmartWallet.test.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/wallet/isWalletACoinbaseSmartWallet.ts b/node_modules/@coinbase/onchainkit/src/wallet/isWalletACoinbaseSmartWallet.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/wallet/types.ts b/node_modules/@coinbase/onchainkit/src/wallet/types.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/xmtp/getXmtpFrameMessage.test.ts b/node_modules/@coinbase/onchainkit/src/xmtp/getXmtpFrameMessage.test.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/xmtp/getXmtpFrameMessage.ts b/node_modules/@coinbase/onchainkit/src/xmtp/getXmtpFrameMessage.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/xmtp/index.ts b/node_modules/@coinbase/onchainkit/src/xmtp/index.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/xmtp/isXmtpFrameRequest.test.ts b/node_modules/@coinbase/onchainkit/src/xmtp/isXmtpFrameRequest.test.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/xmtp/isXmtpFrameRequest.ts b/node_modules/@coinbase/onchainkit/src/xmtp/isXmtpFrameRequest.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@coinbase/onchainkit/src/xmtp/types.ts b/node_modules/@coinbase/onchainkit/src/xmtp/types.ts
+old mode 100644
+new mode 100755
