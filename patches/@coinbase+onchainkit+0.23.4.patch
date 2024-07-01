@@ -13,16 +13,3 @@ index 7f225f4..ea270ba 100644
    });
  }
  export { Address };
-diff --git a/node_modules/@coinbase/onchainkit/esm/wallet/components/Wallet.js b/node_modules/@coinbase/onchainkit/esm/wallet/components/Wallet.js
-index 6d25cc6..53abc92 100644
---- a/node_modules/@coinbase/onchainkit/esm/wallet/components/Wallet.js
-+++ b/node_modules/@coinbase/onchainkit/esm/wallet/components/Wallet.js
-@@ -23,7 +23,7 @@ function Wallet({
-     dropdown = _useMemo.dropdown;
-   return /*#__PURE__*/jsx(WalletProvider, {
-     children: /*#__PURE__*/jsxs("div", {
--      className: "relative w-fit shrink-0",
-+      className: "inline-flex relative w-fit shrink-0",
-       children: [connect, dropdown]
-     })
-   });
