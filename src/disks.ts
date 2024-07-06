@@ -173,8 +173,8 @@ const MAC_OS_7_6: SystemDiskDef = {
 const AW_CUSTOM: SystemDiskDef = {
     displayName: "aetherWorks v0.1",
     description:
-        "utopiaZine #-1",
-    releaseDate: [2024, 1, 6],
+        "utopiaZine # -1",
+    releaseDate: [2024, 6, 6],
     prefetchChunks: [0],
     machines: [QUADRA_650],
     appleTalkSupported: false,

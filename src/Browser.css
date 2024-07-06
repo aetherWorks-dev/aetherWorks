@@ -1,3 +1,5 @@
+
+
 @font-face {
     font-family: "Apple Garamond";
     src: url(./Fonts/AppleGaramond.woff2);
@@ -35,9 +37,6 @@
 
 .Browser .Logo {
     flex-shrink: 0;
-    background-image: url(./Images/HeaderLogo.png);
-    background-size: cover;
-    image-rendering: pixelated;
     width: calc(114px * var(--browser-logo-scale));
     height: calc(74px * var(--browser-logo-scale));
 }
@@ -64,7 +63,7 @@
 }
 
 .Browser .Year h2 {
-    color: #fff;
+    color: #000;
     z-index: 1;
     position: relative;
 }
@@ -90,7 +89,7 @@
     height: 100%;
     border-radius: 4px;
     padding: 16px;
-    box-sizing: border-box;
+    box-sizing: border-box !important;
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -39,29 +39,16 @@ export function Browser({
 
     return (
         <div className="Browser">
-            <header>
-                <div className="Logo">
-                    <h1>aetherWorks</h1>
-                </div>
-            </header>
             <div className="Disks-Container">
-                <DiskFilters value={diskFilter} onChange={setDiskFilter} />
                 {Array.from(Object.entries(disksByYear), ([year, disks]) => (
-                    <div className="Year" key={year}>
-                        <h2>{year}</h2>
+
                         <div className="Disks">
                             {disks.map((disk, i) => (
                                 <Disk disk={disk} onRun={onRun} key={i} />
                             ))}
                         </div>
-                    </div>
+
                 ))}
-                <div className="Year">
-                    <h2>{new Date().getFullYear()}</h2>
-                    <div className="Disks">
-                        <CustomDisk onRun={onRun} />
-                    </div>
-                </div>
             </div>
         </div>
     );
