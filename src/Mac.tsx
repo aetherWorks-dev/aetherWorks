@@ -539,11 +539,11 @@ export default function Mac({
     }
 
     const controls: ScreenControl[] = [
-        {
-            label: "‹ Home",
-            handler: onDone,
-            alwaysVisible: true,
-        },
+        // {
+        //     label: "‹ Home",
+        //     handler: onDone,
+        //     alwaysVisible: true,
+        // },
         {label: "Load File", handler: handleLoadFileClick},
         {label: "Full Screen", handler: handleFullScreenClick},
         {label: "Settings", handler: handleSettingsClick},
