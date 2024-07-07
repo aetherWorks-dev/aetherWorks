@@ -1,7 +1,7 @@
 import { ConnectAccount } from '@coinbase/onchainkit/wallet';
 import { getTokens } from '@coinbase/onchainkit/token';
 
-import { ConnectWallet, Wallet, WalletDropdown, WalletDropdownLink, WalletDropdownDisconnect } from '@coinbase/onchainkit/wallet';
+import { ConnectWallet, Wallet, WalletDropdown, WalletDropdownLink, WalletDropdownDisconnect} from '@coinbase/onchainkit/wallet';
 
 import { Address, Avatar, Name, Badge, Identity, EthBalance } from '@coinbase/onchainkit/identity';
 
@@ -29,6 +29,7 @@ export function WalletComponents() {
           <WalletDropdownLink icon="wallet" href="https://wallet.coinbase.com">
             Go to Wallet Dashboard
           </WalletDropdownLink>
+          <WalletDropdownDisconnect />
         </WalletDropdown>
       </Wallet>
 
