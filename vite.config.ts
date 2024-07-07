@@ -24,7 +24,7 @@ export default defineConfig(() => {
     return {
         build: {
             assetsDir: ".",
-            minify: true,
+            minify: false,
         },
         worker: {
             format: "es",
