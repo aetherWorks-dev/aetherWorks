@@ -82,17 +82,26 @@ export function ConnectWalletSettings({
         //     return colorString;
         // }
         
+        const deg = 0 + rand() * (360 - 0)
+
         const color1 = getRandomColor();
         const color2 = getRandomColor();
         const color3 = getRandomColor();
         const color4 = getRandomColor();
+
+        document.getElementById("deg").value = deg + "deg";
 
         document.getElementById("color1").value = color1;
         document.getElementById("color2").value = color2;
         document.getElementById("color3").value = color3;
         document.getElementById("color4").value = color4;
 
-        let gradientToYield = `repeating-linear-gradient(${0 + rand() * (360 - 0)}deg, ${color1}, ${color2} 15%, ${color3} 20%, ${color4} 30%)`;
+        document.getElementById("color1").style.backgroundColor = color1;
+        document.getElementById("color2").style.backgroundColor = color2;
+        document.getElementById("color3").style.backgroundColor = color3;
+        document.getElementById("color4").style.backgroundColor = color4;
+
+        let gradientToYield = `repeating-linear-gradient(${deg}deg, ${color1}, ${color2} 15%, ${color3} 20%, ${color4} 30%)`;
         console.log(gradientToYield);
 
         document.body.style.background=gradientToYield;
@@ -143,28 +152,35 @@ export function ConnectWalletSettings({
                         <Input
                         appearance={appearance}
                         type="text"
-                        value="#FFFFFF"
+                        value="45deg"
+                        size="7"
+                        id="deg"
+                        />&nbsp;
+                        <Input
+                        appearance={appearance}
+                        type="text"
+                        value="#000000"
                         size="7"
                         id="color1"
                         />&nbsp;
                         <Input
                         appearance={appearance}
                         type="text"
-                        value="#FFFFFF"
+                        value="#000000"
                         size="7"
                         id="color2"
                         />&nbsp;
                         <Input
                         appearance={appearance}
                         type="text"
-                        value="#FFFFFF"
+                        value="#000000"
                         size="7"
                         id="color3"
                         />&nbsp;
                         <Input
                         appearance={appearance}
                         type="text"
-                        value="#FFFFFF"
+                        value="#000000"
                         size="7"
                         id="color4"
                         />
