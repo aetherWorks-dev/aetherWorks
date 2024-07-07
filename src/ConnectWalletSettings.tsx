@@ -28,15 +28,16 @@ export function ConnectWalletSettings({
 
     function generateColors() {
 
-        const seedText = document.getElementById("curAddress").textContent.toString()
+        const addressElement = document.getElementById("curAddress");
         //const seedText = "0x02feeb0AdE57b6adEEdE5A4EEea6Cf8c21BeB6B9"
 
-        if (seedText === "") {
+        if (!addressElement) {
             return (
                 console.log("You should connect your wallet first.")
             )
         } else {
 
+        const seedText = document.getElementById("curAddress").textContent.toString();
         let seeding = parseInt(seedText, 16);
 
         //const now = new Date();
@@ -133,7 +134,7 @@ export function ConnectWalletSettings({
                         <Button
                         appearance={appearance}
                         onClick={() => {
-                        console.log('Button clicked');
+                        // console.log('Button clicked');
                         generateColors();
                         }
                         }
