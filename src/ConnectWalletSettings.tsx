@@ -15,6 +15,7 @@ import {type Appearance} from "./controls/Appearance";
 import {Select} from "./controls/Select";
 import {Checkbox} from "./controls/Checkbox";
 import {Button} from "./controls/Button";
+import {Input} from "./controls/Input";
 import "./MacSettings.css";
 
 export function ConnectWalletSettings({
@@ -38,17 +39,9 @@ export function ConnectWalletSettings({
 
         let seeding = parseInt(seedText, 16);
 
-        const now = new Date();
-        const subSeeding = now.getMilliseconds();
+        //const now = new Date();
+        const subSeeding = Date.now();
     
-        // function basicPRNG(seed) {
-        //     return function() {
-        //         seed = Math.sin(seed) * Math.random() * 1000;
-        //         return seed - Math.floor(seed);
-        //     };
-        // }
-
-        // Linear Congruential Generator (LCG) PRNG
         function LCG(seed: number, subSeed: number) {
             const a = 1664525;
             const c = 1013904223;
@@ -88,8 +81,18 @@ export function ConnectWalletSettings({
         //                           ('00' + b.toString(16)).slice(-2);
         //     return colorString;
         // }
-            
-        let gradientToYield = `repeating-linear-gradient(${0 + rand() * (360 - 0)}deg, ${getRandomColor()}, ${getRandomColor()} 15%, ${getRandomColor()} 20%, ${getRandomColor()} 30%)`;
+        
+        const color1 = getRandomColor();
+        const color2 = getRandomColor();
+        const color3 = getRandomColor();
+        const color4 = getRandomColor();
+
+        document.getElementById("color1").value = color1;
+        document.getElementById("color2").value = color2;
+        document.getElementById("color3").value = color3;
+        document.getElementById("color4").value = color4;
+
+        let gradientToYield = `repeating-linear-gradient(${0 + rand() * (360 - 0)}deg, ${color1}, ${color2} 15%, ${color3} 20%, ${color4} 30%)`;
         console.log(gradientToYield);
 
         document.body.style.background=gradientToYield;
@@ -129,10 +132,43 @@ export function ConnectWalletSettings({
                         </Button>
                         
                         <div className="Dialog-Description">
-                            After connecting, you will be able
-                            to generate CSS gradient backgrounds, randomized
-                            using your wallet address and the current Unix time as seeds.
+                            After connecting, you can generate CSS gradient backgrounds, the PRNG
+                            being seeded by your wallet address and the current Unix time.
                         </div>
+            </div>
+
+            <div className="MacSettings-Row">
+                        <div className="MacSettings-Row-Label">Palette:</div>
+                        
+                        <Input
+                        appearance={appearance}
+                        type="text"
+                        value="#FFFFFF"
+                        size="7"
+                        id="color1"
+                        />&nbsp;
+                        <Input
+                        appearance={appearance}
+                        type="text"
+                        value="#FFFFFF"
+                        size="7"
+                        id="color2"
+                        />&nbsp;
+                        <Input
+                        appearance={appearance}
+                        type="text"
+                        value="#FFFFFF"
+                        size="7"
+                        id="color3"
+                        />&nbsp;
+                        <Input
+                        appearance={appearance}
+                        type="text"
+                        value="#FFFFFF"
+                        size="7"
+                        id="color4"
+                        />
+
             </div>
             
             
