@@ -127,25 +127,6 @@ export function ConnectWalletSettings({
                         </div>
             </div>
 
-            <div className="MacSettings-Row">
-
-                        <div className="MacSettings-Row-Label">PRNG Magic:</div>
-
-                        <Button
-                        appearance={appearance}
-                        onClick={() => {
-                        // console.log('Button clicked');
-                        generateColors();
-                        }
-                        }
-                        >Generate
-                        </Button>
-                        
-                        <div className="Dialog-Description">
-                            After connecting, you can generate CSS gradient backgrounds, the PRNG
-                            being seeded by your wallet address and the current Unix time.
-                        </div>
-            </div>
 
             <div className="MacSettings-Row">
                         <div className="MacSettings-Row-Label">Palette:</div>
@@ -186,6 +167,30 @@ export function ConnectWalletSettings({
                         id="color4"
                         />
 
+                        <div className="Dialog-Description">
+                            The generated palette will be displayed here.
+                        </div>
+
+            </div>
+
+            <div className="MacSettings-Row">
+
+                        <div className="MacSettings-Row-Label">PRNG Magic:</div>
+
+                        <Button
+                        appearance={appearance}
+                        onClick={() => {
+                        // console.log('Button clicked');
+                        generateColors();
+                        }
+                        }
+                        >Generate
+                        </Button>
+                        
+                        <div className="Dialog-Description">
+                            After connecting, you can generate CSS gradient backgrounds, the PRNG
+                            being seeded by your wallet address and the current Unix time.
+                        </div>
             </div>
             
             

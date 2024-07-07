@@ -1,5 +1,3 @@
-/* ChicagoFLF is a TrueType version of Chicago, downloaded from
-https://tinkerdifferent.com/resources/collection-of-classic-apple-fonts-for-your-modern-computer.130/ */
 @font-face {
     font-family: "ChicagoFLF";
     src: url(../Fonts/ChicagoFLF.woff2);
@@ -8,7 +6,14 @@ https://tinkerdifferent.com/resources/collection-of-classic-apple-fonts-for-your
     font-style: normal;
 }
 
-/* Charcoal downloaded from https://os9.ca/ */
+@font-face {
+    font-family: "MEKSans";
+    src: url(../Fonts/MEKSans-Regular.woff2);
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+
 @font-face {
     font-family: "Charcoal";
     src: url(../Fonts/Charcoal.woff2);
@@ -18,7 +23,7 @@ https://tinkerdifferent.com/resources/collection-of-classic-apple-fonts-for-your
 }
 
 .AppearanceSystemFont-Classic {
-    font-family: "ChicagoFLF", "Helvetica", "Arial", sans-serif;
+    font-family: "MEKSans", "Helvetica", "Arial", sans-serif;
     font-weight: normal !important;
 }
 
