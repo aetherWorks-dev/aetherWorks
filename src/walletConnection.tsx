@@ -16,19 +16,13 @@ export function WalletComponents() {
         
         <WalletDropdown>
           <Identity hasCopyAddressOnClick>
-            <Avatar />
             <Name>
-              <Badge />
             </Name>
             <Address  />
-            
+
             <Identity />
-            <EthBalance />
           </Identity>
           
-          <WalletDropdownLink icon="wallet" href="https://wallet.coinbase.com">
-            Go to Wallet Dashboard
-          </WalletDropdownLink>
           <WalletDropdownDisconnect />
         </WalletDropdown>
       </Wallet>
