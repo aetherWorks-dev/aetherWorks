@@ -82,7 +82,7 @@ export function ConnectWalletSettings({
         //     return colorString;
         // }
         
-        const deg = 0 + rand() * (360 - 0)
+        const deg = Math.floor(0 + rand() * (360 - 0));
 
         const color1 = getRandomColor();
         const color2 = getRandomColor();
