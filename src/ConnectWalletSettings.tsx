@@ -56,7 +56,6 @@ export function ConnectWalletSettings({
             }
 
             return function() {
-
                 state = mixStateAndSubseed(state, subSeed);
                 state = (a * state + c) % m;
                 return state / m;
@@ -112,17 +111,17 @@ export function ConnectWalletSettings({
     }
 
     return (
-        <Dialog title="Smart Wallet Connection" onDone={onDone} appearance={appearance}>
+        <Dialog title="Smart Wallet Module" onDone={onDone} appearance={appearance}>
 
             <div className="MacSettings-Row">
-                        <div className="MacSettings-Row-Label">Connect:</div>
+                        <div className="MacSettings-Row-Label">Connection:</div>
                         
                         <OnchainProviders>
                         <WalletFunctions.WalletComponents />
                         </OnchainProviders>
                         
                         <div className="Dialog-Description">
-                            The connection is powered by Coinbase Smart Wallet,
+                            This connection is powered by Coinbase Smart Wallet,
                             available thanks to OnchainKit.
                         </div>
             </div>
@@ -134,41 +133,41 @@ export function ConnectWalletSettings({
                         <Input
                         appearance={appearance}
                         type="text"
-                        value="45deg"
+                        value={window.localStorage.getItem("degree") ? window.localStorage.getItem("degree")?.toString() : "0deg"}
                         size="7"
                         id="deg"
                         />&nbsp;
                         <Input
                         appearance={appearance}
                         type="text"
-                        value="#000000"
+                        value={window.localStorage.getItem("colorI") ? window.localStorage.getItem("colorI")?.toString() : "#000000"}
                         size="7"
                         id="color1"
                         />&nbsp;
                         <Input
                         appearance={appearance}
                         type="text"
-                        value="#000000"
+                        value={window.localStorage.getItem("colorII") ? window.localStorage.getItem("colorII")?.toString() : "#000000"}
                         size="7"
                         id="color2"
                         />&nbsp;
                         <Input
                         appearance={appearance}
                         type="text"
-                        value="#000000"
+                        value={window.localStorage.getItem("colorIII") ? window.localStorage.getItem("colorIII")?.toString() : "#000000"}
                         size="7"
                         id="color3"
                         />&nbsp;
                         <Input
                         appearance={appearance}
                         type="text"
-                        value="#000000"
+                        value={window.localStorage.getItem("colorIV") ? window.localStorage.getItem("colorIV")?.toString() : "#000000"}
                         size="7"
                         id="color4"
                         />
 
                         <div className="Dialog-Description">
-                            The generated palette will be displayed here.
+                            The generated palette will be displayed here. 
                         </div>
 
             </div>
@@ -188,8 +187,9 @@ export function ConnectWalletSettings({
                         </Button>
                         
                         <div className="Dialog-Description">
-                            After connecting, you can generate CSS gradient backgrounds, the PRNG
-                            being seeded by your wallet address and the current Unix time.
+                            After connecting, you can generate random CSS gradients, the algorithm
+                            being seeded by your wallet address and the current Unix time. The last generated one will be persistent
+                            throughout the session.
                         </div>
             </div>
             
