@@ -17,6 +17,7 @@ import {Checkbox} from "./controls/Checkbox";
 import {Button} from "./controls/Button";
 import {Input} from "./controls/Input";
 import "./MacSettings.css";
+import { background } from "@coinbase/onchainkit/theme";
 
 export function ConnectWalletSettings({
     appearance,
@@ -143,7 +144,7 @@ export function ConnectWalletSettings({
                         value={window.localStorage.getItem("colorI") ? window.localStorage.getItem("colorI")?.toString() : "#000000"}
                         size="7"
                         id="color1"
-                        style={window.localStorage.getItem("colorI") ? `background-color: ${window.localStorage.getItem("colorI")?.toString()}` : "background-color: #000000"}
+
                         />&nbsp;
                         <Input
                         appearance={appearance}
@@ -151,7 +152,7 @@ export function ConnectWalletSettings({
                         value={window.localStorage.getItem("colorII") ? window.localStorage.getItem("colorII")?.toString() : "#000000"}
                         size="7"
                         id="color2"
-                        style={window.localStorage.getItem("colorII") ? `background-color: ${window.localStorage.getItem("colorII")?.toString()}` : "background-color: #000000"}
+
                         />&nbsp;
                         <Input
                         appearance={appearance}
@@ -159,7 +160,7 @@ export function ConnectWalletSettings({
                         value={window.localStorage.getItem("colorIII") ? window.localStorage.getItem("colorIII")?.toString() : "#000000"}
                         size="7"
                         id="color3"
-                        style={window.localStorage.getItem("colorIII") ? `background-color: ${window.localStorage.getItem("colorIII")?.toString()}` : "background-color: #000000"}
+
                         />&nbsp;
                         <Input
                         appearance={appearance}
@@ -167,7 +168,7 @@ export function ConnectWalletSettings({
                         value={window.localStorage.getItem("colorIV") ? window.localStorage.getItem("colorIV")?.toString() : "#000000"}
                         size="7"
                         id="color4"
-                        style={window.localStorage.getItem("colorIV") ? `background-color: ${window.localStorage.getItem("colorIV")?.toString()}` : "background-color: #000000"}
+
                         />
 
                         <div className="Dialog-Description">
