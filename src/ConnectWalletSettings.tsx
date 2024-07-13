@@ -72,23 +72,23 @@ export function ConnectWalletSettings({
             return colorString;
         }
 
-        // function getRandomColor() {
-        //     const r = Math.floor(0 + rand() * (256 - 0));
-        //     const g = Math.floor(0 + rand() * (256 - 0));
-        //     const b = Math.floor(0 + rand() * (256 - 0));
-
-        //     const colorString = '#' + ('00' + r.toString(16)).slice(-2) +
-        //                           ('00' + g.toString(16)).slice(-2) +
-        //                           ('00' + b.toString(16)).slice(-2);
-        //     return colorString;
-        // }
-        
         const deg = Math.floor(0 + rand() * (360 - 0));
 
         const color1 = getRandomColor();
         const color2 = getRandomColor();
         const color3 = getRandomColor();
         const color4 = getRandomColor();
+
+        // saving the palette on localStorage
+
+        window.localStorage.setItem("colorI", color1);
+        window.localStorage.setItem("colorII", color2);
+        window.localStorage.setItem("colorIII", color3);
+        window.localStorage.setItem("colorIV", color4);
+
+        window.localStorage.setItem("degree", deg.toString());
+
+        //
 
         document.getElementById("deg").value = deg + "deg";
 

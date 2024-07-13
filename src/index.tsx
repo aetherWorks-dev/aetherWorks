@@ -3,18 +3,15 @@ import "./index.css";
 import App from "./App";
 import {canSaveDisks} from "./canSaveDisks";
 
-// const gradients = [
-//       'background-1', 'background-2', 'background-3', 
-//       'background-4', 'background-5', 'background-6', 
-//       'background-7', 'background-8', 'background-9', 
-//       'background-10'
-//     ];
-// const randomGradient = gradients[Math.floor(Math.random() * gradients.length)];
-// document.body.classList.add(randomGradient);
+const globalColor1 = window.localStorage.getItem("colorI");
+const globalColor2 = window.localStorage.getItem("colorII");
+const globalColor3 = window.localStorage.getItem("colorIII");
+const globalColor4 = window.localStorage.getItem("colorIV");
 
-// Determining if we can save data is an async operation, kick off the request
-// now so that we're more likely to have the answer by the time the we actually
-// need to decide if we can mount the saved disk.
+const globalDegree = Number(window.localStorage.getItem("degree"));
+
+document.body.style.background = `repeating-linear-gradient(${globalDegree}deg, ${globalColor1}, ${globalColor2} 15%, ${globalColor3} 20%, ${globalColor4} 30%)`;
+
 try {
     canSaveDisks();
 } catch (e) {

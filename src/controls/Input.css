@@ -5,10 +5,10 @@
     image-rendering: pixelated;
     background: transparent;
     padding: 1px 1px;
-    font-size: 13px;
+    font-size: 16px;
     background-color: #000000;
     color: #ffffff;
-    font-family: "ChicagoFLF", "Helvetica", "Arial", sans-serif;
+    font-family: "MEKSans", "Helvetica", "Arial", sans-serif;
     font-weight: normal !important;
 }
 
