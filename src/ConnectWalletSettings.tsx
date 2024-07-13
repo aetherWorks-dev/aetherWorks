@@ -26,6 +26,11 @@ export function ConnectWalletSettings({
     onDone: () => void;
 }) {
 
+    document.getElementById("color1").style.backgroundColor = window.localStorage.getItem("colorI") ? window.localStorage.getItem("colorI")?.toString() : "#000000";
+    document.getElementById("color2").style.backgroundColor = window.localStorage.getItem("colorII") ? window.localStorage.getItem("colorII")?.toString() : "#000000";
+    document.getElementById("color3").style.backgroundColor = window.localStorage.getItem("colorIII") ? window.localStorage.getItem("colorIII")?.toString() : "#000000";
+    document.getElementById("color4").style.backgroundColor = window.localStorage.getItem("colorIV") ? window.localStorage.getItem("colorIV")?.toString() : "#000000";
+
     function generateColors() {
 
         const addressElement = document.getElementById("curAddress");
@@ -143,7 +148,6 @@ export function ConnectWalletSettings({
                         value={window.localStorage.getItem("colorI") ? window.localStorage.getItem("colorI")?.toString() : "#000000"}
                         size="7"
                         id="color1"
-                        backgroundColor={window.localStorage.getItem("colorI") ? window.localStorage.getItem("colorI")?.toString() : "#000000"}
                         />&nbsp;
                         <Input
                         appearance={appearance}
@@ -151,7 +155,6 @@ export function ConnectWalletSettings({
                         value={window.localStorage.getItem("colorII") ? window.localStorage.getItem("colorII")?.toString() : "#000000"}
                         size="7"
                         id="color2"
-                        backgroundColor={window.localStorage.getItem("colorII") ? window.localStorage.getItem("colorII")?.toString() : "#000000"}
                         />&nbsp;
                         <Input
                         appearance={appearance}
@@ -159,7 +162,6 @@ export function ConnectWalletSettings({
                         value={window.localStorage.getItem("colorIII") ? window.localStorage.getItem("colorIII")?.toString() : "#000000"}
                         size="7"
                         id="color3"
-                        backgroundColor={window.localStorage.getItem("colorIII") ? window.localStorage.getItem("colorIII")?.toString() : "#000000"}
                         />&nbsp;
                         <Input
                         appearance={appearance}
@@ -167,7 +169,6 @@ export function ConnectWalletSettings({
                         value={window.localStorage.getItem("colorIV") ? window.localStorage.getItem("colorIV")?.toString() : "#000000"}
                         size="7"
                         id="color4"
-                        backgroundColor={window.localStorage.getItem("colorIV") ? window.localStorage.getItem("colorIV")?.toString() : "#000000"}
                         />
 
                         <div className="Dialog-Description">
