@@ -26,6 +26,7 @@ export default defineConfig(() => {
     return {
         build: {
             assetsDir: ".",
+            assetsInlineLimit: 8192,
             minify: false,
         },
         worker: {
