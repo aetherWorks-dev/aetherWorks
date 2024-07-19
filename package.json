@@ -39,6 +39,7 @@
         "lint-staged": "^11.0.0",
         "prettier": "^2.8.8",
         "vite": "5.3.1",
+        "vite-plugin-singlefile": "^2.0.2",
         "vite-plugin-svgr": "4.2.0",
         "wrangler": "^3.56.0"
     },

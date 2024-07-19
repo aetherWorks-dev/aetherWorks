@@ -4,6 +4,8 @@ import basicSsl from "@vitejs/plugin-basic-ssl";
 import svgr from "vite-plugin-svgr";
 import {viteDevMiddleware} from "./src/vite-dev-middleware";
 
+import { viteSingleFile } from "vite-plugin-singlefile"
+
 const headers = {
     // Allow SharedArrayBuffer to work locally
     "Cross-Origin-Opener-Policy": "same-origin",
@@ -44,6 +46,7 @@ export default defineConfig(() => {
             basicSslWrapped(),
             react(),
             svgr(),
+            viteSingleFile(),
             {
                 name: "dev-middleware",
                 configureServer: server => {
