@@ -180,7 +180,6 @@ const AW_CUSTOM: SystemDiskDef = {
     appleTalkSupported: false,
     generatedSpec: () => import("./Data/aetherWorks-custom.hda.json"),
     notable: true,
-    persistent: true,
 };
 
 export const ALL_DISKS = [

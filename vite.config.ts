@@ -28,6 +28,11 @@ export default defineConfig(() => {
             assetsDir: ".",
             assetsInlineLimit: 8192,
             minify: false,
+            rollupOptions: {
+                output: {
+                    inlineDynamicImports: true,
+                }
+            },
         },
         worker: {
             format: "es",
