@@ -19,7 +19,7 @@ import previousConfigPath from "./Data/PreviousConfig.txt";
 import {
     type EmulatorDef,
     type EmulatorCpu,
-} from "./emulator/emulator-common-emulators";
+} from "./Data/emulator-common-emulators";
 
 export type MachineDef = EmulatorDef & {
     name: string;

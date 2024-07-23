@@ -1,6 +1,6 @@
 import {useRef, useState} from "react";
 import "./MacCDROMs.css";
-import {type EmulatorCDROM} from "./emulator/emulator-common";
+import {type EmulatorCDROM} from "./Data/emulator-common";
 import {Button} from "./controls/Button";
 import classNames from "classnames";
 import {Dialog} from "./controls/Dialog";

@@ -23,12 +23,12 @@ import {Input} from "./controls/Input";
 import {type Appearance} from "./controls/Appearance";
 import {Select} from "./controls/Select";
 import {Checkbox} from "./controls/Checkbox";
-import {emulatorSupportsAppleTalk} from "./emulator/emulator-common-emulators";
+import {emulatorSupportsAppleTalk} from "./Data/emulator-common-emulators";
 import {CloudflareWorkerEthernetProvider} from "./CloudflareWorkerEthernetProvider";
 import classNames from "classnames";
 import {canSaveDisks} from "./canSaveDisks";
 import {systemCDROMEra, systemCDROMs} from "./cdroms";
-import {diskImageExtensions} from "./emulator/emulator-common";
+import {diskImageExtensions} from "./Data/emulator-common";
 import {fromDateString, toDateString} from "./dates";
 
 const ALL_DISKS_BY_NAME = {

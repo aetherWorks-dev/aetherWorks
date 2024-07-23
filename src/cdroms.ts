@@ -1,7 +1,7 @@
 import {
     type EmulatorCDROMLibrary,
     type EmulatorCDROM,
-} from "./emulator/emulator-common";
+} from "./Data/emulator-common";
 import * as varz from "./varz";
 import cdromsManifest from "./Data/CD-ROMs.json";
 

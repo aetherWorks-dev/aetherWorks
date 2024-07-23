@@ -1,7 +1,7 @@
 import {
     type EmulatorEthernetProvider,
     type EmulatorEthernetProviderDelegate,
-} from "./emulator/emulator-ui";
+} from "./Data/emulator-ui";
 
 /**
  * Works in conjunction with the Cloudflare worker defined in

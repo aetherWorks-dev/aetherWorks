@@ -4,7 +4,7 @@ import {
     type EmulatorWorkerFallbackAudioConfig,
     type EmulatorWorkerSharedMemoryAudioConfig,
 } from "./emulator-common";
-import audioWorkletPath from "./emulator-audio-worklet?worker&url";
+import audioWorkletPath from "./emulator-audio-worklet?worker&inline";
 import {type EmulatorInput} from "./emulator-ui-input";
 import {RingBuffer} from "ringbuf.js";
 

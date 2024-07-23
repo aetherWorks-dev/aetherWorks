@@ -17,8 +17,8 @@ import {
     type EmulatorDef,
 } from "./emulator-common-emulators";
 import {getEmulatorWasmPath} from "./emulator-ui-emulators";
-import Worker from "./emulator-worker?worker";
-import serviceWorkerPath from "./emulator-service-worker?worker&url";
+import Worker from "./emulator-worker?worker&inline";
+import serviceWorkerPath from "./emulator-service-worker?worker&inline";
 import {
     type EmulatorAudio,
     FallbackEmulatorAudio,

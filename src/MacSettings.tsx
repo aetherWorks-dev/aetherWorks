@@ -1,12 +1,12 @@
 import {useCallback, useEffect, useState} from "react";
-import {type EmulatorSettings} from "./emulator/emulator-ui";
+import {type EmulatorSettings} from "./Data/emulator-ui";
 import {
     type EmulatorSpeed,
     type EmulatorType,
     emulatorSupportsSpeedSetting,
     EMULATOR_SPEEDS,
     emulatorSupportsMouseDeltas,
-} from "./emulator/emulator-common-emulators";
+} from "./Data/emulator-common-emulators";
 import {Dialog} from "./controls/Dialog";
 import {type Appearance} from "./controls/Appearance";
 import {Select} from "./controls/Select";

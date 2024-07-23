@@ -9,7 +9,7 @@ import {
     type DiskFile,
     type SystemDiskDef,
 } from "./disks";
-import {type EmulatorEthernetProvider} from "./emulator/emulator-ui";
+import {type EmulatorEthernetProvider} from "./Data/emulator-ui";
 import {
     MACHINES_BY_NAME,
     type MachineDefRAMSize,

@@ -3,7 +3,7 @@ import MinivMac512KeJsPath from "./minivmac-512Ke.js?url";
 import MinivMacIIJsPath from "./minivmac-II.js?url";
 import MinivMacPlusJsPath from "./minivmac-Plus.js?url";
 import MinivMacSEJsPath from "./minivmac-SE.js?url";
-import BasiliskIIJsPath from "./BasiliskII.js?url";
+import BasiliskIIJsPath from "./BasiliskII.js";
 import SheepShaverJsPath from "./SheepShaver.js?url";
 import DingusPPCJsPath from "./dingusppc.js?url";
 import PreviousJsPath from "./previous.js?url";

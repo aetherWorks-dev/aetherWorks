@@ -1,5 +1,5 @@
 import {type Appearance} from "./controls/Appearance";
-import {type EmulatorChunkedFileSpec} from "./emulator/emulator-common";
+import {type EmulatorChunkedFileSpec} from "./Data/emulator-common";
 import {
     type MachineDef,
     MAC_128K,

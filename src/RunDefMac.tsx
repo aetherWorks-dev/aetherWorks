@@ -1,5 +1,5 @@
 import {useEffect, useState} from "react";
-import {type EmulatorCDROM} from "./emulator/emulator-common";
+import {type EmulatorCDROM} from "./Data/emulator-common";
 import {type RunDef} from "./run-def";
 import Mac from "./Mac";
 import {getCDROMInfo} from "./cdroms";

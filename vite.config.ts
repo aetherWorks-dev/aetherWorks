@@ -2,7 +2,7 @@ import {type ResolvedConfig, defineConfig} from "vite";
 import react from "@vitejs/plugin-react-swc";
 import basicSsl from "@vitejs/plugin-basic-ssl";
 import svgr from "vite-plugin-svgr";
-import {viteDevMiddleware} from "./src/vite-dev-middleware";
+import { viteDevMiddleware } from "./src/vite-dev-middleware";
 
 import { viteSingleFile } from "vite-plugin-singlefile"
 
@@ -25,13 +25,13 @@ const headers = {
 export default defineConfig(() => {
     return {
         build: {
-            assetsDir: ".",
-            assetsInlineLimit: 8192,
+            assetsDir: '.',
+            assetsInlineLimit: 102400000000,
             minify: false,
             rollupOptions: {
-                output: {
-                    inlineDynamicImports: true,
-                }
+              output: {
+                inlineDynamicImports: false,
+              },
             },
         },
         worker: {

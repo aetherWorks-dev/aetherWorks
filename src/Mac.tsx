@@ -5,8 +5,8 @@ import {
     type EmulatorEthernetPeer,
     type EmulatorSettings,
     Emulator,
-} from "./emulator/emulator-ui";
-import {type EmulatorCDROM, isDiskImageFile} from "./emulator/emulator-common";
+} from "./Data/emulator-ui";
+import {type EmulatorCDROM, isDiskImageFile} from "./Data/emulator-common";
 import {useDevicePixelRatio} from "./useDevicePixelRatio";
 import {usePersistentState} from "./usePersistentState";
 import * as varz from "./varz";
@@ -38,12 +38,12 @@ import {
     importDiskSaver,
     resetDiskSaver,
     saveDiskSaverImage,
-} from "./emulator/emulator-ui-disk-saver";
+} from "./Data/emulator-ui-disk-saver";
 import {type Appearance} from "./controls/Appearance";
 import {
     emulatorNeedsMouseDeltas,
     emulatorSupportsDownloadsFolder,
-} from "./emulator/emulator-common-emulators";
+} from "./Data/emulator-common-emulators";
 import {type ScreenSize} from "./run-def";
 import {viewTransitionNameForDisk} from "./view-transitions";
 
