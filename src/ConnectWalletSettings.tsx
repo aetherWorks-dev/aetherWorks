@@ -117,9 +117,9 @@ export function ConnectWalletSettings({
             <div className="MacSettings-Row">
                         <div className="MacSettings-Row-Label">Connection:</div>
                         
-                        <OnchainProviders>
+                        {/* <OnchainProviders>
                         <WalletFunctions.WalletComponents />
-                        </OnchainProviders>
+                        </OnchainProviders> */}
                         
                         <div className="Dialog-Description">
                             This connection is powered by Coinbase Smart Wallet,

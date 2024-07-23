@@ -547,7 +547,7 @@ export default function Mac({
         {label: "Load File", handler: handleLoadFileClick},
         {label: "Full Screen", handler: handleFullScreenClick},
         {label: "Settings", handler: handleSettingsClick},
-        {label: "Connect Wallet", handler: handleConnectWalletClick},
+        // {label: "Connect Wallet", handler: handleConnectWalletClick},
     ];
     if (USING_TOUCH_INPUT) {
         controls.push({label: "Keyboard", handler: handleKeyboardClick});
